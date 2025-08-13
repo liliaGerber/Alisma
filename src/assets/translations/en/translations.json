@@ -1,0 +1,102 @@
+{
+  "aboutus_hero_title": "About us",
+  "aboutus_hero_subtitle": "We design meaningful spaces that inspire, connect, and transform.",
+  "about_mission_title": "Our Mission",
+  "about_mission_text": "At Cebras, we help gifted individuals understand themselves, grow as people, and find careers that truly fit them. Many gifted people grow up without guidance. They often feel misunderstood, overwhelmed, or out of place. We believe this is not just a personal loss — it is a loss for society. Our mission is to change that. We provide the tools and space for gifted individuals to develop their potential in a healthy, sustainable way. When they learn to lead themselves with confidence and maturity, they don’t just succeed personally. They shape science, culture, innovation, and the world around them.",
+  "about_vision_title": "Vision",
+  "about_vision_text": "We imagine a world where gifted people are not sidelined or left to figure things out alone. In our vision, gifted individuals are supported with care and seriousness. Their curiosity, sensitivity, and fast thinking are seen not as challenges, but as strengths that need the right context. We want to build a culture where giftedness is not treated like a label, but as a real responsibility — one that can be developed and used for the common good. Our vision is a world where gifted people are not just surviving, but thriving, and where their growth benefits everyone through new perspectives, ideas, and leadership.",
+  "about_system_title": "Our System",
+  "about_system_text": "Cebras offers a carefully designed program to support gifted people in their development. At its heart are small group coachings led by outstanding mentors who understand the needs and challenges of giftedness. These sessions focus on self-leadership, emotional intelligence, communication, and other areas that often go underdeveloped. Alongside this, we offer targeted trainings and a growing peer community. In this environment, gifted people can practice being themselves without needing to explain or hide. They get to work on their blind spots, strengthen their inner compass, and connect with others who think and feel at a similar level. The system is flexible, respectful, and deeply human.",
+  "about_principles_title": "Guiding Principles",
+  "about_principles_text": "We don’t see giftedness as a prize or status. It is a starting point — one that requires just as much responsibility as potential. Without structure and reflection, giftedness can easily lead to stress, perfectionism, or disconnection. That’s why we focus on what really matters: grounding, maturity, and the ability to turn talent into something meaningful. We believe gifted people should learn to manage themselves, build real relationships, and understand their place in the world. Our work is not about making them faster or better. It’s about helping them become wiser, more balanced, and more capable of contributing in ways that matter.",
+  "lp_s0_a": "You’ve never been average.",
+  "lp_s0_b": "And you weren’t meant to be.",
+  "lp_s1_a": "Do you feel like you don't quite fit the norm?",
+  "lp_s1_b": "Maybe you’re one of the few who were never meant to.",
+  "lp_s2_a": "Only 2% of people are gifted. Most never find out.",
+  "lp_s2_b": "Let’s change that.",
+  "lp_s3_a": "Take our IQ test – it’s free.",
+  "lp_s3_b": "Designed by experts to identify people in the top 2% — IQ 130 or higher. See how you score in logic, memory, abstraction and more.",
+  "lp_s3_b2": "Get your result instantly, discover your strengths, and join the community.",
+  "lp_s3_c": "I want to try",
+  "lp_s3_d": "I want to know more",
+  "lp_s4_a": "Unlock your potential like never before.",
+  "lp_s4_b": "The IQ test was just the beginning. Now your real growth starts.",
+  "lp_s5_a": "Courses that match your pace and depth.",
+  "lp_s5_b": "Proven content, built for gifted minds and led by experts.",
+  "lp_s5_c": "Explore courses",
+  "lp_s5_d": "Leadership, Meta-Learning, Gifted Psychology",
+  "lp_s5_e": "Cebras certificates that truly add value",
+  "lp_s5_f": "Micro-modules for fast, focused learning",
+  "lp_s5_g": "Practical content that actually moves you forward",
+  "lp_s6_a": "Dive deep into topics that truly challenge you.",
+  "lp_s6_b": "Our programs sharpen your thinking and help you grow.",
+  "lp_s6_c": "View all courses",
+  "lp_s7_a": "Gifted minds deserve real connection.",
+  "lp_s7_b": "We make it possible — beyond small talk and noise.",
+  "lp_s8_a": "A private network of exceptional minds.",
+  "lp_s8_b": "Exclusive groups & channels",
+  "lp_s8_c": "Deep conversations, not distractions",
+  "lp_s8_d": "Humor, connection, purpose, and collaboration",
+  "lp_s8_e": "Global events, local groups, peer support",
+  "lp_s9_a": "Ready for a world built for minds like yours?",
+  "lp_s9_b": "Become a Cebra →",
+  "footer": {
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "faq": {
+    "heading": "Got any questions?",
+    "description": "We are here, if you wanna know more!",
+    "supportHeading": "Want to know more?",
+    "supportButton": "Contact us"
+  },
+  "courses": {
+    "ronny_introduction": "Ronny Hollenstein has worked as a trainer and coach for over 30 years, focusing on self-leadership, leadership, and communication. Trained by renowned figures such as Vera F. Birkenbihl, Shirzad Chamine, Maja Storch and others, he has dedicated his career to helping people find their path and follow it with authenticity. His clients include individuals from top-level politics, business, and the public sector.\nOriginally from Vorarlberg and now based in Vienna, he has held several political roles and understands the challenge of making complex issues simple and clear.\nBecause most results in organizations are achieved through communication, Ronny is passionate about improving it. Better communication lowers transaction costs caused by misunderstandings, endless repetition, unproductive debates about things that cannot be changed, and poorly managed conflicts. ",
+    "ronny_quote": "Good communication requires inner clarity, the courage to be direct, assertiveness, and methods for guiding groups.",
+    "hero_title": "Your Mind Has Gotten You This Far.\n Now It’s Time to Go Further.",
+    "hero_subtitle": "The community and platform for highly gifted minds.",
+    "hero_btn_courses": "See all courses",
+    "hero_btn_learnmore": "Learn more"
+  },
+  "navbar": {
+    "sections": {
+      "main": "Main",
+      "about": "About",
+      "learning": "Learning"
+    },
+    "links": {
+      "ourProjects": "Our Projects",
+      "ourCommunity": "Our Community",
+      "news": "News",
+      "partners": "Our Partners",
+      "aboutUs": "About Us",
+      "contact": "Contact us",
+      "faq": "FAQ"
+    }
+  },
+  "contact": {
+    "title": "Do you have questions?",
+    "description": "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
+    "form": {
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "firstnamePlaceholder": "First Name",
+      "lastnamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Type your message here."
+    }
+  },
+  "projects": {
+    "title": "Our projects",
+    "text": "Lorem Ipsum blah. Some text, we have really great projects. Big, beautiful projects. Some say, the most beautiful projects of all. We call them the big, beautiful projects"
+  }
+}
+

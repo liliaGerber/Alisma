@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Benedikt Rettenbacher",
+    "title": "CEO",
+    "bio": "Lorem Ipsum, Lari fari",
+    "imageUrl": "/team/Portrait_Ben.png",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  },
+  {
+    "name": "Erek Stoisser",
+    "title": "CFO",
+    "bio": "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
+    "imageUrl": "/team/Portrait_Erek.png",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  },
+  {
+    "name": "Aurelie Schlaffer",
+    "title": "CMO & Partnerships",
+    "bio": "Former PM for Linear, Lambda School, and On Deck.",
+    "imageUrl": "/team/Portrait_Aurelie.png",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  },
+  {
+    "name": "Fabian Köppel",
+    "title": "COO",
+    "bio": "Former frontend dev for Linear, Coinbase, and Postscript.",
+    "imageUrl": "/team/Portrait_Fabian.png",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  },
+  {
+    "name": "Ronny Hollenstein",
+    "title": "Head of Coaching & Development",
+    "bio": "Lead backend dev at Clearbit. Former Clearbit and Loom.",
+    "imageUrl": "/team/Portrait_Ronny_crop.png"
+  },
+  {
+    "name": "Stefan Reichel",
+    "title": "Head of Talent & Psychology",
+    "bio": "Founding design team at Figma. Former Pleo, Stripe, and Tile.",
+    "imageUrl": "/team/Portrait_Stefan.png",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+
+  },
+  {
+    "name": "Lilia Gerber",
+    "title": "CTO",
+    "bio": "Lead user research for Slack. Contractor for Netflix.",
+    "imageUrl": "/team/Portrait_Lilia.jpg",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  },
+  {
+    "name": "Tobias Lendl",
+    "title": "Founding Engineer",
+    "bio": "Lead CX at Wealthsimple. Former PagerDuty and Sqreen.",
+    "imageUrl": "team/Portrait_Tobi.jpg",
+    "linkedin": "https://www.linkedin.com/blahblah",
+    "instagram": "https://blah blah blah",
+    "email": "mustermaria@gmail.com"
+  }
+]

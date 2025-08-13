@@ -1,0 +1,93 @@
+[
+  {
+    "id": "faq-1",
+    "question": {
+      "en": "Who is Cebras for?",
+      "de": "Für wen ist Cebras gedacht?",
+      "fr": "À qui s’adresse Cebras ?"
+    },
+    "answer": {
+      "en": "Cebras is designed for individuals with exceptional intellectual potential — people with an IQ of 130 or higher — who are looking for a space to grow, connect, and challenge themselves.",
+      "de": "Cebras richtet sich an Menschen mit außergewöhnlichem intellektuellem Potenzial — Menschen mit einem IQ von 130 oder höher — die wachsen, sich vernetzen und sich wirklich fordern möchten.",
+      "fr": "Cebras s’adresse aux personnes dotées d’un potentiel intellectuel exceptionnel — généralement un QI de 130 ou plus — qui souhaitent évoluer, se connecter et se challenger."
+    }
+  },
+  {
+    "id": "faq-2",
+    "question": {
+      "en": "Is the IQ test scientifically validated?",
+      "de": "Ist der IQ-Test wissenschaftlich validiert?",
+      "fr": "Le test de QI est-il scientifiquement validé ?"
+    },
+    "answer": {
+      "en": "Yes. We use the AIT by Dr. Lars Satow which meets all international standards for intelligence diagnostics.",
+      "de": "Ja. Wir verwenden zwei validierte Tests: den AIT von Dr. Lars Satow und den CREAM-Matrizentest, der von unserem Team entwickelt wurde. Beide entsprechen internationalen Standards für Intelligenzdiagnostik.",
+      "fr": "Oui. Nous utilisons deux tests validés : l’AIT de Dr Lars Satow et le test matriciel CREAM développé par notre équipe. Les deux répondent aux normes internationales en matière de diagnostic de l’intelligence."
+    }
+  },
+  {
+    "id": "faq-3",
+    "question": {
+      "en": "What happens after I take the IQ test?",
+      "de": "Was passiert nach dem IQ-Test?",
+      "fr": "Que se passe-t-il après le test de QI ?"
+    },
+    "answer": {
+      "en": "You’ll receive your results instantly. If you meet the threshold, you’ll be invited to join our exclusive development and community programs.",
+      "de": "Du erhältst dein Ergebnis sofort. Wenn du den Schwellenwert erreichst, wirst du zu unseren exklusiven Entwicklungs- und Community-Programmen eingeladen.",
+      "fr": "Vous recevrez vos résultats immédiatement. Si vous dépassez le seuil requis, vous serez invité à rejoindre nos programmes de développement et notre communauté privée."
+    }
+  },
+  {
+    "id": "faq-4",
+    "question": {
+      "en": "Do I have to pay for the IQ test?",
+      "de": "Ist der IQ-Test kostenlos?",
+      "fr": "Le test de QI est-il gratuit ?"
+    },
+    "answer": {
+      "en": "Yes. The test is completely free and takes about 40–60 minutes to complete.",
+      "de": "Ja. Der Test ist vollkommen kostenlos und dauert etwa 40–60 Minuten.",
+      "fr": "Oui. Le test est entièrement gratuit et dure environ 40 à 60 minutes."
+    }
+  },
+  {
+    "id": "faq-5",
+    "question": {
+      "en": "What makes Cebras different from Mensa or other IQ societies?",
+      "de": "Was unterscheidet Cebras von Mensa oder anderen IQ-Gesellschaften?",
+      "fr": "Qu’est-ce qui distingue Cebras de Mensa ou d’autres associations de QI ?"
+    },
+    "answer": {
+      "en": "Cebras goes far beyond IQ verification — it offers personalized development, expert coaching, a private network, and real-world opportunities to apply your talent.",
+      "de": "Cebras geht weit über eine IQ-Bestätigung hinaus – wir bieten maßgeschneiderte Entwicklung, professionelle Coachings, ein privates Netzwerk und echte Chancen, dein Potenzial zu entfalten.",
+      "fr": "Cebras ne se limite pas à la validation du QI — nous offrons un accompagnement sur mesure, du coaching expert, un réseau privé et des opportunités concrètes pour exprimer votre potentiel."
+    }
+  },
+  {
+    "id": "faq-6",
+    "question": {
+      "en": "Can I join if I already know I’m gifted?",
+      "de": "Kann ich teilnehmen, wenn ich schon weiß, dass ich hochbegabt bin?",
+      "fr": "Puis-je rejoindre si je sais déjà que je suis surdoué ?"
+    },
+    "answer": {
+      "en": "Yes. If you’ve already been tested and meet the criteria, you can submit proof and join directly without retaking the test.",
+      "de": "Ja. Wenn du bereits getestet wurdest und die Kriterien erfüllst, kannst du den Nachweis einreichen und direkt einsteigen – ohne den Test erneut zu machen.",
+      "fr": "Oui. Si vous avez déjà passé un test et que vous remplissez les critères, vous pouvez soumettre votre attestation et rejoindre directement sans refaire le test."
+    }
+  },
+  {
+    "id": "faq-7",
+    "question": {
+      "en": "What kind of people are in the Cebras network?",
+      "de": "Was für Menschen sind im Cebras-Netzwerk?",
+      "fr": "Quel type de personnes trouve-t-on dans le réseau Cebras ?"
+    },
+    "answer": {
+      "en": "From young talents to seasoned innovators, the network includes thinkers, builders, founders, researchers, and creators — all driven by curiosity and excellence.",
+      "de": "Vom jungen Talent bis zum erfahrenen Innovator: Im Netzwerk treffen Denker, Gründer, Forscher und Kreative aufeinander – vereint durch Neugier und Exzellenz.",
+      "fr": "Du jeune talent au fondateur expérimenté, le réseau réunit des penseurs, chercheurs, créateurs et bâtisseurs — unis par la curiosité et l’exigence."
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project1",
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    "link": "#",
+    "imgUrl": "/projects/cat.png"
+  },
+  {
+    "title": "Project2",
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    "link": "#",
+    "imgUrl": "/projects/dog.png"
+  },
+  {
+    "title": "Project3",
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    "link": "#",
+    "imgUrl": "/projects/flower.png"
+  },
+  {
+    "title": "Project4",
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    "link": "#",
+    "imgUrl": "/projects/city.png"
+  }
+]
