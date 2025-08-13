@@ -1,21 +1,30 @@
-# .github/workflows/deploy-strato.yml
 name: Deploy SSH STRATO
-on: { push: { branches: [ main ] } }
-concurrency: { group: deploy-strato-main, cancel-in-progress: true }
+
+on:
+  push:
+    branches: [ main ]
+
+concurrency:
+  group: deploy-strato-main
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    strategy: { matrix: { node-version: [22.16.0] } }
+    strategy:
+      matrix:
+        node-version: [22.16.0]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: PNPM
+      - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with: { version: 10.12.1 }
+        with:
+          version: 10.12.1
 
-      - name: Node ${{ matrix.node-version }}
+      - name: Setup Node ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
@@ -25,47 +34,47 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: Build (Vite base must match '/alisma/')
+      - name: Build
         env:
           VITE_EMAILJS_PUBLIC_KEY: ${{ vars.VITE_EMAILJS_PUBLIC_KEY }}
           VITE_EMAILJS_SERVICE_ID: ${{ vars.VITE_EMAILJS_SERVICE_ID }}
           VITE_EMAILJS_TEMPLATE_ID: ${{ vars.VITE_EMAILJS_TEMPLATE_ID }}
         run: pnpm build
 
-      # Optional: SPA rewrite + cache-busting markers
-      - name: Write .htaccess & markers
-        run: |
-          cat > dist/.htaccess <<'HTACC'
-          <IfModule mod_dir.c>DirectoryIndex index.html</IfModule>
-          <IfModule mod_rewrite.c>
-            RewriteEngine On
-            RewriteCond %{REQUEST_FILENAME} !-f
-            RewriteRule ^ index.html [L]
-          </IfModule>
-          HTACC
-          echo "$GITHUB_SHA" > dist/__build_id.txt
-          sha256sum dist/index.html | awk '{print $1}' > dist/__index_sha256.txt
-
-      # Optional: root redirect -> /alisma/ (keeps apex working)
-      - name: Create root redirect index.html
-        run: |
-          mkdir -p redirect-root
-          cat > redirect-root/index.html <<'HTML'
-          <!doctype html><meta http-equiv="refresh" content="0; url=/alisma/">
-          <script>location.href="/alisma/"</script>
-          HTML
+      - name: Stamp build id
+        run: echo "$GITHUB_SHA" > dist/__build_id.txt
 
       - name: Install lftp
+        env: { DEBIAN_FRONTEND: noninteractive }
         run: |
-          sudo apt-get -yq update && sudo apt-get -yq install lftp
+          sudo apt-get -yq update
+          sudo apt-get -yq install lftp
 
-      - name: Pre-deploy list (/alisma)
+      # Prevent 500s from strict Apache config: disable any existing .htaccess
+      - name: Disable .htaccess (root and /alisma)
         env:
           H: ${{ secrets.STRATO_SSH_HOST }}
           U: ${{ secrets.STRATO_SSH_USER }}
           P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
-          lftp -u "$U","$P" sftp://$H -e "set cmd:fail-exit yes; set sftp:auto-confirm yes; cls -al /alisma || echo 'no /alisma yet'; bye"
+          lftp -u "$U","$P" sftp://$H -e "
+            set cmd:fail-exit yes; set sftp:auto-confirm yes;
+            mv /.htaccess /.htaccess.off || true
+            mv /alisma/.htaccess /alisma/.htaccess.off || true
+            bye
+          "
+
+      - name: Pre-deploy listing (/alisma)
+        env:
+          H: ${{ secrets.STRATO_SSH_HOST }}
+          U: ${{ secrets.STRATO_SSH_USER }}
+          P: ${{ secrets.STRATO_SSH_PASS }}
+        run: |
+          lftp -u "$U","$P" sftp://$H -e "
+            set cmd:fail-exit yes; set sftp:auto-confirm yes;
+            pwd; cls -al /; echo '--- /alisma ---'; cls -al /alisma || echo 'no /alisma yet';
+            bye
+          "
 
       - name: Deploy app to /alisma
         uses: pressidium/lftp-mirror-action@v1
@@ -81,7 +90,16 @@ jobs:
           reverse: true
           options: '--delete --verbose --ignore-time --overwrite --exclude-glob temp --exclude-glob temp/**'
 
-      - name: Deploy root redirect (so https://alisma.at/ works)
+      # Optional: root redirect so https://alisma.at/ jumps to /alisma/
+      - name: Deploy root redirect (optional)
+        run: |
+          mkdir -p redirect-root
+          cat > redirect-root/index.html <<'HTML'
+          <!doctype html><meta http-equiv="refresh" content="0; url=/alisma/">
+          <script>location.href="/alisma/"</script>
+          HTML
+        shell: bash
+      - name: Upload root redirect
         uses: pressidium/lftp-mirror-action@v1
         with:
           host: ${{ secrets.STRATO_SSH_HOST }}
@@ -95,16 +113,20 @@ jobs:
           reverse: true
           options: '--verbose --ignore-time --overwrite --exclude-glob temp --exclude-glob temp/**'
 
-      - name: Post-deploy list (/alisma)
-        env:  
-          H: ${{ secrets.STRATO_SSH_HOST }} 
-          U: ${{ secrets.STRATO_SSH_USER }} 
-          P: ${{ secrets.STRATO_SSH_PASS }} 
+      - name: Post-deploy listing (/alisma)
+        env:
+          H: ${{ secrets.STRATO_SSH_HOST }}
+          U: ${{ secrets.STRATO_SSH_USER }}
+          P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
-          lftp -u "$U","$P" sftp://$H -e "set cmd:fail-exit yes; set sftp:auto-confirm yes; cls -al /alisma; bye"
+          lftp -u "$U","$P" sftp://$H -e "
+            set cmd:fail-exit yes; set sftp:auto-confirm yes;
+            cls -al /alisma;
+            bye
+          "
 
       - name: HTTP check
         run: |
           set -e
-          echo "Apex build id:";  curl -fsS https://alisma.at/__build_id.txt || true
-          echo "/alisma build id:"; curl -fsS https://alisma.at/alisma/__build_id.txt | head -c 12 && echo
+          echo "/alisma build id:"; curl -fsS https://alisma.at/alisma/__build_id.txt | head -c 12 && echo || true
+          echo "Apex (redirect page):"; curl -I https://alisma.at || true
