@@ -1,87 +1,73 @@
 # .github/workflows/deploy-strato.yml
 name: Deploy SSH STRATO
-
-on:
-  push:
-    branches: [ main ]
-
-concurrency:
-  group: deploy-strato-main
-  cancel-in-progress: true
+on: { push: { branches: [ main ] } }
+concurrency: { group: deploy-strato-main, cancel-in-progress: true }
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    strategy:
-      matrix:
-        node-version: [22.16.0]
-    environment: strato_deploy
-
+    strategy: { matrix: { node-version: [22.16.0] } }
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pnpm
+      - name: PNPM
         uses: pnpm/action-setup@v4
-        with:
-          version: 10.12.1
+        with: { version: 10.12.1 }
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Node ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
-      - name: Install dependencies
+      - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: Build project
+      - name: Build (Vite base must match '/alisma/')
         env:
           VITE_EMAILJS_PUBLIC_KEY: ${{ vars.VITE_EMAILJS_PUBLIC_KEY }}
           VITE_EMAILJS_SERVICE_ID: ${{ vars.VITE_EMAILJS_SERVICE_ID }}
           VITE_EMAILJS_TEMPLATE_ID: ${{ vars.VITE_EMAILJS_TEMPLATE_ID }}
         run: pnpm build
 
-      # Write a build marker we can fetch over HTTP to confirm fresh deploy
-      - name: Stamp build id
-        run: echo "$GITHUB_SHA" > dist/__build_id.txt
+      # Optional: SPA rewrite + cache-busting markers
+      - name: Write .htaccess & markers
+        run: |
+          cat > dist/.htaccess <<'HTACC'
+          <IfModule mod_dir.c>DirectoryIndex index.html</IfModule>
+          <IfModule mod_rewrite.c>
+            RewriteEngine On
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule ^ index.html [L]
+          </IfModule>
+          HTACC
+          echo "$GITHUB_SHA" > dist/__build_id.txt
+          sha256sum dist/index.html | awk '{print $1}' > dist/__index_sha256.txt
+
+      # Optional: root redirect -> /alisma/ (keeps apex working)
+      - name: Create root redirect index.html
+        run: |
+          mkdir -p redirect-root
+          cat > redirect-root/index.html <<'HTML'
+          <!doctype html><meta http-equiv="refresh" content="0; url=/alisma/">
+          <script>location.href="/alisma/"</script>
+          HTML
 
       - name: Install lftp
-        env:
-          DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get -yq update
-          sudo apt-get -yq install lftp
-      # Prefer "/" first because your domain's docroot is fixed to root.
+          sudo apt-get -yq update && sudo apt-get -yq install lftp
 
-      - name: Ensure remote dir exists (skip for /)
+      - name: Pre-deploy list (/alisma)
         env:
-          STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
-          STRATO_SSH_USER: ${{ secrets.STRATO_SSH_USER }}
-          STRATO_SSH_PASS: ${{ secrets.STRATO_SSH_PASS }}
-          REMOTE_DIR: "/alisma"
+          H: ${{ secrets.STRATO_SSH_HOST }}
+          U: ${{ secrets.STRATO_SSH_USER }}
+          P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
-          if [ "$REMOTE_DIR" = "/" ]; then
-            echo "Docroot is '/', skipping mkdir."
-          else
-            lftp -u "$STRATO_SSH_USER","$STRATO_SSH_PASS" sftp://$STRATO_SSH_HOST -e "
-              set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set sftp:auto-confirm yes;
-              mkdir -p $REMOTE_DIR; bye
-            "
-          fi
-      - name: Pre-deploy listing
-        env:
-          STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
-          STRATO_SSH_USER: ${{ secrets.STRATO_SSH_USER }}
-          STRATO_SSH_PASS: ${{ secrets.STRATO_SSH_PASS }}
-          REMOTE_DIR: "/alisma"
-        run: |
-          lftp -u "$STRATO_SSH_USER","$STRATO_SSH_PASS" sftp://$STRATO_SSH_HOST -e "
-            set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set sftp:auto-confirm yes;
-            cls -al $REMOTE_DIR; bye
-          "
-      - name: Deploy via SFTP (force overwrite)
+          lftp -u "$U","$P" sftp://$H -e "set cmd:fail-exit yes; set sftp:auto-confirm yes; cls -al /alisma || echo 'no /alisma yet'; bye"
+
+      - name: Deploy app to /alisma
         uses: pressidium/lftp-mirror-action@v1
         with:
           host: ${{ secrets.STRATO_SSH_HOST }}
@@ -91,25 +77,34 @@ jobs:
           onlyNewer: false
           settings: 'sftp:auto-confirm=yes; net:timeout=8; net:max-retries=1; cmd:fail-exit=yes'
           localDir: 'dist/'
-          remoteDir: "/alisma"
+          remoteDir: '/alisma'
           reverse: true
           options: '--delete --verbose --ignore-time --overwrite --exclude-glob temp --exclude-glob temp/**'
 
-      - name: Post-deploy listing
-        env:
-          STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
-          STRATO_SSH_USER: ${{ secrets.STRATO_SSH_USER }}
-          STRATO_SSH_PASS: ${{ secrets.STRATO_SSH_PASS }}
-          REMOTE_DIR: "/alisma"
+      - name: Deploy root redirect (so https://alisma.at/ works)
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: ${{ secrets.STRATO_SSH_HOST }}
+          port: 22
+          user: ${{ secrets.STRATO_SSH_USER }}
+          pass: ${{ secrets.STRATO_SSH_PASS }}
+          onlyNewer: false
+          settings: 'sftp:auto-confirm=yes; net:timeout=8; net:max-retries=1; cmd:fail-exit=yes'
+          localDir: 'redirect-root/'
+          remoteDir: '/'
+          reverse: true
+          options: '--verbose --ignore-time --overwrite --exclude-glob temp --exclude-glob temp/**'
+
+      - name: Post-deploy list (/alisma)
+        env:  
+          H: ${{ secrets.STRATO_SSH_HOST }} 
+          U: ${{ secrets.STRATO_SSH_USER }} 
+          P: ${{ secrets.STRATO_SSH_PASS }} 
         run: |
-          lftp -u "$STRATO_SSH_USER","$STRATO_SSH_PASS" sftp://$STRATO_SSH_HOST -e "
-            set cmd:fail-exit yes; set net:timeout 8; set net:max-retries 1; set sftp:auto-confirm yes;
-            cls -al $REMOTE_DIR; bye
-          "
-      - name: HTTP check live content
+          lftp -u "$U","$P" sftp://$H -e "set cmd:fail-exit yes; set sftp:auto-confirm yes; cls -al /alisma; bye"
+
+      - name: HTTP check
         run: |
           set -e
-          echo "Apex:"
-          curl -fsS https://alisma.at/__build_id.txt | head -c 12 && echo
-          echo "WWW:"
-          curl -fsS https://www.alisma.at/__build_id.txt | head -c 12 && echo || true
+          echo "Apex build id:";  curl -fsS https://alisma.at/__build_id.txt || true
+          echo "/alisma build id:"; curl -fsS https://alisma.at/alisma/__build_id.txt | head -c 12 && echo
