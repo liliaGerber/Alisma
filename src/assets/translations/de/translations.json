@@ -1,176 +1,47 @@
 {
-  "about_mission_title": "Unsere Mission",
-  "about_mission_text": "Cebras unterstützt hochbegabte Menschen dabei, sich selbst besser zu verstehen, persönlich zu wachsen und berufliche Wege zu finden, die wirklich zu ihnen passen. Viele Hochbegabte erleben von klein auf, dass sie nicht verstanden werden. Sie fühlen sich überfordert oder isoliert, obwohl sie eigentlich großes Potenzial in sich tragen. Wir glauben, dass das nicht nur ein individueller Verlust ist, sondern auch ein gesellschaftlicher. Unsere Mission ist es, dieses Potenzial freizusetzen – durch gezielte Unterstützung, konkrete Entwicklungsmöglichkeiten und einen geschützten Raum für persönliche Entfaltung. Wenn Hochbegabte lernen, sich selbst zu führen, können sie nicht nur für sich selbst viel erreichen – sondern auch für Wissenschaft, Kultur und Zukunftsfragen einen echten Beitrag leisten.",
-  "about_vision_title": "Vision",
-  "about_vision_text": "Wir wollen eine Welt, in der Hochbegabte nicht übersehen oder alleine gelassen werden. In unserer Vision werden sie ernst genommen und begleitet – als Menschen mit besonderem Potenzial, aber auch mit besonderen Bedürfnissen. Ihre Neugier, ihre Denkgeschwindigkeit, ihre emotionale Tiefe: All das verdient einen Ort, an dem es wachsen kann. Hochbegabung soll nicht als Etikett verstanden werden, sondern als Einladung, Verantwortung zu übernehmen. Wir arbeiten für eine Gesellschaft, in der Hochbegabte nicht nur funktionieren, sondern aufblühen – und dabei andere mitziehen.",
-  "about_system_title": "Unser System",
-  "about_system_text": "Cebras bietet ein sorgfältig entwickeltes Programm, das auf die Lebensrealität hochbegabter Menschen zugeschnitten ist. Im Zentrum stehen Kleingruppen-Coachings mit erfahrenen Mentor:innen, die sowohl die Chancen als auch die Herausforderungen von Hochbegabung kennen. In unseren Trainings geht es um Selbstführung, emotionale Intelligenz, Kommunikation und andere Schlüsselkompetenzen, die oft zu kurz kommen. Gleichzeitig entsteht eine Community von Menschen, die ähnlich denken und fühlen. In diesem Umfeld können Hochbegabte sich ausprobieren, reflektieren und neue Seiten an sich entdecken – ohne sich ständig erklären zu müssen. Es ist ein Raum für echtes Wachstum.",
-  "about_principles_title": "Leitprinzipien",
-  "about_principles_text": "Für uns ist Hochbegabung kein Statussymbol. Es ist ein Anfang – und eine Verpflichtung. Denn ohne innere Stabilität, Selbstreflexion und emotionale Reife kann selbst großes Potenzial blockieren oder ins Leere laufen. Deshalb geht es bei uns nicht um Leistung um der Leistung willen. Sondern um das, was darunter liegt: Orientierung, Werte, und die Fähigkeit, mit sich selbst und anderen gut umzugehen. Wer das schafft, kann mit seiner Begabung wirklich etwas bewegen – nicht nur für sich selbst, sondern für die Gesellschaft.",
-  "lp_s0_a": "Wir sind die Zukunft.",
-  "lp_s0_b": "Die Community und Plattform für kluge Köpfe.",
-  "lp_s1_a": "Fühlst du dich, als würdest du nicht in die Norm passen?",
-  "lp_s1_b": "Vielleicht gehörst du zu den wenigen, die nie dafür gemacht waren.",
-
-  "lp_s2_a": "Nur 2 % der Menschen sind hochbegabt. Die meisten erfahren es nie.",
-  "lp_s2_b": "Lass uns das ändern.",
-
-  "lp_s3_a": "Mach unseren IQ-Test – kostenlos.",
-  "lp_s3_b": "Von Expert:innen entwickelt, um Menschen im obersten 2 %-Bereich zu erkennen — IQ 130 oder mehr. Finde heraus, wie du in Logik, Gedächtnis, Abstraktion und mehr abschneidest.",
-  "lp_s3_b2": "Erhalte sofort dein Ergebnis, erkenne deine Stärken und werde Teil der Community.",
-  "lp_s3_c": "Ich will’s versuchen",
-  "lp_s3_d": "Ich will mehr erfahren",
-
-  "lp_s4_a": "Entfalte dein Potenzial wie nie zuvor.",
-  "lp_s4_b": "Der IQ-Test war nur der Anfang. Jetzt beginnt deine persönliche Entwicklung.",
-
-  "lp_s5_a": "Kurse, die deinem Tempo und deiner Tiefe entsprechen.",
-  "lp_s5_b": "Praxiserprobte Inhalte, speziell für Hochbegabte konzipiert und von Expert:innen begleitet.",
-  "lp_s5_c": "Kurse entdecken",
-  "lp_s5_d": "Leadership, Meta-Learning, Begabtenpsychologie",
-  "lp_s5_e": "Cebras-Zertifikate mit echtem Mehrwert",
-  "lp_s5_f": "Mikro-Module für schnelles, fokussiertes Lernen",
-  "lp_s5_g": "Praxisnahe Inhalte, die dich wirklich weiterbringen",
-
-  "lp_s6_a": "Tauche tief ein in Themen, die dich wirklich fordern.",
-  "lp_s6_b": "Unsere Programme helfen dir, dein Denken zu schärfen und dein Können zu entfalten.",
-  "lp_s6_c": "Alle Kurse ansehen",
-
-  "lp_s7_a": "Begabte Köpfe verdienen echte Verbindung.",
-  "lp_s7_b": "Wir machen sie möglich – jenseits von Small Talk und Oberflächlichkeit.",
-
-  "lp_s8_a": "Ein privates Netzwerk außergewöhnlicher Köpfe.",
-  "lp_s8_b": "Exklusive Gruppen & Kanäle",
-  "lp_s8_c": "Tiefsinnige Gespräche statt Lärm",
-  "lp_s8_d": "Humor, Austausch, Sinn und Zusammenarbeit",
-  "lp_s8_e": "Globale Events, lokale Gruppen, Peer-Support",
-
-  "lp_s9_a": "Bereit für eine Welt, die für Köpfe wie deinen gemacht ist?",
-  "lp_s9_b": "Werde ein Cebra →",
   "footer": {
-    "terms": "Nutzungsbedingungen",
+    "terms": "AGB",
     "privacy": "Datenschutz",
     "contact": "Kontakt",
     "rights": "Alle Rechte vorbehalten."
   },
   "faq": {
-    "heading": "Noch Fragen?",
-    "description": "Wir sind da, wenn du mehr wissen willst!",
-    "supportHeading": "Du willst mehr wissen?",
+    "heading": "Hast du Fragen?",
+    "description": "Wir sind für dich da, wenn du mehr wissen willst!",
+    "supportHeading": "Willst du mehr wissen?",
     "supportButton": "Kontaktiere uns"
   },
   "courses": {
-    "ronny_introduction": "Ronny Hollenstein ist seit 30 Jahren Trainer und Coach für die Themen Selbstführung, Führung und Kommunikation. Ausgebildet von namhaften Persönlichkeiten wie Vera F. Birkenbihl, Shirzad Shamin, Maja Storch und anderen, hat er sich der Berufung verschrieben, Menschen zu helfen, ihren Weg zu finden und diesen authentisch zu gehen. Zu seinen Kunden zählen Menschen aus der Spitzenpolitik, Wirtschaft und dem öffentlichen Bereich.\nAus Vorarlberg kommend und in Wien lebend hat er zahlreiche politische Funktionen gehabt und weiß um die Herausforderung, komplexe Dinge einfach und verständlich auf den Punkt zu bringen.\nDa die meisten Ergebnisse in Unternehmen durch Kommunikation produziert werden, ist es Ronny Hollenstein ein Anliegen, diese zu optimieren. Damit werden Transaktionskosten reduziert, die durch Missverständnisse, sich im Kreis drehenden Wiederholungen, sinnlosen Diskussionen über Unveränderbares und schlecht geführte Konflikte entstehen.",
-    "ronny_quote": "Gute Kommunikation braucht innere Klarheit, den Mut zur Direktheit, Durchsetzungsfähigkeit und Methoden zur Steuerung von Gruppen."
+    "ronny_introduction": "Ronny Hollenstein arbeitet seit über 30 Jahren als Trainer und Coach mit den Schwerpunkten Selbstführung, Führung und Kommunikation. Ausgebildet von renommierten Persönlichkeiten wie Vera F. Birkenbihl, Shirzad Chamine, Maja Storch und anderen, hat er seine Karriere darauf ausgerichtet, Menschen zu helfen, ihren Weg zu finden und diesen authentisch zu gehen. Zu seinen Klienten zählen Persönlichkeiten aus Spitzenpolitik, Wirtschaft und öffentlichem Sektor.\nUrsprünglich aus Vorarlberg und heute in Wien ansässig, hat er mehrere politische Funktionen ausgeübt und versteht die Herausforderung, komplexe Themen einfach und klar zu vermitteln.\nDa die meisten Ergebnisse in Organisationen durch Kommunikation erzielt werden, liegt Ronny besonders am Herzen, diese zu verbessern. Bessere Kommunikation senkt Transaktionskosten, die durch Missverständnisse, endlose Wiederholungen, unproduktive Debatten über Unveränderbares und schlecht gelöste Konflikte entstehen.",
+    "ronny_quote": "Gute Kommunikation erfordert innere Klarheit, den Mut zur Direktheit, Durchsetzungsfähigkeit und Methoden zur Führung von Gruppen.",
+    "hero_title": "Dein Verstand hat dich bis hierher gebracht.\n Jetzt ist es Zeit, weiterzugehen.",
+    "hero_subtitle": "Die Community und Plattform für hochbegabte Köpfe.",
+    "hero_btn_courses": "Alle Kurse ansehen",
+    "hero_btn_learnmore": "Mehr erfahren"
   },
-  "cebras_exist_title": "Warum es uns gibt",
-  "cebras_exist_text": "Die größte Verschwendung unserer Zeit ist nicht Geld — sondern Talent. Millionen hochbegabter Menschen bleiben unentdeckt – und mit ihnen Ideen, Lösungen und Durchbrüche, die alles verändern könnten. Cebras hilft, sie zu finden, zu begleiten und wachsen zu lassen. Denn die Welt braucht nicht mehr Durchschnitt. Sie braucht Menschen, die anders denken.",
-  "cebras_what_title": "Was bedeutet es, hochbegabt zu sein?",
-  "cebras_what_text": "Hochbegabung bedeutet nicht nur gute Noten oder Faktenwissen. Es ist ein Gehirn, das schneller, tiefer und vernetzter denkt – oft gepaart mit starker Emotionalität, hohen Ansprüchen und dem Gefühl, anders zu sein. Viele Hochbegabte werden missverstanden, unterfordert oder fehldiagnostiziert. Wir wollen das ändern.",
-  "cebras_iq_title": "So beginnt es",
-  "cebras_iq_text": "Wir nutzen einen validierten IQ-Test (AIT von Dr. Satow), um Hochbegabung (IQ 130+) zu erkennen. Dieser Test geht nicht um Ego – sondern um Klarheit. Erfahre mehr über den Ablauf auf unserer [IQ-Test Seite](/iqtest). Wenn du qualifizierst, beginnt deine Reise im Cebras-Programm.",
-  "cebras_journey_title": "Die Cebras-Reise",
-  "cebras_journey_text": "Nach dem IQ-Test füllst du einen intelligenten Profilbogen aus. Auf Basis deines Profils matchen wir dich mit Kursen, Coachings und Menschen, die zu deinen Zielen passen. Ob Führung, Kommunikation oder Klarheit – du gestaltest deinen Entwicklungsweg Schritt für Schritt.",
-  "cebras_courses_title": "Kurse, die dein Tempo – und dein Denken – respektieren",
-  "cebras_courses_text": "Unsere Kurse sind für Hochbegabte gemacht: schnell, praxisnah, tief. Themen wie emotionale Intelligenz, strategische Kommunikation, Meta-Lernen und Leadership. Online, in Gruppen oder live mit Coaches. Neugierig? [Sieh dir unser Kursangebot an](/course-overview).",
-  "cebras_coaching_title": "Coaching und Community",
-  "cebras_coaching_text": "Du nimmst an Kleingruppen-Coachings teil, geführt von Profis, die Hochbegabung wirklich verstehen. Keine Vorträge, sondern Räume für Reflexion, Feedback und Wachstum. Und die Cebras-Community ist dein Zuhause – mit Menschen, die dich verstehen, fordern und unterstützen.",
-  "cebras_career_title": "Deine Karriere verdient mehr als Mittelmaß",
-  "cebras_career_text": "Wir matchen Hochbegabte mit Unternehmen, die Potenzial erkennen – nicht nur Lebensläufe. Unser Profiling zeigt, welche Rolle wirklich zu dir passt: intellektuell fordernd, kulturell passend, mit Sinn.",
-  "cebras_certificate_title": "Echter Fortschritt. Anerkannt.",
-  "cebras_certificate_text": "Mit jedem abgeschlossenen Coaching, Kurs und Reflektionsschritt baust du dein persönliches Cebras-Zertifikat – ein Beweis für dein Wachstum. Nicht nur für deinen Lebenslauf, sondern für dich selbst.",
-  "cebras_forwhom_title": "Für wen ist Cebras?",
-  "cebras_forwhom_text": "Cebras ist für alle, die schneller denken, intensiver fühlen und anders lernen. Vielleicht hattest du schon immer das Gefühl, 'zu viel' oder 'zu neugierig' zu sein – oder du willst einfach dein Potenzial besser verstehen. Wenn du dich fragst, ob du zu den 2 % mit einem IQ über 130 gehören könntest: Mach unseren kostenlosen Test. Du musst es nicht wissen – nur bereit sein, es herauszufinden.",
-  "cebras_start_title": "Mach den ersten Schritt",
-  "cebras_start_text": "Beginne mit dem IQ-Test. Lies, wie er funktioniert und ob er zu dir passt. Wenn du qualifizierst, begleiten wir dich – mit Coaching, Kursen und einer Community, die dich stärkt.",
-  "cebras_links_start_test": "Mehr zum IQ-Test",
-  "cebras_links_explore_courses": "Kursübersicht ansehen",
-  "enterprise_exist_title": "Warum kluge Firmen in kluge Köpfe investieren",
-  "enterprise_exist_text": "Die besten Mitarbeitenden wollen nicht gemanagt werden – sie wollen wachsen. Doch High Potentials fühlen sich oft unterfordert, unverstanden oder unverbunden. Cebras hilft Ihnen, diese Talente zu finden, zu integrieren und zu halten. Denn die richtige Person am richtigen Ort schafft überproportionalen Mehrwert.",
-  "enterprise_problem_title": "Was passiert, wenn man Hochbegabte ignoriert?",
-  "enterprise_problem_text": "Hochbegabte (IQ 130+) langweilen sich schnell, brennen aus oder kündigen – nicht, weil sie schwierig sind, sondern weil sie unterfordert sind. Sie wollen Sinn, Autonomie, Herausforderung – und eine passende Kultur. Wer das nicht bietet, verliert langfristig Innovationskraft, Führungspotenzial und Zukunftsstrategie.",
-  "enterprise_solution_title": "Was Cebras anders macht",
-  "enterprise_solution_text": "Wir schicken keine Lebensläufe. Wir matchen Persönlichkeiten. Jede:r Cebras-Teilnehmer:in ist IQ-validiert, psychometrisch profiliert, in Soft Skills trainiert und in Peer-Coachings entwickelt. Wir helfen bei der Integration – menschlich und methodisch.",
-  "enterprise_talents_title": "Unsere Talente bringen mehr als IQ",
-  "enterprise_talents_text": "Cebras-Mitglieder kombinieren kognitive Stärke mit sozialer Kompetenz. Durch gezieltes Training entwickeln sie Selbstwahrnehmung, Kommunikation und Kooperationsfähigkeit. Sie denken schnell – und handeln reflektiert.",
-  "enterprise_matching_title": "Smartes Matching statt Recruiting-Spam",
-  "enterprise_matching_text": "Wir erstellen detaillierte Talent-Profile – mit Werten, Denkweise, Verhalten und Motivation. Sie erhalten gezielte Vorschläge inkl. Interviewleitfaden, Integrationshilfe und kulturellem Fit.",
-  "enterprise_certificate_title": "Exzellenz zeigen. Talente anziehen.",
-  "enterprise_certificate_text": "Werden Sie 'High Potential Integration Company' – und positionieren Sie sich als zukunftsorientierter Arbeitgeber. So gewinnen Sie Talente mit Anspruch – und stärken Ihre Arbeitgebermarke intern wie extern.",
-  "enterprise_partners_title": "Arbeiten Sie mit den Besten",
-  "enterprise_partners_text": "Startups. Forschungsabteilungen. Innovations-Teams. Wir arbeiten bereits mit Organisationen, die Talente ernst nehmen. Ob strategische Denker:innen oder technische Tieftaucher – wir helfen Ihnen, sie zu finden.",
-  "enterprise_nextsteps_title": "Lassen Sie uns über Ihre Ziele sprechen",
-  "enterprise_nextsteps_text": "Wir bieten individuelle Integration und Onboarding. Ob Sie für R&D, Führung oder Zukunftsrollen suchen – Cebras bringt die passenden Köpfe. Lassen Sie uns prüfen, ob es passt.",
-  "enterprise_links_contact": "Beratungsgespräch buchen",
-  "enterprise_links_profiles": "Talente anfragen",
-  "enterprise_measure_title": "Wie wir Hochbegabung definieren – und warum das zählt",
-  "enterprise_measure_text": "Cebras nutzt valide Diagnostik zur Erkennung hoher kognitiver Potenziale (IQ 130+), basierend auf internationalen Standards. Wir gehen über den Score hinaus: Soft Skills, Werte und Leadership-Profiling sorgen für echten Fit – fachlich wie menschlich.",
-  "enterprise_courses_title": "Teams stärken mit hochbegabungs­gerechten Kursen",
-  "enterprise_courses_text": "Wir vermitteln nicht nur Talente – wir entwickeln sie. Unser Lernangebot umfasst emotionale Intelligenz, adaptive Führung und komplexe Kommunikation – ideal für Schnelllerner:innen. Nutzen Sie Cebras für Upskilling oder zielgerichtetes Onboarding.",
-  "enterprise_links_iqtest": "Mehr zur Diagnostik",
-  "enterprise_links_courses": "Zum Kursangebot",
-  "iq_hero_title": "Wie wir Hochbegabung erkennen",
-  "iq_intro_title": "Was bedeutet es, hochbegabt zu sein?",
-  "iq_intro_text": "Hochbegabung bedeutet nicht, mehr zu wissen – sondern anders zu denken. Menschen mit hohem intellektuellem Potenzial erkennen oft Muster, die anderen entgehen, stellen tiefere Fragen und erfassen komplexe Ideen schnell. Wir definieren Hochbegabung als einen IQ von 130 oder höher. Für uns ist diese Zahl jedoch nur ein Ausgangspunkt – ein Signal, dass jemand von anderen Werkzeugen und Herausforderungen profitieren könnte. Unsere Diagnostik ist darauf ausgelegt, dieses Signal frühzeitig, zuverlässig und fair zu erkennen.",
-  "iq_fluid_title": "Fluide vs. kristallisierte Intelligenz",
-  "iq_fluid_text": "Wir unterscheiden zwischen zwei Arten von Intelligenz:\n\n Fluide Intelligenz: die Fähigkeit, neue Probleme ohne vorheriges Wissen zu lösen. Sie spiegelt rohe Denkfähigkeit und Abstraktionsvermögen wider.\n Kristallisierte Intelligenz: die Fähigkeit, angesammeltes Wissen und Erfahrung anzuwenden, um Ergebnisse zu erzielen.\n\nBeide sind wichtig. Hochbegabte weisen oft schon sehr hohe fluide Intelligenz auf – noch bevor ihre Leistungen sichtbar werden. Deshalb konzentrieren wir uns darauf, Potenzial zu erkennen, nicht nur Vergangenheit.",
-  "iq_reliability_title": "Was macht einen Test valide?",
-  "iq_reliability_text": "Wir verwenden diagnostische Verfahren, die unabhängig validiert, kulturfair und auf hohe kognitive Fähigkeiten ausgerichtet sind. Unsere Tests erfordern kein Schulwissen, keine Merktechniken und keinen sprachlichen Vorteil. Sie sind adaptiv, bias-sensibel und messen Denkvermögen statt Abrufleistung – damit dein Ergebnis zeigt, wie du denkst, nicht was du gelernt hast.",
-  "iq_ait_title": "Phase 1 – AIT: Allgemeiner Intelligenz-Test",
-  "iq_ait_text": "Die erste Phase ist ein standardisierter Test namens AIT (Allgemeiner Intelligenz-Test) von Dr. Lars Satow. Dieser professionell validierte Test umfasst 67 Aufgaben in vier Bereichen: Sprachverständnis, Logik, räumliches Denken und Zahlenmuster.\n\nDie Bearbeitungszeit beträgt etwa 60 bis 90 Minuten. Das Ergebnis ist ein umfassender G-Faktor – ein international anerkannter Maßstab für allgemeine Intelligenz. Der Test basiert auf dem CHC-Modell (Cattell-Horn-Carroll) und wurde mit über 8000 Personen normiert.\n\nPhase 1 gibt uns ein breites, objektives Bild deines intellektuellen Potenzials – alters- und bildungsunabhängig.",
-  "iq_cream_title": "Phase 2 – CREAM: Visueller Matrizentest",
-  "iq_cream_text": "In Phase 2 gehen wir tiefer. Der CREAM-Test (Create a Matrix) ist ein nonverbales Logikrätsel, das von Cebras entwickelt wurde. Er besteht aus 40 symbolischen Matrizen, die deine Fähigkeit testen, Strukturen zu erkennen, Muster zu manipulieren und abstrakte Schlüsse zu ziehen – ganz ohne Sprache.\n\nWährend der AIT uns einen wissenschaftlich fundierten IQ-Wert liefert, misst CREAM die Art von Musterintelligenz und kreativer Logik, die viele Hochbegabte zeigen – die aber in Standardtests oft übersehen wird. Der Test befindet sich derzeit in der Betaphase und wird laufend weiterentwickelt. Er ist darauf ausgelegt, kulturelle, schulische und sprachliche Verzerrungen auszuschließen – und sich ganz auf dein abstraktes Denkvermögen zu konzentrieren.\n\nDurch die Kombination beider Phasen erkennen wir nicht nur, wer hochbegabt ist – sondern auch, wie genau diese Begabung aussieht.",
-  "iq_examples_title": "Wie sieht das aus?",
-  "iq_examples_text": "Du löst visuelle Aufgaben, bei denen Formen oder Zahlen einem verborgenen Muster folgen. Manche Aufgaben testen logisches Fortschreiten, andere fordern dein räumliches Vorstellungsvermögen oder analoges Denken. Es geht nicht ums Raten – es geht ums Verstehen der Struktur hinter der Komplexität. Jede Aufgabe zeigt uns, wie du mit neuen Informationen umgehst.",
-  "iq_ethics_title": "Was der Test nicht misst",
-  "iq_ethics_text": "Ein IQ-Test misst weder deinen Wert noch deine Emotionen oder deinen künftigen Erfolg. Er sagt nichts über deinen Charakter, deine Freundlichkeit oder deine Resilienz aus. Was er misst, ist deine Fähigkeit zum abstrakten Denken und zur Lösung neuartiger Probleme – nicht mehr und nicht weniger. Bei Cebras nutzen wir diese Erkenntnis, um zu stärken, nicht um auszusortieren.",
-  "iq_nextsteps_title": "Was passiert danach?",
-  "iq_nextsteps_text": "Wenn dein Ergebnis aus Phase 1 bei 130 oder höher liegt, qualifizierst du dich für das Cebras-Entwicklungsprogramm. Dann begleiten wir dich auf deiner individuellen Reise:\nDu füllst einen Profil-Fragebogen aus, um deine Stärken, Werte und Ziele zu definieren.\nWir empfehlen dir passende Coachings, Kurse und Peer-Gruppen – abgestimmt auf deine Denkweise.\nDas Ziel ist nicht, dich einzuordnen. Das Ziel ist, dich wachsen zu lassen – mit den richtigen Werkzeugen, Menschen und Möglichkeiten.",
-  "cream_hero_title": "Der CREAM-Test",
-  "cream_hero_subtitle": "Unsere Eigenentwicklung zur Identifikation von Hochbegabung – schnell, fair und zukunftsfähig.",
-  "cream_problem_title": "Warum wir unseren eigenen Test entwickelt haben",
-  "cream_problem_text": "Klassische IQ-Tests wurden für allgemeine Diagnostik entwickelt – nicht zur Erkennung außergewöhnlichen Potenzials. Viele sind lang, sprachbasiert und erfassen nicht, wie hochbegabte Menschen tatsächlich denken. Sie belohnen Bildung mehr als Originalität – Struktur mehr als Strategie. Das ist problematisch, wenn man jene finden will, die unsere Zukunft gestalten können – nicht nur Prüfungen bestehen.",
-  "cream_vision_title": "Das messen, was wirklich zählt",
-  "cream_vision_text": "Wir wollten einen Test, der eines richtig gut kann: fluide Intelligenz erfassen – das rohe Denkvermögen, das hinter Einsicht, Erfindung und Anpassungsfähigkeit steckt. Deshalb haben wir den CREAM-Test entwickelt: ablenkungsfrei, kulturfair und darauf ausgerichtet, zu zeigen, wie jemand denkt – nicht, was er weiß.",
-  "cream_design_title": "Was CREAM einzigartig macht",
-  "cream_design_text": "Jedes Detail von CREAM ist auf Fairness und Präzision ausgelegt. Die Aufgaben bestehen aus abstrakten Matrizen, visueller Logik und symbolischer Transformation – ganz ohne Vorwissen. Jeder Teilnehmer bearbeitet 40 Aufgaben mit je zwei Minuten Zeit. Wir messen nicht nur die Lösung – sondern auch Denktempo, Mustererkennung und Widerstandskraft unter Druck. Sprache spielt keine Rolle – Klarheit im Denken schon.",
-  "cream_story_title": "Ein Test, in den man hineindenken kann",
-  "cream_story_text": "Um den Test intuitiv und fokussiert zu gestalten, folgt der CREAM-Test einer narrativen Logik – einer Serie von Sherlock-ähnlichen Rätseln. Die Teilnehmenden 'lösen einen Fall', indem sie logische Brüche erkennen und visuelle Muster vervollständigen. So wird aus einem kognitiv anspruchsvollen Test eine strukturierte Denk-Reise – motivierend bis zum letzten Item.",
-  "cream_development_title": "Wie wir ihn entwickeln",
-  "cream_development_text": "CREAM ist nicht einfach ein Test – sondern das Ergebnis psychologischer Expertise, iterativer Entwicklung und kontinuierlicher Forschung. Wir haben mit der Analyse bestehender Intelligenztests begonnen, 80 neue Items inhouse entwickelt, in mehreren Testwellen mit Hochbegabten evaluiert und mit etablierten Verfahren wie dem AIT und M-KIT abgeglichen. Aktuell optimieren wir die Item-Schwierigkeit, das Scoring und die Skalennormierung. Nächster Schritt: maschinelles Lernen zur Musteranalyse im Denkverlauf.",
-  "cream_validity_title": "Ist das valide?",
-  "cream_validity_text": "Ja – und wir arbeiten weiter daran. Der CREAM-Test korreliert stark mit bestehenden IQ-Verfahren, vermeidet aber deren Verzerrungen. Er basiert auf dem CHC-Modell und wird von Expert:innen in Hochbegabung und Psychometrie geprüft. Die Normierung mit einer großen Stichprobe läuft – die Zertifizierung ist für Ende 2025 geplant.",
-  "cream_use_title": "Was passiert nach dem Test?",
-  "cream_use_text": "Nach Abschluss entsteht ein differenziertes Profil deiner Denkstärke – nicht nur ein IQ-Wert. Je nach Ergebnis wirst du dem High Potential Programm (HiPo) oder dem offenen Track zugewiesen. Die Resultate dienen als Basis für passgenaues Coaching, Kurszuweisung und – wenn qualifiziert – eine Begabungszertifizierung (entspricht IQ ≥ 130).",
-  "cream_examples_title": "Ein Blick ins Testformat",
-  "cream_examples_text": "Du willst ein Beispiel sehen? So sieht ein echtes CREAM-Item aus. Fokus an, logisch denken – und los geht’s.",
-  "cream_cta_title": "Bereit für die Challenge?",
-  "cream_cta_button": "CREAM-Test starten",
-  "cream_cta_subtext": "Verfügbar in deinem Cebras-Konto nach dem Onboarding. Keine Ablenkung. Kein Schnickschnack. Nur du und das Rätsel.",
   "navbar": {
     "sections": {
-      "main": "Hauptmenü",
-      "about": "Über Uns",
-      "testing": "Testen",
-      "learning": "Lernen"
+      "main": "Start",
+      "about": "Mehr",
+      "learning": "Lernen",
+      "projects": "Projekte"
     },
     "links": {
-      "forCebras": "Für Cebras",
-      "forEnterprises": "Für Unternehmen",
-      "aboutUs": "Über Uns",
+      "ourProjects": "Projekte",
+      "ourCommunity": "Community",
+      "news": "Neuigkeiten",
+      "partners": "Partner",
+      "aboutUs": "Über uns",
       "contact": "Kontakt",
       "faq": "FAQ",
-      "howWeTest": "So testen wir",
-      "creamTest": "Cream-Test",
-      "satowTest": "Satow Test",
-      "ourCourses": "Unsere Kurse",
-      "login": "Login",
-      "getStarted": "Loslegen"
+      "htl-girls": "HTL Girls",
+      "htl-boys": "HTL Boys",
+      "events": "Events"
     }
   },
   "contact": {
-    "title": "Schreib uns!",
-    "description": "Wir stehen für Fragen, Feedback oder Kooperationsmöglichkeiten zur Verfügung. Sag uns, wie wir helfen können!",
+    "title": "Hast du Fragen?",
+    "description": "Wir sind für Fragen, Feedback oder Kooperationsmöglichkeiten erreichbar. Sag uns, wie wir helfen können!",
     "form": {
       "firstname": "Vorname",
       "lastname": "Nachname",
@@ -185,28 +56,38 @@
       "messagePlaceholder": "Schreibe deine Nachricht hier."
     }
   },
-  "satow": {
-    "title": "Der Satow-IQ-Test",
-    "subtitle": "Unser wissenschaftliches Instrument zur Identifikation von Hochbegabung",
-    "intro": {
-      "title": "Warum wir den Satow AIT verwenden",
-      "text": "Bei Cebras verwenden wir den Allgemeinen Intelligenz-Test (AIT) von Dr. Lars Satow zur Erkennung von Hochbegabung. Der Test basiert auf dem CHC-Intelligenzmodell und misst zuverlässig den allgemeinen Intelligenzfaktor (G-Faktor). Mit vier Subtests und 67 Aufgaben liefert er ein präzises, wissenschaftlich fundiertes Profil intellektueller Potenziale."
+  "projects": {
+    "title": "Unsere Projekte",
+    "text": "ALISMA bringt junge Frauen in MINT zusammen – bei Community-Events wie dem WAFF-Event, mit inspirierenden Workshops und einem eigenen Diplomarbeitswettbewerb. Unsere Mini-Bücher wecken schon bei den Kleinsten Neugier für Technik und brechen Klischees auf. Mit Kampagnen, Schulprojekten und Role Models schaffen wir Sichtbarkeit, Chancen und ein starkes Netzwerk."
+  },
+  "mission": {
+    "titel": "Unsere Mission",
+    "text": " Unsere Mission ist es, Mädchen und Frauen in MINT-Fächern zu stärken, zu vernetzen und ihnen die Türen zu technischen Karrieren zu öffnen.\n                        Wir wollen nicht nur informieren, sondern inspirieren – mit Vorbildern, Projekten und Begegnungen, die Mut machen und Klischees aufbrechen.\n ALISMA steht für eine Community, in der Vielfalt gelebt wird, Erfolge gefeiert werden und jede junge Frau die Unterstützung bekommt, die sie für ihren Weg in Technik und Wissenschaft braucht.\n        "
+  },
+  "alismaJoin": {
+    "title": "Mach mit!",
+    "leadStrong": "Bei ALISMA zählt jede Stimme und jede Idee.",
+    "lead": "Ob du als HTL-Schülerin Gleichgesinnte suchst, als Role Model junge Frauen inspirieren möchtest oder deine Schule gemeinsam mit uns an mehr Chancengleichheit arbeiten will – wir freuen uns auf dich.",
+    "body": "Werde Teil einer engagierten Gemeinschaft, die füreinander da ist, Wissen teilt und neue Chancen eröffnet. Melde dich für unseren Newsletter an, tritt unserer WhatsApp-Community bei oder bring dich ehrenamtlich ein – dein Beitrag macht den Unterschied.",
+    "cardTitle": "Jetzt einsteigen",
+    "cta": {
+      "join": "Mitglied werden",
+      "whatsapp": "WhatsApp-Community beitreten"
     },
-    "structure": {
-      "title": "Was der Test misst",
-      "text": "Der AIT erfasst zwei Kernbereiche der Intelligenz:\n\n- Fluide Intelligenz: Deine Fähigkeit, unbekannte Probleme logisch zu lösen.\n- Kristallisierte Intelligenz: Dein Wissen und deine Erfahrung in der Anwendung.\n\nBesonders geeignet ist der Test zur Erkennung hoher fluider Intelligenz – ein häufiges Merkmal Hochbegabter, das oft der Leistung vorausgeht."
+    "more": {
+      "label": "Weitere Wege:",
+      "newsletter": "Newsletter anmelden",
+      "volunteer": "Ehrenamtlich mitmachen"
     },
-    "quality": {
-      "title": "Wissenschaftliche Qualität",
-      "text": "Der Satow AIT ist in der professionellen Diagnostik hoch anerkannt:\n- Entwickelt von Dr. Lars Satow (Deutschland)\n- Basierend auf dem CHC-Modell (Carroll, 1993)\n- 4 Subtests, 67 Aufgaben\n- Bis zu 90 Minuten Testdauer\n- Validierung an über 8.000 Personen\n- Laufend aktualisierte Normdaten\n- Anerkannt für die Aufnahme bei Mensa Österreich"
-    },
-    "process": {
-      "title": "Ablauf des Tests bei Cebras",
-      "text": "**Vor dem Test**:\n- Motivationscheck\n- Videoeinführung in IQ-Tests\n- Optionale Übungsaufgaben\n\n**Während des Tests**:\n- Online-Zugang (Englische Testversion)\n- Sicherer Login mit Browser-Schutz\n\n**Nach dem Test**:\n- Sofortige Ergebnisanzeige (IQ-Wert)\n- Zuordnung zum HiPo- oder offenen Programm\n- Orientierungshilfe für die nächsten Entwicklungsschritte"
-    },
-    "partners": {
-      "title": "Forschung & Partnerschaften",
-      "text": "- Entwickler: Dr. Lars Satow ([drsatow.de](https://www.drsatow.de))\n- Gehostet über: [Psychomeda](https://www.psychomeda.de/online-tests/)\n- Akademische Zusammenarbeit: Prof. Dr. Roland Grabner (Universität Graz)\n- Validierung durch klinische Psycholog:innen für offizielle Hochbegabtenanerkennung"
+    "aria": {
+      "join": "Mitglied werden – Onboarding starten",
+      "whatsapp": "ALISMA WhatsApp-Community beitreten"
     }
-  }
+  },
+  "lp_title": "Für Gemeinschaft, Austausch und Förderung.",
+  "lp_subtitle": "ALISMA verbindet Mädchen und junge Frauen im MINT-Bereich, schafft Räume für Begegnung und gegenseitige Unterstützung und inspiriert zu neuen Wegen in Technik und Wissenschaft.",
+
+  "wer_wir_sind_title": "Wer wir sind",
+  "wer_wir_sind_text": "ALISMA ist ein von sechs HTL-Schülerinnen gegründeter Verein, der Frauen und Mädchen in MINT stärkt. Wir fördern Vernetzung, bauen Vorurteile ab und schaffen Chancen – von Schulworkshops und Role Models bis hin zu großen Community-Events. Unser Ziel ist es, eine unterstützende Gemeinschaft zu formen, in der jede ihre Ideen einbringen, wachsen und ihre Zukunft selbst gestalten kann."
+
 }

@@ -1,17 +1,20 @@
 import {TopWave, BottomWave} from "@/ui/components/generics/Waves";
 import WaveHeroImage from "@/assets/img/WaveHeroImage.png"
+import {useTranslation} from "react-i18next";
 
 
 export default function WaveHero() {
+    const {t} = useTranslation();
     return (
         <header className="relative bg-secondary h-screen overflow-hidden">
             {/* Hero content with background image */}
             <div className="relative z-10 p-5 bg-secondary text-start ">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-20 text-primary tracking-tight">
-                    Für Gemeinschaft, Austausch und Förderung.
+                    {t('lp_title')}
                 </h1>
                 <p className="mt-4 text-base sm:text-lg text-primary opacity-90">
-                    Kurzer Untertitel mit Blah blah.
+
+                    {t('lp_subtitle')}
                 </p>
             </div>
             <div

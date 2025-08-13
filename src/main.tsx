@@ -13,6 +13,7 @@ import {useEffect, useState} from "react";
 import {FAQComponent} from "@/ui/components/FAQComponent";
 import OurProjectsPage from "@/ui/pages/OurProjectsPage";
 import LandingPage from "@/ui/pages/LandingPage";
+import NewsPage from "@/ui/pages/NewsPage";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
                         <Route path="/login" element={<LoginPageWithBackground/>}></Route>
                         <Route path="/coming-soon" element={<ComingSoonPage/>}></Route>
                         <Route path="/our-projects" element={<OurProjectsPage/>}></Route>
+                        <Route path="/news" element={<NewsPage/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </I18nextProvider>

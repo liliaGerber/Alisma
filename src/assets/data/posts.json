@@ -1,0 +1,32 @@
+[
+  {
+    "id": "post-alisma-1",
+    "title": "HTL Girls Glow & Grow: Vernetzung und Empowerment für junge Frauen",
+    "summary": "Am 5. September 2024 trafen sich 50 Schülerinnen von 9 Wiener HTLs zu unserem ersten Community-Event. In Fokusgruppen wurden Erfahrungen, Herausforderungen und Visionen geteilt – mit dem Ziel, Mädchen im MINT-Bereich zu stärken und zu vernetzen.",
+    "label": "Community Event",
+    "author": "ALISMA",
+    "published": "5 Sep 2024",
+    "url": "https://alisma.at",
+    "image": "/news/HTLGirlsEvent.jpeg",
+    "tags": [
+      "MINT",
+      "HTL",
+      "Empowerment"
+    ]
+  },
+  {
+    "id": "post-alisma-2",
+    "title": "WAFF x ALISMA 2025: Frauen in starken Rollen",
+    "summary": "Am 22. Mai 2025 bringt unser Highlight-Event im brut Nordwest bis zu 230 Teilnehmerinnen zusammen. Mit spannenden Vorträgen, Podiumsdiskussionen und Networking fördern wir Diversität und schaffen ein starkes Netzwerk für Frauen im MINT-Bereich.",
+    "label": "Event",
+    "author": "ALISMA",
+    "published": "22 Mai 2025",
+    "url": "https://alisma.at",
+    "image": "/news/WAFFEventImage.png",
+    "tags": [
+      "MINT",
+      "Karriere",
+      "Diversität"
+    ]
+  }
+]

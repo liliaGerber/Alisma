@@ -2,92 +2,92 @@
   {
     "id": "faq-1",
     "question": {
-      "en": "Who is Cebras for?",
-      "de": "Für wen ist Cebras gedacht?",
-      "fr": "À qui s’adresse Cebras ?"
+      "en": "Who can join ALISMA?",
+      "de": "Wer kann bei ALISMA mitmachen?",
+      "fr": "Qui peut rejoindre ALISMA ?"
     },
     "answer": {
-      "en": "Cebras is designed for individuals with exceptional intellectual potential — people with an IQ of 130 or higher — who are looking for a space to grow, connect, and challenge themselves.",
-      "de": "Cebras richtet sich an Menschen mit außergewöhnlichem intellektuellem Potenzial — Menschen mit einem IQ von 130 oder höher — die wachsen, sich vernetzen und sich wirklich fordern möchten.",
-      "fr": "Cebras s’adresse aux personnes dotées d’un potentiel intellectuel exceptionnel — généralement un QI de 130 ou plus — qui souhaitent évoluer, se connecter et se challenger."
+      "en": "ALISMA is open to all who share our mission — from HTL students to role models, educators, and partners — with a focus on empowering girls and young women in STEM.",
+      "de": "ALISMA steht allen offen, die unsere Mission teilen – von HTL-Schülerinnen über Role Models bis hin zu Lehrkräften und Partnern – mit dem Ziel, Mädchen und junge Frauen in MINT zu stärken.",
+      "fr": "ALISMA est ouvert à tous ceux qui partagent notre mission — des étudiantes de HTL aux modèles inspirants, enseignants et partenaires — avec pour objectif de soutenir les filles et jeunes femmes dans les STEM."
     }
   },
   {
     "id": "faq-2",
     "question": {
-      "en": "Is the IQ test scientifically validated?",
-      "de": "Ist der IQ-Test wissenschaftlich validiert?",
-      "fr": "Le test de QI est-il scientifiquement validé ?"
+      "en": "Do I have to be an HTL student to join?",
+      "de": "Muss ich eine HTL-Schülerin sein, um mitzumachen?",
+      "fr": "Dois-je être étudiante en HTL pour participer ?"
     },
     "answer": {
-      "en": "Yes. We use the AIT by Dr. Lars Satow which meets all international standards for intelligence diagnostics.",
-      "de": "Ja. Wir verwenden zwei validierte Tests: den AIT von Dr. Lars Satow und den CREAM-Matrizentest, der von unserem Team entwickelt wurde. Beide entsprechen internationalen Standards für Intelligenzdiagnostik.",
-      "fr": "Oui. Nous utilisons deux tests validés : l’AIT de Dr Lars Satow et le test matriciel CREAM développé par notre équipe. Les deux répondent aux normes internationales en matière de diagnostic de l’intelligence."
+      "en": "No. While our main community is HTL students, we welcome younger girls interested in technology, graduates, and allies who want to contribute.",
+      "de": "Nein. Auch wenn unsere Hauptcommunity aus HTL-Schülerinnen besteht, sind jüngere Mädchen mit Technikinteresse, Absolventinnen und Unterstützer:innen herzlich willkommen.",
+      "fr": "Non. Même si notre communauté principale est composée d’étudiantes en HTL, nous accueillons aussi des jeunes filles intéressées par la technologie, des diplômées et des alliés."
     }
   },
   {
     "id": "faq-3",
     "question": {
-      "en": "What happens after I take the IQ test?",
-      "de": "Was passiert nach dem IQ-Test?",
-      "fr": "Que se passe-t-il après le test de QI ?"
+      "en": "What kind of projects does ALISMA run?",
+      "de": "Welche Projekte organisiert ALISMA?",
+      "fr": "Quels types de projets ALISMA organise-t-elle ?"
     },
     "answer": {
-      "en": "You’ll receive your results instantly. If you meet the threshold, you’ll be invited to join our exclusive development and community programs.",
-      "de": "Du erhältst dein Ergebnis sofort. Wenn du den Schwellenwert erreichst, wirst du zu unseren exklusiven Entwicklungs- und Community-Programmen eingeladen.",
-      "fr": "Vous recevrez vos résultats immédiatement. Si vous dépassez le seuil requis, vous serez invité à rejoindre nos programmes de développement et notre communauté privée."
+      "en": "From networking events and STEM workshops to our children’s mini-books and diploma project competition, ALISMA creates spaces to connect, learn, and inspire.",
+      "de": "Von Vernetzungsevents und MINT-Workshops über unsere technischen Mini-Bücher bis hin zum Diplomarbeitswettbewerb – ALISMA schafft Räume zum Austauschen, Lernen und Inspirieren.",
+      "fr": "Des événements de réseautage et ateliers STEM aux mini-livres techniques et concours de projets de diplôme, ALISMA crée des espaces pour se connecter, apprendre et inspirer."
     }
   },
   {
     "id": "faq-4",
     "question": {
-      "en": "Do I have to pay for the IQ test?",
-      "de": "Ist der IQ-Test kostenlos?",
-      "fr": "Le test de QI est-il gratuit ?"
+      "en": "How can my school collaborate with ALISMA?",
+      "de": "Wie kann meine Schule mit ALISMA zusammenarbeiten?",
+      "fr": "Comment mon école peut-elle collaborer avec ALISMA ?"
     },
     "answer": {
-      "en": "Yes. The test is completely free and takes about 40–60 minutes to complete.",
-      "de": "Ja. Der Test ist vollkommen kostenlos und dauert etwa 40–60 Minuten.",
-      "fr": "Oui. Le test est entièrement gratuit et dure environ 40 à 60 minutes."
+      "en": "Schools can invite us for workshops, info sessions for parents, or joint events that promote diversity and opportunities in STEM.",
+      "de": "Schulen können uns für Workshops, Eltern-Infoabende oder gemeinsame Veranstaltungen einladen, die Vielfalt und Chancen im MINT-Bereich fördern.",
+      "fr": "Les écoles peuvent nous inviter pour des ateliers, des séances d’information pour les parents ou des événements communs visant à promouvoir la diversité et les opportunités dans les STEM."
     }
   },
   {
     "id": "faq-5",
     "question": {
-      "en": "What makes Cebras different from Mensa or other IQ societies?",
-      "de": "Was unterscheidet Cebras von Mensa oder anderen IQ-Gesellschaften?",
-      "fr": "Qu’est-ce qui distingue Cebras de Mensa ou d’autres associations de QI ?"
+      "en": "Does ALISMA only focus on girls?",
+      "de": "Konzentriert sich ALISMA nur auf Mädchen?",
+      "fr": "ALISMA se concentre-t-elle uniquement sur les filles ?"
     },
     "answer": {
-      "en": "Cebras goes far beyond IQ verification — it offers personalized development, expert coaching, a private network, and real-world opportunities to apply your talent.",
-      "de": "Cebras geht weit über eine IQ-Bestätigung hinaus – wir bieten maßgeschneiderte Entwicklung, professionelle Coachings, ein privates Netzwerk und echte Chancen, dein Potenzial zu entfalten.",
-      "fr": "Cebras ne se limite pas à la validation du QI — nous offrons un accompagnement sur mesure, du coaching expert, un réseau privé et des opportunités concrètes pour exprimer votre potentiel."
+      "en": "While our core mission is to support girls and young women in STEM, we also work with boys to promote emotional competence and break harmful gender stereotypes.",
+      "de": "Auch wenn unsere Hauptmission die Förderung von Mädchen und jungen Frauen in MINT ist, arbeiten wir auch mit Burschen, um emotionale Kompetenz zu fördern und schädliche Geschlechterstereotype abzubauen.",
+      "fr": "Même si notre mission principale est de soutenir les filles et jeunes femmes dans les STEM, nous travaillons aussi avec les garçons pour promouvoir la compétence émotionnelle et déconstruire les stéréotypes de genre."
     }
   },
   {
     "id": "faq-6",
     "question": {
-      "en": "Can I join if I already know I’m gifted?",
-      "de": "Kann ich teilnehmen, wenn ich schon weiß, dass ich hochbegabt bin?",
-      "fr": "Puis-je rejoindre si je sais déjà que je suis surdoué ?"
+      "en": "How can I become a role model for ALISMA?",
+      "de": "Wie kann ich Role Model bei ALISMA werden?",
+      "fr": "Comment puis-je devenir un modèle pour ALISMA ?"
     },
     "answer": {
-      "en": "Yes. If you’ve already been tested and meet the criteria, you can submit proof and join directly without retaking the test.",
-      "de": "Ja. Wenn du bereits getestet wurdest und die Kriterien erfüllst, kannst du den Nachweis einreichen und direkt einsteigen – ohne den Test erneut zu machen.",
-      "fr": "Oui. Si vous avez déjà passé un test et que vous remplissez les critères, vous pouvez soumettre votre attestation et rejoindre directement sans refaire le test."
+      "en": "If you work or study in a STEM field and want to inspire the next generation, you can sign up to speak at events, mentor students, or share your story in our campaigns.",
+      "de": "Wenn du in einem MINT-Bereich arbeitest oder studierst und die nächste Generation inspirieren möchtest, kannst du dich für Vorträge, Mentoring oder Story-Beiträge in unseren Kampagnen anmelden.",
+      "fr": "Si vous travaillez ou étudiez dans un domaine STEM et souhaitez inspirer la prochaine génération, vous pouvez intervenir lors d’événements, encadrer des étudiantes ou partager votre histoire dans nos campagnes."
     }
   },
   {
     "id": "faq-7",
     "question": {
-      "en": "What kind of people are in the Cebras network?",
-      "de": "Was für Menschen sind im Cebras-Netzwerk?",
-      "fr": "Quel type de personnes trouve-t-on dans le réseau Cebras ?"
+      "en": "Is there a membership fee?",
+      "de": "Gibt es einen Mitgliedsbeitrag?",
+      "fr": "Y a-t-il une cotisation d’adhésion ?"
     },
     "answer": {
-      "en": "From young talents to seasoned innovators, the network includes thinkers, builders, founders, researchers, and creators — all driven by curiosity and excellence.",
-      "de": "Vom jungen Talent bis zum erfahrenen Innovator: Im Netzwerk treffen Denker, Gründer, Forscher und Kreative aufeinander – vereint durch Neugier und Exzellenz.",
-      "fr": "Du jeune talent au fondateur expérimenté, le réseau réunit des penseurs, chercheurs, créateurs et bâtisseurs — unis par la curiosité et l’exigence."
+      "en": "No. ALISMA membership is free. Some special events or workshops may have a small participation fee to cover costs.",
+      "de": "Nein. Die Mitgliedschaft bei ALISMA ist kostenlos. Für einige besondere Events oder Workshops kann es einen kleinen Teilnahmebeitrag geben, um Kosten zu decken.",
+      "fr": "Non. L’adhésion à ALISMA est gratuite. Certains événements ou ateliers spéciaux peuvent avoir un petit droit de participation pour couvrir les frais."
     }
   }
 ]

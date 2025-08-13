@@ -9,7 +9,6 @@ export default function OurProjectsPage() {
             {/*<HeroBannerTemplate1 backgroundImageUrl={"/backgrounds/GIftedInfoHeroabstractBackgroundInverted.png"}*/}
             {/*                     title={"Our projects"} subtitle={"Its what we do"}/>*/}
             <Projects/>
-            <TeamSlider/>
             <FooterSimple/>
         </div>
     )

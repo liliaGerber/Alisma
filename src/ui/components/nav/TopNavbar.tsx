@@ -25,7 +25,6 @@ export default function TopNavbar() {
             section: "main",
             links: [
                 {name: "ourCommunity", to: "/our-community"},
-                {name: "ourProjects", to: "/our-projects"},
                 {name: "news", to: "/news"},
             ],
         },
@@ -39,8 +38,12 @@ export default function TopNavbar() {
             ],
         },
         {
-            section: "learning",
-            links: [{name: "ourCourses", to: "/course-overview"}],
+            section: "projects",
+            links: [
+                {name: "htl-girls", to: "/htl-girls"},
+                {name: "htl-boys", to: "/htl-boys"},
+                {name: "events", to: "/event"},
+            ],
         },
     ];
     return (
@@ -85,6 +88,32 @@ export default function TopNavbar() {
                                 </Link>
                             </li>
                         ))}
+                        <li className="relative group">
+                            <div
+                                className="flex items-center text-sm font-semibold px-4 py-2 text-secondary cursor-pointer group-hover:text-secondary-200">
+                                <span>{t("navbar.sections.projects")}</span>
+                                <ChevronDown
+                                    size={16}
+                                    className="ml-1 transition-transform group-hover:rotate-180"
+                                />
+                            </div>
+                            <ul className="absolute left-0 top-full mt-1 bg-primary shadow-lg border border-neutral-200 rounded-md opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-50 min-w-[240px] p-2 space-y-3">
+                                {linkStructure.filter(g => g.section === "projects").map((group) => (
+                                    <div key={group.section} className="px-2">
+                                        {group.links.map(({name, to}) => (
+                                            <li key={to}>
+                                                <Link
+                                                    to={to}
+                                                    className="block px-2 py-1 text-sm font-medium text-secondary hover:text-secondary-200 transition"
+                                                >
+                                                    {t(`navbar.links.${name}`)}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </div>
+                                ))}
+                            </ul>
+                        </li>
 
                         <li className="relative group">
                             <div
@@ -96,7 +125,7 @@ export default function TopNavbar() {
                                 />
                             </div>
                             <ul className="absolute left-0 top-full mt-1 bg-primary shadow-lg border border-neutral-200 rounded-md opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-50 min-w-[240px] p-2 space-y-3">
-                                {linkStructure.slice(1).map((group) => (
+                                {linkStructure.filter(g => g.section === "about").map((group) => (
                                     <div key={group.section} className="px-2">
                                         <h4 className="text-xs font-bold text-secondary-400 uppercase mb-1">
                                             {t(`navbar.sections.${group.section}`)}
