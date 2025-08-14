@@ -1,10 +1,16 @@
-export function BottomWave({ className = "text-primary" }: { className?: string }) {
+export function BottomWave({ className }: { className?: string }) {
     return (
         <svg
-            className={`pointer-events-none absolute -bottom-1 left-0 right-0 h-28 w-full ${className}`}
+            aria-hidden="true"
+            focusable="false"
             viewBox="0 0 1440 112"
             preserveAspectRatio="none"
-            aria-hidden
+            className={[
+                "absolute inset-x-0 bottom-0 w-full h-28",
+                "block leading-none translate-y-[1px]",
+                "pointer-events-none",
+                className ?? "text-primary",
+            ].join(" ")}
         >
             <path
                 d="M0 64c120 28 240 56 360 44s240-60 360-72 240 8 360 28 240 36 360 8V112H0V64Z"
@@ -14,17 +20,24 @@ export function BottomWave({ className = "text-primary" }: { className?: string 
     );
 }
 
+
 /**
  * Reusable SVG waves. They stretch full-width and keep nice bezier curves.
  * Use the `className` to set color via `text-*` (fill uses currentColor).
  */
-export function TopWave({ className = "text-gray-900" }: { className?: string }) {
+export function TopWave({ className }: { className?: string }) {
     return (
         <svg
-            className={`pointer-events-none absolute -top-1 left-0 right-0 h-40 w-full ${className}`}
+            aria-hidden="true"
+            focusable="false"
             viewBox="0 0 1440 160"
             preserveAspectRatio="none"
-            aria-hidden
+            className={[
+                "absolute inset-x-0 top-0 w-full h-40",
+                "block leading-none -translate-y-[1px]",
+                "pointer-events-none",
+                className ?? "text-gray-900",
+            ].join(" ")}
         >
             <path
                 d="M0 0h1440v64c-120 28-240 56-360 60-120 4-240-16-360-40S480 28 360 20C240 12 120 8 0 24V0Z"
@@ -35,13 +48,19 @@ export function TopWave({ className = "text-gray-900" }: { className?: string })
 }
 
 
-export function SectionSeparatorWave({ className = "text-primary" }: { className?: string }) {
+export function SectionSeparatorWave({ className }: { className?: string }) {
     return (
         <svg
-            className={`pointer-events-none h-24 w-full ${className}`}
+            aria-hidden="true"
+            focusable="false"
             viewBox="0 0 1440 96"
             preserveAspectRatio="none"
-            aria-hidden
+            className={[
+                "w-full h-24",
+                "block leading-none -mt-px",
+                "pointer-events-none",
+                className ?? "text-primary",
+            ].join(" ")}
         >
             <path
                 d="M0 48c120 28 240 56 360 44s240-60 360-72 240 8 360 28 240 36 360 8V96H0V48Z"
