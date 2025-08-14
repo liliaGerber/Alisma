@@ -34,12 +34,12 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: Build
+      - name: Build (force base=/alisma/)
         env:
           VITE_EMAILJS_PUBLIC_KEY: ${{ vars.VITE_EMAILJS_PUBLIC_KEY }}
           VITE_EMAILJS_SERVICE_ID: ${{ vars.VITE_EMAILJS_SERVICE_ID }}
           VITE_EMAILJS_TEMPLATE_ID: ${{ vars.VITE_EMAILJS_TEMPLATE_ID }}
-        run: pnpm build
+        run: pnpm run build -- --base=/alisma/
 
       - name: Stamp build id
         run: echo "$GITHUB_SHA" > dist/__build_id.txt
