@@ -51,18 +51,21 @@ jobs:
           sudo apt-get -yq install lftp
 
       # Prevent 500s from strict Apache config: disable any existing .htaccess
-      - name: Disable .htaccess (root and /alisma)
+      - name: Disable .htaccess (root and /alisma) – tolerant
         env:
           H: ${{ secrets.STRATO_SSH_HOST }}
           U: ${{ secrets.STRATO_SSH_USER }}
           P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
           lftp -u "$U","$P" sftp://$H -e "
-            set cmd:fail-exit yes; set sftp:auto-confirm yes;
-            mv /.htaccess /.htaccess.off || true
-            mv /alisma/.htaccess /alisma/.htaccess.off || true
+            set sftp:auto-confirm yes;
+            set net:timeout 8; set net:max-retries 1;
+            set cmd:fail-exit no;    # <-- ignore failures if file doesn't exist
+            mv /alisma/.htaccess /alisma/.htaccess.off
+            mv /.htaccess /.htaccess.off
             bye
           "
+
 
       - name: Pre-deploy listing (/alisma)
         env:
