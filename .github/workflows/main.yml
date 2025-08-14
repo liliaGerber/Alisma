@@ -50,28 +50,40 @@ jobs:
           sudo apt-get -yq update
           sudo apt-get -yq install lftp
 
-      # Prevent 500s from strict Apache config: disable any existing .htaccess
-      - name: Disable .htaccess (root and /alisma) – tolerant
+      # Before deploy: prove we have assets locally
+      - name: Verify local dist
+        run: |
+          test -f dist/index.html
+          test -d dist/assets
+          find dist/assets -maxdepth 1 -type f | head -n 5
+      
+      # Deploy to ROOT (/, not /alisma)
+      - name: Deploy to /
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: ${{ secrets.STRATO_SSH_HOST }}
+          port: 22
+          user: ${{ secrets.STRATO_SSH_USER }}
+          pass: ${{ secrets.STRATO_SSH_PASS }}
+          onlyNewer: false
+          settings: 'sftp:auto-confirm=yes; net:timeout=8; net:max-retries=1; cmd:fail-exit=yes'
+          localDir: 'dist/'            # <-- must be dist, not project root
+          remoteDir: '/'               # <-- root
+          reverse: true
+          options: '--delete --verbose --ignore-time --overwrite --exclude-glob temp --exclude-glob temp/**'
+      
+      # After deploy: assert /assets exists at root
+      - name: Assert remote /assets exists
         env:
           H: ${{ secrets.STRATO_SSH_HOST }}
           U: ${{ secrets.STRATO_SSH_USER }}
           P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
-          # /alisma/.htaccess (ignore if missing)
           lftp -u "$U","$P" sftp://$H -e "
-            set sftp:auto-confirm yes;
-            set cmd:fail-exit yes;
-            mv /alisma/.htaccess /alisma/.htaccess.off;
-            bye
-          " || true
-      
-          # /.htaccess (ignore if missing)
-          lftp -u "$U","$P" sftp://$H -e "
-            set sftp:auto-confirm yes;
-            set cmd:fail-exit yes;
-            mv /.htaccess /.htaccess.off;
-            bye
-          " || true
+            set sftp:auto-confirm yes; set cmd:fail-exit yes;
+            cls -al /assets; bye
+          "
+
 
 
 
