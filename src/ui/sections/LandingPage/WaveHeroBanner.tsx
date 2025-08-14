@@ -25,9 +25,6 @@ export default function WaveHero() {
                 <TopWave className="pointer-events-none text-secondary absolute scale-x-[-1] left-0 right-0  z-20" />
 
             </div>
-
-            {/* Bottom wave (white) to transition into next section */}
-            {/*<BottomWave className="pointer-events-none text-primary" />*/}
         </header>
     );
 }

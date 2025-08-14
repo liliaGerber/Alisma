@@ -14,6 +14,7 @@ import {FAQComponent} from "@/ui/components/FAQComponent";
 import OurProjectsPage from "@/ui/pages/OurProjectsPage";
 import LandingPage from "@/ui/pages/LandingPage";
 import NewsPage from "@/ui/pages/NewsPage";
+import CommunityPage from "@/ui/pages/CommunityPage";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
                         <Route path="/coming-soon" element={<ComingSoonPage/>}></Route>
                         <Route path="/our-projects" element={<OurProjectsPage/>}></Route>
                         <Route path="/news" element={<NewsPage/>}></Route>
+                        <Route path="/community" element={<CommunityPage/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </I18nextProvider>

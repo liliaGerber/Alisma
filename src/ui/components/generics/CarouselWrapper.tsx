@@ -15,7 +15,7 @@ export function CarouselWrapper({
                                     className = "",
                                     intervalMs = 4000,
                                     align = "start",
-                                    itemsCss =  "shrink-0 grow-0 basis-[80%] lg:basis-[48%] justify-between mx-4.5 w-fit h-full snap-start"
+                                    itemsCss =  "shrink-0 grow-0 basis-[100%] w-full lg:basis-[48%] justify-between mx-4.5 lg:w-fit h-full snap-start"
                                 }: CarouselWrapperProps) {
     const [api, setApi] = useState<CarouselApi | null>(null)
     const intervalRef = useRef<NodeJS.Timeout | null>(null)

@@ -24,7 +24,7 @@ export default function TopNavbar() {
         {
             section: "main",
             links: [
-                {name: "ourCommunity", to: "/our-community"},
+                {name: "ourCommunity", to: "/community"},
                 {name: "news", to: "/news"},
             ],
         },

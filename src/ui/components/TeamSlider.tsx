@@ -5,10 +5,10 @@ import {BlobOutlinePersonCard} from "@/ui/components/BlobFramePersonCard";
 
 export default function TeamSlider() {
     return (
-        <section id="teamslider" className="w-screen mt-5 relative h-fit overflow-hidden">
-            <div className="absolute left-0 h-full w-[22vw] z-10 flex pointer-events-none overflow-hidden">
+        <section id="teamslider" className="w-screen mt-5 grid grid-cols-1 lg:grid-cols-4 relative h-fit overflow-hidden">
+            <div className="relative col-span-1 left-0 h-full z-10 flex pointer-events-none overflow-hidden">
                 <svg
-                    className="absolute top-0 left-0 h-full w-full text-primary"
+                    className="absolute top-0 left-0 h-full w-full text-primary hidden lg:block"
                     viewBox="0 0 300 1000"
                     preserveAspectRatio="none"
                     aria-hidden
@@ -22,7 +22,7 @@ export default function TeamSlider() {
                         fill="currentColor"
                     />
                 </svg>
-                <h2 className="text-secondary text-start heading-1 whitespace-pre-line mt-[60%] ml-[20%] relative z-10">The{"\n"}Team</h2>
+                <h2 className="lg:text-secondary  text-primary text-start heading-1 whitespace-pre-line mt-30 lg:mt-[70%] ml-5 lg:ml-[20%] relative z-10">The Team</h2>
             </div>
             <CarouselWrapper
                 items={team.map((member) => (
@@ -34,7 +34,7 @@ export default function TeamSlider() {
                     />
                 ))}
                 intervalMs={4000}
-                className="w-[75vw] ml-[25vw]   z-0 pl-10"
+                className="w-full  col-span-3 basis-[100%] xl:basis-[48%] z-0 pl-10"
             />
         </section>
     )
