@@ -9,6 +9,7 @@ export default defineConfig({
     plugins: [react(), tailwindcss(), svgr({
         svgrOptions: {exportType: "default", icon: true, expandProps: 'start'},
     })],
+    base: '/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),

@@ -127,9 +127,6 @@ export default function TopNavbar() {
                             <ul className="absolute left-0 top-full mt-1 bg-primary shadow-lg border border-neutral-200 rounded-md opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-50 min-w-[240px] p-2 space-y-3">
                                 {linkStructure.filter(g => g.section === "about").map((group) => (
                                     <div key={group.section} className="px-2">
-                                        <h4 className="text-xs font-bold text-secondary-400 uppercase mb-1">
-                                            {t(`navbar.sections.${group.section}`)}
-                                        </h4>
                                         {group.links.map(({name, to}) => (
                                             <li key={to}>
                                                 <Link
