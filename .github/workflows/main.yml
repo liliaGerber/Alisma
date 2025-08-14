@@ -57,14 +57,22 @@ jobs:
           U: ${{ secrets.STRATO_SSH_USER }}
           P: ${{ secrets.STRATO_SSH_PASS }}
         run: |
+          # /alisma/.htaccess (ignore if missing)
           lftp -u "$U","$P" sftp://$H -e "
             set sftp:auto-confirm yes;
-            set net:timeout 8; set net:max-retries 1;
-            set cmd:fail-exit no;    # <-- ignore failures if file doesn't exist
-            mv /alisma/.htaccess /alisma/.htaccess.off
-            mv /.htaccess /.htaccess.off
+            set cmd:fail-exit yes;
+            mv /alisma/.htaccess /alisma/.htaccess.off;
             bye
-          "
+          " || true
+      
+          # /.htaccess (ignore if missing)
+          lftp -u "$U","$P" sftp://$H -e "
+            set sftp:auto-confirm yes;
+            set cmd:fail-exit yes;
+            mv /.htaccess /.htaccess.off;
+            bye
+          " || true
+
 
 
       - name: Pre-deploy listing (/alisma)
