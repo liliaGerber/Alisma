@@ -6,7 +6,7 @@ import {useTranslation} from "react-i18next";
 export default function WaveHero() {
     const {t} = useTranslation();
     return (
-        <header className="relative bg-secondary h-screen overflow-hidden">
+        <header className="relative bg-secondary h-fit overflow-hidden">
             {/* Hero content with background image */}
             <div className="relative z-10 p-5 bg-secondary text-start max-w-[90vw] mx-auto">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-20 text-primary tracking-tight">
@@ -25,6 +25,7 @@ export default function WaveHero() {
                 <TopWave className="pointer-events-none text-secondary absolute scale-x-[-1] left-0 right-0  z-20" />
 
             </div>
+            <BottomWave/>
         </header>
     );
 }

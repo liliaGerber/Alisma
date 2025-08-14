@@ -87,5 +87,29 @@
   "lp_title": "For community, exchange and support.",
   "lp_subtitle": "ALISMA connects girls and young women in STEM, creating spaces for meeting, mutual support, and inspiration for new paths in technology and science.",
   "wer_wir_sind_title": "Who we are",
-  "wer_wir_sind_text": "ALISMA is an association founded by six HTL students, empowering women and girls in STEM. We promote networking, break down prejudices, and create opportunities – from school workshops and role models to major community events. Our goal is to build a supportive community where everyone can contribute ideas, grow, and shape their own future."
+  "wer_wir_sind_text": "ALISMA is an association founded by six HTL students, empowering women and girls in STEM. We promote networking, break down prejudices, and create opportunities – from school workshops and role models to major community events. Our goal is to build a supportive community where everyone can contribute ideas, grow, and shape their own future.",
+  "community_about": {
+    "title": "What Our Community Is All About",
+    "intro": "Our community connects girls and women in STEM, offering a space for networking, mutual support, and shared growth. It’s where learning, empowerment, and lasting friendships happen.",
+    "benefits": {
+      "networking": "Connect with like-minded people and expand your network",
+      "support": "Find encouragement and guidance from a supportive community",
+      "empowerment": "Gain confidence to take on new challenges and leadership roles",
+      "learning": "Access opportunities to learn, share knowledge, and grow together"
+    }
+  },
+  "community": {
+    "members": {
+      "sectionTitle": "Faces of the Community",
+      "sectionIntro": "Meet the people who shape ALISMA — students, graduates, role models and partners who stand for connection, learning and empowerment.",
+      "aria_list": "Members",
+      "aria_list_mobile": "Members (mobile)",
+      "aria_thumbnail": "{{name}}, {{role}} — select to view full profile",
+      "alt": "{{name}} – {{role}}",
+      "portraitAlt": "Portrait of {{name}}",
+      "aria_quote": "Member quote",
+      "aria_link": "{{label}} link for {{name}}"
+    }
+  }
+
 }

@@ -88,6 +88,30 @@
   "lp_subtitle": "ALISMA verbindet Mädchen und junge Frauen im MINT-Bereich, schafft Räume für Begegnung und gegenseitige Unterstützung und inspiriert zu neuen Wegen in Technik und Wissenschaft.",
 
   "wer_wir_sind_title": "Wer wir sind",
-  "wer_wir_sind_text": "ALISMA ist ein von sechs HTL-Schülerinnen gegründeter Verein, der Frauen und Mädchen in MINT stärkt. Wir fördern Vernetzung, bauen Vorurteile ab und schaffen Chancen – von Schulworkshops und Role Models bis hin zu großen Community-Events. Unser Ziel ist es, eine unterstützende Gemeinschaft zu formen, in der jede ihre Ideen einbringen, wachsen und ihre Zukunft selbst gestalten kann."
+  "wer_wir_sind_text": "ALISMA ist ein von sechs HTL-Schülerinnen gegründeter Verein, der Frauen und Mädchen in MINT stärkt. Wir fördern Vernetzung, bauen Vorurteile ab und schaffen Chancen – von Schulworkshops und Role Models bis hin zu großen Community-Events. Unser Ziel ist es, eine unterstützende Gemeinschaft zu formen, in der jede ihre Ideen einbringen, wachsen und ihre Zukunft selbst gestalten kann.",
+
+  "community_about": {
+    "title": "Was unsere Community ausmacht",
+    "intro": "Unsere Community verbindet Mädchen und Frauen in MINT-Fächern und bietet einen Raum für Networking, gegenseitige Unterstützung und gemeinsames Wachstum. Hier entstehen Lernen, Empowerment und langfristige Freundschaften.",
+    "benefits": {
+      "networking": "Vernetze dich mit Gleichgesinnten und erweitere dein Netzwerk",
+      "support": "Erhalte Ermutigung und Unterstützung von einer starken Gemeinschaft",
+      "empowerment": "Gewinne Selbstvertrauen, um neue Herausforderungen und Führungsrollen anzunehmen",
+      "learning": "Nutze Möglichkeiten zum Lernen, Wissensaustausch und gemeinsamen Wachsen"
+    }
+  },
+  "community": {
+    "members": {
+      "sectionTitle": "Gesichter der Community",
+      "sectionIntro": "Lerne die Menschen kennen, die ALISMA prägen – Schülerinnen, Absolventinnen, Role Models und Partner:innen, die für Vernetzung, Lernen und Empowerment stehen.",
+      "aria_list": "Mitglieder",
+      "aria_list_mobile": "Mitglieder (mobil)",
+      "aria_thumbnail": "{{name}}, {{role}} — auswählen, um das Profil zu sehen",
+      "alt": "{{name}} – {{role}}",
+      "portraitAlt": "Portrait von {{name}}",
+      "aria_quote": "Mitgliedszitat",
+      "aria_link": "{{label}}-Link von {{name}}"
+    }
+  }
 
 }

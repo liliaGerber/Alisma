@@ -6,7 +6,7 @@ export function BottomWave({ className }: { className?: string }) {
             viewBox="0 0 1440 112"
             preserveAspectRatio="none"
             className={[
-                "absolute inset-x-0 bottom-0 w-full h-28",
+                "absolute inset-x-0 bottom-0 w-full h-30",
                 "block leading-none translate-y-[1px]",
                 "pointer-events-none",
                 className ?? "text-primary",

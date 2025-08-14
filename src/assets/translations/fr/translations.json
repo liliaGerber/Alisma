@@ -87,5 +87,30 @@
   "lp_title": "Pour la communauté, l’échange et le soutien.",
   "lp_subtitle": "ALISMA connecte les filles et jeunes femmes dans les STEM, créant des espaces de rencontre, de soutien mutuel et d’inspiration pour de nouvelles voies dans la technologie et la science.",
   "wer_wir_sind_title": "Qui nous sommes",
-  "wer_wir_sind_text": "ALISMA est une association fondée par six étudiantes de HTL, qui soutient les femmes et les filles dans les STEM. Nous favorisons le réseautage, brisons les préjugés et créons des opportunités – des ateliers scolaires et modèles inspirants jusqu’aux grands événements communautaires. Notre objectif est de créer une communauté solidaire où chacune peut apporter ses idées, évoluer et façonner son avenir."
+  "wer_wir_sind_text": "ALISMA est une association fondée par six étudiantes de HTL, qui soutient les femmes et les filles dans les STEM. Nous favorisons le réseautage, brisons les préjugés et créons des opportunités – des ateliers scolaires et modèles inspirants jusqu’aux grands événements communautaires. Notre objectif est de créer une communauté solidaire où chacune peut apporter ses idées, évoluer et façonner son avenir.",
+  "community_about": {
+    "title": "Ce qui définit notre communauté",
+    "intro": "Notre communauté relie les filles et les femmes dans les disciplines STEM, offrant un espace de réseautage, de soutien mutuel et de croissance partagée. C’est là que l’apprentissage, l’autonomisation et les amitiés durables prennent vie.",
+    "benefits": {
+      "networking": "Connectez-vous avec des personnes partageant vos idées et élargissez votre réseau",
+      "support": "Recevez encouragement et accompagnement d'une communauté solidaire",
+      "empowerment": "Acquérez la confiance nécessaire pour relever de nouveaux défis et assumer des rôles de leadership",
+      "learning": "Accédez à des opportunités d'apprendre, de partager vos connaissances et de progresser ensemble"
+    }
+  },
+  "community": {
+    "members": {
+      "sectionTitle": "Visages de la communauté",
+      "sectionIntro": "Découvrez celles et ceux qui font ALISMA — étudiantes, diplômées, modèles inspirants et partenaires, unis par le partage, l’apprentissage et l’entraide.",
+      "aria_list": "Membres",
+      "aria_list_mobile": "Membres (mobile)",
+      "aria_thumbnail": "{{name}}, {{role}} — sélectionner pour afficher le profil complet",
+      "alt": "{{name}} – {{role}}",
+      "portraitAlt": "Portrait de {{name}}",
+      "aria_quote": "Citation du membre",
+      "aria_link": "Lien {{label}} pour {{name}}"
+    }
+  }
+
 }
+

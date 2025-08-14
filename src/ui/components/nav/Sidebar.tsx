@@ -22,15 +22,17 @@ export default function Sidebar({ sidebarOpen, toggleSidebar, linkItems }: Sideb
             } max-[400px]:w-full`}
         >
             <div className="flex flex-col pb-5">
+
                 <div className="flex-row flex justify-end gap-x-4 w-full text-4xl pr-3 mt-2">
                     <div><LanguageSwitcher /></div>
                     <button onClick={() => toggleSidebar(!sidebarOpen)} className="p-2 bg-transparent">
                         <Close />
                     </button>
+
                 </div>
-                <Link to="/" className="flex justify-start items-center w-full max-h-[80px] overflow-hidden">
-                    <Logo className="max-h-[60px] max-w-[60px] w-full h-full object-contain" />
-                    <h1 className="text-secondary text-4xl font-extrabold ml-4 truncate">{mainInformation.company_name}</h1>
+
+                <Link to="/" className="flex flex-row  items-start justify-start overflow-hidden">
+                    <Logo className="h-full max-h-[70px] min-w-[200px] w-[35%] left-0" />
                 </Link>
             </div>
 
@@ -53,24 +55,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar, linkItems }: Sideb
                         ))}
                     </div>
                 ))}
-                <li key="login" className="py-2 hover:text-accent w-full">
-                    <NavLink
-                        onClick={() => toggleSidebar(!sidebarOpen)}
-                        to="/login"
-                        className="cursor-pointer px-4 py-2 block"
-                    >
-                        {t('navbar.links.login')}
-                    </NavLink>
-                </li>
-                <li key="get-started" className="py-2 hover:text-accent w-full">
-                    <NavLink
-                        onClick={() => toggleSidebar(!sidebarOpen)}
-                        to="/coming-soon"
-                        className="cursor-pointer px-4 py-2 block"
-                    >
-                        {t('navbar.links.getStarted')}
-                    </NavLink>
-                </li>
+
             </ul>
         </nav>
     );
