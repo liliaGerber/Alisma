@@ -56,9 +56,7 @@ export function SectionSeparatorWave({ className }: { className?: string }) {
             viewBox="0 0 1440 96"
             preserveAspectRatio="none"
             className={[
-                "w-full h-24",
-                "block leading-none -mt-px",
-                "pointer-events-none",
+                "block w-full h-24 leading-none pointer-events-none",
                 className ?? "text-primary",
             ].join(" ")}
         >

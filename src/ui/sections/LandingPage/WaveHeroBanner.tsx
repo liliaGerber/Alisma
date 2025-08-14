@@ -8,7 +8,7 @@ export default function WaveHero() {
     return (
         <header className="relative bg-secondary h-screen overflow-hidden">
             {/* Hero content with background image */}
-            <div className="relative z-10 p-5 bg-secondary text-start ">
+            <div className="relative z-10 p-5 bg-secondary text-start max-w-[90vw] mx-auto">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-20 text-primary tracking-tight">
                     {t('lp_title')}
                 </h1>
