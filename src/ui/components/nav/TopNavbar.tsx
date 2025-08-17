@@ -42,7 +42,7 @@ export default function TopNavbar() {
             links: [
                 {name: "htl-girls", to: "/htlgirls"},
                 {name: "htl-boys", to: "/heroboys"},
-                {name: "events", to: "/event"},
+                {name: "events", to: "/events"},
             ],
         },
     ];

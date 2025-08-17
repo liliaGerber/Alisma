@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "title": "HTL Girls Community Kickoff Meetup",
+    "description": "Welcome meetup for new and returning members. Agenda: intros, goals, and community roadmap.",
+    "location": "HTL Wien West, Aula",
+    "start": "2025-09-05 17:00",
+    "end": "2025-09-05 19:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 2,
+    "title": "WhatsApp Onboarding Session",
+    "description": "How to join the HTL Girls WhatsApp group, community rules, and Q&A.",
+    "location": "Online (Zoom)",
+    "start": "2025-09-10 18:00",
+    "end": "2025-09-10 18:45",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 3,
+    "title": "Workshop: Arduino Basics for Beginners",
+    "description": "Hands-on intro to Arduino and sensors. Bring your laptop if possible.",
+    "location": "HTL Spengergasse, Lab 2.14",
+    "start": "2025-09-20 10:00",
+    "end": "2025-09-20 13:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 4,
+    "title": "Mentoring Circle #1",
+    "description": "Small-group mentoring with role models from industry and universities.",
+    "location": "TU Wien, Bibliothek Lounge",
+    "people": ["Role Model: Anna S.", "Mentor: Dr. K. Weber"],
+    "start": "2025-09-25 17:30",
+    "end": "2025-09-25 19:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 5,
+    "title": "Info Session: Diplomarbeitswettbewerb",
+    "description": "How to apply, evaluation criteria, prizes, and timeline.",
+    "location": "Online (Google Meet)",
+    "start": "2025-10-02 18:00",
+    "end": "2025-10-02 19:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 6,
+    "title": "Community Study Jam",
+    "description": "Bring your homework or project—coworking with peer support.",
+    "location": "Stadtbibliothek Wien, Raum 3",
+    "start": "2025-10-12 15:00",
+    "end": "2025-10-12 18:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 7,
+    "title": "Role Model Talk: Women in Cybersecurity",
+    "description": "Insights into careers, certifications, and study paths in security.",
+    "location": "FH Technikum Wien, HS B",
+    "people": ["Speaker: Mag. M. Huber"],
+    "start": "2025-10-22 17:00",
+    "end": "2025-10-22 18:30",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 8,
+    "title": "Parents Info Night: Why HTL?",
+    "description": "For parents & guardians—curriculum, career options, and support network.",
+    "location": "HTL Donaustadt, Festsaal",
+    "start": "2025-11-05 18:00",
+    "end": "2025-11-05 19:30",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 9,
+    "title": "School Visit & Mini-Workshop (HTL Spengergasse)",
+    "description": "Intro to electronics & coding; meet the HTL Girls community leads.",
+    "location": "HTL Spengergasse",
+    "start": "2025-11-15 09:00",
+    "end": "2025-11-15 12:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 10,
+    "title": "Community Networking Evening",
+    "description": "Speed networking, project pitches, and snack break.",
+    "location": "Impact Hub Vienna",
+    "start": "2025-11-28 17:30",
+    "end": "2025-11-28 20:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 11,
+    "title": "End-of-Year Community Gathering",
+    "description": "Casual get-together, reflections on 2025, and plans for 2026.",
+    "location": "MuseumsQuartier, Raum Q21",
+    "start": "2025-12-12 17:00",
+    "end": "2025-12-12 20:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 12,
+    "title": "New Year Kickoff & Goal Setting",
+    "description": "Vision board, learning goals, and project groups for the semester.",
+    "location": "Online (Zoom)",
+    "start": "2026-01-15 18:00",
+    "end": "2026-01-15 19:30",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 13,
+    "title": "Workshop: Presenting Your Diploma Project",
+    "description": "Structure, storytelling, and demo tips; short practice pitches.",
+    "location": "HTL Wien West, Medienraum",
+    "start": "2026-02-10 17:00",
+    "end": "2026-02-10 19:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 14,
+    "title": "Hackday: Build & Learn",
+    "description": "Day-long build session—teams form on-site; bring a laptop.",
+    "location": "FH Technikum Wien, Maker Lab",
+    "start": "2026-03-07 10:00",
+    "end": "2026-03-07 16:00",
+    "calendarId": "alisma"
+  },
+  {
+    "id": 15,
+    "title": "ALISMA Community Summit 2026",
+    "description": "Keynotes, project showcases, networking, and awards.",
+    "location": "Wirtschaftsagentur Wien",
+    "start": "2026-04-24",
+    "end": "2026-04-25",
+    "calendarId": "alisma"
+  }
+]
