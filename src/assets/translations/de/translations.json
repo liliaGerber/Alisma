@@ -112,6 +112,43 @@
       "aria_quote": "Mitgliedszitat",
       "aria_link": "{{label}}-Link von {{name}}"
     }
-  }
-
+  },
+  "aboutScroll": {
+    "banner": {
+      "title": "Unsere Geschichte in Kapiteln",
+      "subtitle": "Eine Scroll-Story darüber, wie ALISMA Mädchen und junge Frauen in MINT an Österreichs HTLs stärkt."
+    },
+    "chapters": {
+      "intro": {
+        "title": "Von HTL-Girls. Für HTL-Girls.",
+        "body": "ALISMA begann als HTL-Girls – eine kleine Gruppe mit einer großen Mission: vernetzen, stärken und Mädchen in der technischen Bildung sichtbar machen. Heute sind wir eine wachsende Community, die Türen öffnet, Chancen teilt und Neugier in Selbstvertrauen verwandelt."
+      },
+      "mission": {
+        "title": "Unsere Mission",
+        "body": "Wir stärken und vernetzen Mädchen und junge Frauen in MINT. Wir informieren und inspirieren – mit Role Models, Projekten und Begegnungen, die ermutigen, Klischees aufbrechen und Erfolge feiern."
+      },
+      "programs": {
+        "title": "Was wir tun",
+        "body": "Von Community-Events und dem WAFF-Schauplatz über Schulworkshops, einen Diplomarbeits-Wettbewerb bis hin zu unserer Mini-Buchreihe mit echten Frauen aus MINT – ALISMA schafft Orte, an denen Lernen auf Zugehörigkeit trifft."
+      },
+      "impact": {
+        "title": "Wirkung, die man spürt",
+        "body": "Hunderte erreichte Schüler:innen, 974 Stimmen aus 11 HTLs und viele nachhaltige Verbindungen. Wir machen Wege in die HTL – und darüber hinaus – sichtbarer und zugänglicher."
+      },
+      "together": {
+        "title": "Gemeinschaft – unsere Stärke",
+        "body": "ALISMA ist ein sicherer, lebendiger Verbund über Österreichs HTLs hinweg. Wir fördern Vielfalt, stärken emotionale Kompetenz und beziehen auch Burschen, Lehrkräfte und Partner in den konstruktiven Dialog ein."
+      },
+      "cta": {
+        "title": "Mach mit",
+        "body": "Werde Teil der ALISMA-Community: Erhalte Updates, tritt unserer WhatsApp-Gruppe bei, werde Mentor:in oder unterstütze ein Event. Deine Stimme kann Wege verändern.",
+        "buttons": {
+          "join": "Mitmachen",
+          "contact": "Kontakt"
+        }
+      }
+    }
+  },
+  "hg_title": "HTL Girls",
+  "hg_subtitle": "Von Girls für Girls"
 }

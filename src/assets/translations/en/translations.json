@@ -110,6 +110,44 @@
       "aria_quote": "Member quote",
       "aria_link": "{{label}} link for {{name}}"
     }
-  }
+  },
+  "aboutScroll": {
+    "banner": {
+      "title": "Our Story, in Chapters",
+      "subtitle": "A scroll story about how ALISMA empowers girls and young women in STEM across Austria’s HTLs."
+    },
+    "chapters": {
+      "intro": {
+        "title": "By HTL Girls. For HTL Girls.",
+        "body": "ALISMA began as HTL-Girls — a small group with a big mission: connect, empower, and make girls visible in technical education. Today we are a growing community that opens doors, shares opportunities, and turns curiosity into confidence."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "body": "We strengthen and connect girls and young women in STEM. We inform and inspire — through role models, projects, and encounters that encourage, break stereotypes, and celebrate success."
+      },
+      "programs": {
+        "title": "What We Do",
+        "body": "From community events and the WAFF showcase to workshops at schools, a diploma project competition, and our mini-book series featuring real women in STEM — ALISMA creates spaces where learning meets belonging."
+      },
+      "impact": {
+        "title": "Impact You Can Feel",
+        "body": "Hundreds of students engaged, 974 survey voices from 11 HTLs, and lasting connections formed. We make pathways into HTL — and beyond — more visible and more accessible."
+      },
+      "together": {
+        "title": "Community — Our Power",
+        "body": "ALISMA is a safe, vibrant network across Austrian HTLs. We champion diversity, support emotional competence, and invite boys, teachers, and partners into constructive dialogue."
+      },
+      "cta": {
+        "title": "Join the Movement",
+        "body": "Become part of the ALISMA community: get updates, join our WhatsApp group, mentor, or support an event. Your voice can change someone’s path.",
+        "buttons": {
+          "join": "Join Us",
+          "contact": "Contact"
+        }
+      }
+    }
+  },
+  "hg_title": "ss",
+  "hg_subtitle": "dd"
 
 }

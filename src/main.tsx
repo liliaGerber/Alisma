@@ -15,6 +15,8 @@ import OurProjectsPage from "@/ui/pages/OurProjectsPage";
 import LandingPage from "@/ui/pages/LandingPage";
 import NewsPage from "@/ui/pages/NewsPage";
 import CommunityPage from "@/ui/pages/CommunityPage";
+import HtlGirlsPage from "@/ui/pages/HtlGirlsPage";
+import HeroBoysPage from "@/ui/pages/HeroBoys";
 
 
 function App() {
@@ -42,6 +44,8 @@ function App() {
                         <Route path="/our-projects" element={<OurProjectsPage/>}></Route>
                         <Route path="/news" element={<NewsPage/>}></Route>
                         <Route path="/community" element={<CommunityPage/>}></Route>
+                        <Route path="/htlgirls" element={<HtlGirlsPage/>}></Route>
+                        <Route path="/heroboys" element={<HeroBoysPage/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </I18nextProvider>

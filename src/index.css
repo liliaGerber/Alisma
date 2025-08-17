@@ -51,6 +51,17 @@
     --secondary-200: #27642b;
     --secondary-100: #2f7032;
 
+    /* Primary HTirls  */
+    --girls-primary: #7851ff;
+    --girls-primary-600: #825ffa;
+    --girls-primary-500: #9171ff;
+    --girls-primary-400: #1b4d1f;
+    --girls-primary-300: #205825;
+    --girls-primary-200: #27642b;
+    --girls-primary-100: #2f7032;
+
+
+
 
     --radius-xs: 4px;
     --radius-sm: 6px;
@@ -130,6 +141,14 @@
 @utility text-secondary-200 { color: var(--secondary-200); }
 @utility text-secondary-100 { color: var(--secondary-100); }
 
+@utility text-girls-primary { color: var(--girls-primary); }
+@utility text-girls-primary-600 { color: var(--girls-primary-600); }
+@utility text-girls-primary-500 { color: var(--girls-primary-500); }
+@utility text-girls-primary-400 { color: var(--girls-primary-400); }
+@utility text-girls-primary-300 { color: var(--girls-primary-300); }
+@utility text-girls-primary-200 { color: var(--girls-primary-200); }
+@utility text-girls-primary-100 { color: var(--girls-primary-100); }
+
 @utility bg-primary { background-color: var(--primary); }
 @utility bg-primary-100 { background-color: var(--primary-600); }
 @utility bg-primary-200 { background-color: var(--primary-500); }
@@ -153,6 +172,14 @@
 @utility bg-secondary-300 { background-color: var(--secondary-300); }
 @utility bg-secondary-200 { background-color: var(--secondary-200); }
 @utility bg-secondary-100 { background-color: var(--secondary-100); }
+
+@utility bg-girls-primary { background-color: var(--girls-primary); }
+@utility bg-girls-primary-600 { background-color: var(--girls-primary-600); }
+@utility bg-girls-primary-500 { background-color: var(--girls-primary-500); }
+@utility bg-girls-primary-400 { background-color: var(--girls-primary-400); }
+@utility bg-girls-primary-300 { background-color: var(--girls-primary-300); }
+@utility bg-girls-primary-200 { background-color: var(--girls-primary-200); }
+@utility bg-girls-primary-100 { background-color: var(--girls-primary-100); }
 
 /* For shadcn components */
 @utility text-primary-foreground { color: var(--secondary); }

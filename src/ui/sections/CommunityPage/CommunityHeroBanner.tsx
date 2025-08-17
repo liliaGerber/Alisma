@@ -39,7 +39,7 @@ export default function CommunityHeroBanner({
                         loading={idx === 0 ? "eager" : "lazy"}
                     />
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
-                    <figcaption className="absolute bottom-70 left-0 right-0 p-6 md:p-10">
+                    <figcaption className="absolute bottom-30 lg:bottom-70 left-0 right-0 p-6 md:p-10">
                         <div className="max-w-3xl drop-shadow">
                             <h1 className="text-2xl md:text-4xl text-primary font-extrabold tracking-tight">
                                 {s.title}
@@ -71,7 +71,7 @@ export default function CommunityHeroBanner({
                 className="w-screen max-h-[115vh] overflow-hidden"
                 itemsCss="min-w-screen"
             />
-            <BottomWave />
+            <BottomWave className={"text-primary max-h-17 lg:max-h-30 absolute bottom-[59px] lg:bottom-0 "} />
         </div>
     )
 }

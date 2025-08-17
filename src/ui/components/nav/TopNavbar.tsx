@@ -40,8 +40,8 @@ export default function TopNavbar() {
         {
             section: "projects",
             links: [
-                {name: "htl-girls", to: "/htl-girls"},
-                {name: "htl-boys", to: "/htl-boys"},
+                {name: "htl-girls", to: "/htlgirls"},
+                {name: "htl-boys", to: "/heroboys"},
                 {name: "events", to: "/event"},
             ],
         },
