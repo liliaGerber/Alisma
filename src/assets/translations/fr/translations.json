@@ -35,7 +35,8 @@
       "contact": "Contact",
       "faq": "FAQ",
       "htl-girls": "HTL Girls",
-      "htl-boys": "HTL Boys",
+      "htl-boys": "Modern Men",
+      "empowering": "EmpowerIng",
       "events": "Événements"
     }
   },
@@ -58,7 +59,19 @@
   },
   "projects": {
     "title": "Nos projets",
-    "text": "ALISMA réunit de jeunes femmes dans les STEM – lors d’événements communautaires comme le WAFF, à travers des ateliers inspirants et grâce à notre propre concours de projets de diplôme. Nos mini-livres éveillent la curiosité pour la technologie dès le plus jeune âge et brisent les stéréotypes. Avec des campagnes, des projets scolaires et des modèles inspirants, nous créons visibilité, opportunités et un réseau solide."
+    "text": "ALISMA réunit de jeunes femmes dans les STEM – lors d’événements communautaires comme le WAFF, à travers des ateliers inspirants et grâce à notre propre concours de projets de diplôme. Nos mini-livres éveillent la curiosité pour la technologie dès le plus jeune âge et brisent les stéréotypes. Avec des campagnes, des projets scolaires et des modèles inspirants, nous créons visibilité, opportunités et un réseau solide.",
+    "htlgirls": {
+      "title": "Communauté HTL Girls",
+      "text": "La communauté HTL Girls relie les étudiantes des écoles techniques autrichiennes, favorise leur visibilité et crée des espaces d’échange, d’autonomisation et de projets communs."
+    },
+    "modernmen": {
+      "title": "Modern Men",
+      "text": "Le projet Modern Men accompagne les jeunes hommes grâce à la sensibilisation, des ateliers et des formations axés sur la compétence émotionnelle et l’égalité."
+    },
+    "empowering": {
+      "title": "EmpowerING – Obtiens ton titre",
+      "text": "EmpowerING met en lumière les diplômées des filières techniques et renforce leur reconnaissance. Avec cette initiative, nous célébrons et inspirons les femmes dans le domaine de l’ingénierie."
+    }
   },
   "mission": {
     "titel": "Notre mission",
@@ -147,84 +160,69 @@
       }
     }
   },
-  "hg_title": "ss",
-  "hg_subtitle": "dd",
-  "htlgirls": {
-    "projectPage": {
-      "hero": {
-        "title": "Communauté HTL Girls – Plus fortes ensemble",
-        "text": "La communauté HTL Girls est un espace créé par des élèves pour des élèves. Nous nous connectons via un groupe WhatsApp commun, échangeons nos expériences et invitons à des événements communautaires exclusifs."
-      },
+  "htlGirls": {
+    "hero": {
+      "title": "La Communauté HTL",
+      "body": "La Communauté HTL est un programme créé par des élèves pour des élèves. Nous connectons, soutenons et renforçons les filles dans les écoles techniques – tout en montrant aux plus jeunes enfants et aux garçons à quel point la technologie peut être diversifiée.",
+      "button": "Rejoindre la communauté",
+      "imageAlt": "Élèves HTL dans des ateliers et des projets"
+    },
+    "chapters": {
       "why": {
-        "sectionTitle": "Pourquoi HTL ? Pourquoi une communauté ?",
-        "lead": "Dans les HTL, les filles sont souvent en minorité. Les modèles visibles manquent, les attentes sont stéréotypées – et parfois on se sent simplement 'différente'.",
-        "points": {
-          "notAlone": "Nous montrons : tu n’es pas seule.",
-          "exchange": "Nous créons un espace pour l’échange et la motivation mutuelle.",
-          "visibility": "Nous donnons de la visibilité aux filles qui aiment la technologie."
-        },
-        "goal": "L’objectif est que chaque élève ressente : elle fait partie d’un mouvement plus large – et que ses idées et ses talents comptent."
+        "title": "Pourquoi une communauté ? – Pourquoi nous en avons besoin",
+        "body": "Les femmes sont encore sous-représentées dans les écoles et carrières techniques. Beaucoup se sentent seules ou invisibles. Notre communauté brise les stéréotypes, crée un espace d’échange et rend visibles les réussites féminines."
       },
-      "whatsapp": {
-        "sectionTitle": "Communauté WhatsApp",
-        "text": "Le cœur de notre communauté est le groupe WhatsApp. Ici, tu es toujours connectée avec d’autres élèves HTL.",
-        "bullets": {
-          "questions": "Poser des questions sur l’école, la technologie et les projets",
-          "tips": "Partager des conseils pour les projets de diplôme, les stages et les candidatures",
-          "peers": "Trouver des pairs qui partagent ton enthousiasme"
-        },
-        "cta": "Rejoindre la communauté WhatsApp",
-        "aria": {
-          "cta": "Accéder à la communauté WhatsApp des HTL Girls"
-        }
+      "offers": {
+        "title": "Ce que nous faisons – Nos offres",
+        "intro": "La communauté repose sur de nombreux piliers :",
+        "list": [
+          "Événements communautaires : réseautage et échanges entre élèves HTL",
+          "Événement WAFF : une scène pour les modèles, les entreprises et les projets de diplôme",
+          "Concours de projets de diplôme : mettre en valeur des projets innovants",
+          "Ateliers scolaires et soirées pour parents : sensibilisation et enthousiasme pour les HTL",
+          "Mini-livres : faire découvrir la technologie de manière ludique aux enfants de 3 à 10 ans"
+        ],
+        "button": "Découvrir nos projets"
       },
-      "exchange": {
-        "sectionTitle": "Échange & soutien",
-        "text": "Nous croyons à la force du soutien mutuel. Dans la communauté naissent des amitiés, des groupes d’étude et des idées créatives. Chaque voix compte – de la première année jusqu’au diplôme.",
-        "values": {
-          "respect": "Respectueux",
-          "helpful": "Serviable",
-          "inclusive": "Inclusif",
-          "practical": "Pratique"
-        }
+      "impact": {
+        "title": "Bilan – Ce que nous avons déjà accompli",
+        "body": "Du premier événement « Glow & Grow » avec 50 élèves à l’enquête avec près de 1000 participants : nous avons montré que le réseautage fonctionne. Nos résultats ont même été présentés au niveau national lors de réunions de directeurs."
       },
-      "events": {
-        "sectionTitle": "Événements & invitations",
-        "text": "En tant que membre, tu reçois des invitations directes à des rencontres et événements communautaires – avec des thèmes qui vous concernent vraiment.",
-        "bullets": {
-          "roleModels": "Échanges avec des modèles et des mentors",
-          "networking": "Mise en réseau entre élèves",
-          "workshops": "Ateliers et sessions sur des thèmes actuels"
-        },
-        "cta": "Voir les prochains événements",
-        "aria": {
-          "cta": "Aller aux prochains événements communautaires"
-        }
+      "voices": {
+        "title": "Voix de la communauté",
+        "quotes": [
+          "« Grâce à la communauté, j’ai trouvé de vraies amies et des modèles. »",
+          "« Enfin, un lieu où nous pouvons parler de nos expériences à la HTL. »"
+        ]
+      },
+      "vision": {
+        "title": "Notre vision – Par les HTL Girls pour les HTL Girls",
+        "intro": "À long terme, nous voulons construire une communauté forte et durable :",
+        "list": [
+          "Plus de filles dans les HTL",
+          "Rendre les modèles féminins plus visibles",
+          "Des représentantes pour les filles dans chaque HTL",
+          "Établir la diversité comme une force dans le domaine technique"
+        ],
+        "button": "À propos de nous"
       },
       "join": {
-        "sectionTitle": "Fais-en partie",
-        "text": "Rejoins-nous et découvre la force de la communauté. Que ce soit pour l’échange quotidien, l’inspiration ou la prochaine invitation à un événement – tu es la bienvenue dans la communauté HTL Girls.",
-        "primaryCta": "Devenir membre",
-        "secondaryCta": "Rejoindre la communauté WhatsApp",
-        "aria": {
-          "primaryCta": "Devenir membre – commencer l’onboarding",
-          "secondaryCta": "Rejoindre la communauté WhatsApp des HTL Girls"
-        }
+        "title": "Participer – Ta place dans la communauté",
+        "body": "Que ce soit comme élève, modèle, entreprise ou soutien – tu peux faire partie du mouvement. Ensemble, nous changeons la manière dont les filles vivent la technologie.",
+        "buttons": ["Participer maintenant", "S’abonner à la newsletter"]
       },
-      "nav": {
-        "toHero": "Intro",
-        "toWhy": "Pourquoi une communauté ?",
-        "toWhatsapp": "WhatsApp",
-        "toExchange": "Échange",
-        "toEvents": "Événements",
-        "toJoin": "Rejoindre"
+      "partners": {
+        "title": "Partenaires & soutiens",
+        "body": "Pour rendre la communauté possible, nous travaillons avec des partenaires comme la Fondation MINTality et des entreprises engagées."
       },
-      "seo": {
-        "title": "Communauté HTL Girls – Projets & échanges",
-        "description": "La communauté HTL Girls connecte les élèves via WhatsApp, favorise l’échange et invite à des événements. Rejoins-nous dès maintenant et devenons plus fortes ensemble."
+      "contact": {
+        "title": "Contact & Infos",
+        "body": "Tu as des questions ou veux en savoir plus ? Nous serons ravies d’avoir de tes nouvelles.",
+        "button": "Nous contacter"
       }
     }
   }
-}
 
+
+}
 

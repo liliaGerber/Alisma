@@ -1,5 +1,5 @@
 import {TopWave, BottomWave} from "@/ui/components/generics/Waves";
-import WaveHeroImage from "@/assets/img/WaveHeroImage.png"
+import WaveHeroImage from "@/assets/img/abstract_hero.png"
 import {useTranslation} from "react-i18next";
 
 

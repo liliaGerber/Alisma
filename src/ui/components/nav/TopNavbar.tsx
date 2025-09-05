@@ -41,7 +41,9 @@ export default function TopNavbar() {
             section: "projects",
             links: [
                 {name: "htl-girls", to: "/htlgirls"},
-                {name: "htl-boys", to: "/heroboys"},
+                {name: "htl-boys", to: "/modernmen"},
+                {name: "empowering", to: "/empowering"},
+                {name: "events", to: "/event"},
                 {name: "events", to: "/events"},
             ],
         },
@@ -56,7 +58,7 @@ export default function TopNavbar() {
             {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar}/>}
 
             <nav
-                className={`fixed top-0 left-0 w-full z-[999] transition-all duration-300 bg-primary flex items-center justify-center ${
+                className={`fixed top-0 left-0 w-full z-[999] transition-all  duration-300 bg-primary flex items-center justify-center ${
                     scrollY > 100
                         ? " h-[100px] lg:h-[60px]"
                         : "h-[120px] lg:h-[80px] shadow-sm "

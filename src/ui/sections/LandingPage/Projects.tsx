@@ -4,10 +4,11 @@ import ProjectsList from '@/assets/data/projects.json'
 import {useTranslation} from "react-i18next";
 import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
 import React from "react";
-
+import {useNavigate } from "react-router-dom"
 
 export default function Projects() {
     const {t} = useTranslation()
+    const navigate = useNavigate()
     return (
         <section id="projects-section" className="w-full h-full overflow-hidden mt-20 p-0 relative justify-center">
             <div className="text-center max-[860px]:text-center pt-[4rem] mt-0 h-full bg-primary pb-15 max-w-[80vw] mx-auto">
@@ -18,16 +19,15 @@ export default function Projects() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center max-w-[80vw] mx-auto mt-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 text-center items-center max-w-[80vw] mx-auto mt-8">
                     {
                         ProjectsList.map((proj, i) => (
                     <ProjectBox
                         key={i}
                         img={proj.imgUrl}
-                        title={proj.title}
-                        text={proj.text}
-                        action={() => alert('clicked')}
-                    />
+                        titleKey={proj.title}
+                        textKey={proj.text}
+                        action={() => navigate(proj.link)}                    />
                     ))}
                 </div>
             </div>

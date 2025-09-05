@@ -3,29 +3,11 @@ import ChapterBlock from "@/ui/components/generics/ChapterBlock";
 import React from "react";
 import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter";
-import ImpactNumbers from "@/ui/components/ImpactNumbers";
-import QuotesSection, {QuoteRef} from "@/ui/sections/QuoteSection";
-import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
+import EmpoweringHeroBanner from "@/ui/sections/EmpoweringHeroBanner";
 
-export default function HtlGirlsPage() {
+export default function EmpoweringPage() {
     const {t} = useTranslation();
-    const quotes: QuoteRef[] = [
-        {
-            textKey: "htlGirlsQuotes.items.0.text",
-            authorKey: "htlGirlsQuotes.items.0.author",
-            metaKey: "htlGirlsQuotes.items.0.meta",
-        },
-        {
-            textKey: "htlGirlsQuotes.items.1.text",
-            authorKey: "htlGirlsQuotes.items.1.author",
-            metaKey: "htlGirlsQuotes.items.1.meta",
-        },
-        {
-            textKey: "htlGirlsQuotes.items.2.text",
-            authorKey: "htlGirlsQuotes.items.2.author",
-            metaKey: "htlGirlsQuotes.items.2.meta",
-        },
-    ];
+
     const CHAPTERS: Chapter[] = [
         {
             id: "why",
@@ -46,6 +28,11 @@ export default function HtlGirlsPage() {
             id: "impact",
             title: t("htlgirls.chapters.impact.title"),
             body: t("htlgirls.chapters.impact.body"),
+        },
+        {
+            id: "voices",
+            title: t("htlgirls.chapters.voices.title"),
+            body: t("htlgirls.chapters.voices.body"),
         },
         {
             id: "vision",
@@ -73,6 +60,11 @@ export default function HtlGirlsPage() {
             ),
         },
         {
+            id: "partners",
+            title: t("htlgirls.chapters.partners.title"),
+            body: t("htlgirls.chapters.partners.body"),
+        },
+        {
             id: "contact",
             title: t("htlgirls.chapters.contact.title"),
             body: t("htlgirls.chapters.contact.body"),
@@ -84,53 +76,9 @@ export default function HtlGirlsPage() {
         },
     ];    return (
         <>
-        <HtlGirlsBanner/>
+            <EmpoweringHeroBanner/>
             {CHAPTERS.map((c, i) => (
-                <React.Fragment key={c.id}>
-                    {c.id !== "vision" && (
-                        <ChapterBlock
-                            chapter={c}
-                            index={i}
-                            primary="bg-primary text-htlgirls"
-                            secondary="bg-htlgirls text-primary"
-                        />
-                    )}
-                    {c.id === "impact" && (
-                        <>
-                            <ImpactNumbers
-                                title="Wirkung in Zahlen"
-                                subtitle="Kurz und knackig."
-                                stats={[
-                                    { label: "Teilnehmerinnen", value: 50, suffix: "+" },
-                                    { label: "Umfrageteilnahmen", value: 1000, suffix: "+" },
-                                    { label: "Schulen erreicht", value: 25, suffix: "+" },
-                                    { label: "Diplomarbeiten", value: 18, suffix: "+" },
-                                ]}
-                                className="bg-htlgirls text-primary"
-                            />
-                        </>
-
-
-                    )}
-                    {c.id === "vision" && (
-                        <>
-                        <ChapterBlock
-                            chapter={c}
-                            index={i+1}
-                            primary="bg-primary text-htlgirls"
-                            secondary="bg-htlgirls text-primary"
-                        />
-                        <QuotesSection
-                            titleKey="htlGirlsQuotes.title"
-                            subtitleKey="htlGirlsQuotes.subtitle"
-                            quotes={quotes}
-                            containerTheme="bg-htlgirls text-primary"
-                            cardTheme="bg-primary ring-1 ring-primary text-htlgirls"
-                        />
-                        </>
-
-                    )}
-                </React.Fragment>
+                <ChapterBlock key={c.id} chapter={c} index={i} primary={"bg-primary text-htlgirls"} secondary={"bg-htlgirls text-primary"}/>
             ))}
         </>
     )

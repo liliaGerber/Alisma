@@ -1,4 +1,3 @@
-import '@schedule-x/theme-shadcn/dist/index.css';
 import ReactDOM from "react-dom/client";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './index.css'
@@ -17,6 +16,8 @@ import LandingPage from "@/ui/pages/LandingPage";
 import NewsPage from "@/ui/pages/NewsPage";
 import CommunityPage from "@/ui/pages/CommunityPage";
 import HtlGirlsPage from "@/ui/pages/HtlGirlsPage";
+import ModernMenPage from "./ui/pages/ModernMenPage";
+import EmpoweringPage from "@/ui/pages/EmpoweringPage";
 import HeroBoysPage from "@/ui/pages/HeroBoys";
 import EventsPage from "@/ui/pages/EventCalendar";
 import EventCalendar from "@/ui/pages/EventCalendar";
@@ -48,8 +49,9 @@ function App() {
                         <Route path="/news" element={<NewsPage/>}></Route>
                         <Route path="/community" element={<CommunityPage/>}></Route>
                         <Route path="/htlgirls" element={<HtlGirlsPage/>}></Route>
-                        <Route path="/heroboys" element={<HeroBoysPage/>}></Route>
                         <Route path="/events" element={<EventCalendar/>}></Route>
+                        <Route path="/modernmen" element={<ModernMenPage/>}></Route>
+                        <Route path="/empowering" element={<EmpoweringPage/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </I18nextProvider>

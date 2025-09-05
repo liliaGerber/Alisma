@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import ScrollToButton from "@/ui/components/generics/ScrollToButton";
 import {useTranslation} from "react-i18next";
+import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
 
 const Section = ({
                      id,
@@ -43,6 +44,9 @@ const Section = ({
                     {buttons && <div className="flex gap-4 justify-center mt-4 flex-wrap">{buttons}</div>}
                         {next && <ScrollToButton targetId={next} isWhite={darkMode} className={"items-center mx-auto w-12 h-12"}/>}
                 </div>
+                <SectionSeparatorWave
+                    className="absolute text-secondary inset-x-0 bottom-[-1px]  scale-x-[-1] z-0"
+                />
             </motion.section>
             <motion.section
                 id={id}
@@ -74,6 +78,9 @@ const Section = ({
                                         transition={{delay: 0.4}}>
                     <div className={"flex flex-row gap-x-5"}>{buttons}</div>
                 </motion.div>}
+                <SectionSeparatorWave
+                    className="absolute text-secondary inset-x-0 bottom-[-1px]  scale-x-[-1] z-0"
+                />
             </motion.section>
         </>
     );

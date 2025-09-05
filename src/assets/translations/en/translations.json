@@ -35,7 +35,8 @@
       "contact": "Contact",
       "faq": "FAQ",
       "htl-girls": "HTL Girls",
-      "htl-boys": "HTL Boys",
+      "htl-boys": "Modern Men",
+      "empowering": "EmpowerIng",
       "events": "Events"
     }
   },
@@ -58,7 +59,19 @@
   },
   "projects": {
     "title": "Our Projects",
-    "text": "ALISMA brings together young women in STEM – at community events like the WAFF event, with inspiring workshops, and through our own diploma project competition. Our mini-books spark curiosity for technology among the youngest and break stereotypes. Through campaigns, school projects, and role models, we create visibility, opportunities, and a strong network."
+    "text": "ALISMA brings together young women in STEM – at community events like the WAFF event, with inspiring workshops, and through our own diploma project competition. Our mini-books spark curiosity for technology among the youngest and break stereotypes. Through campaigns, school projects, and role models, we create visibility, opportunities, and a strong network.",
+    "htlgirls": {
+      "title": "HTL Girls Community",
+      "text": "The HTL Girls Community connects female students at Austrian HTLs, promotes visibility and creates spaces for exchange, empowerment and joint projects."
+    },
+    "modernmen": {
+      "title": "Modern Men",
+      "text": "The Modern Men project promotes young men through awareness, workshops and training focused on emotional competence and equality."
+    },
+    "empowering": {
+      "title": "EmpowerING – Get your title",
+      "text": "EmpowerING makes female graduates of technical studies visible and strengthens their recognition. With this initiative we celebrate and inspire women in engineering."
+    }
   },
   "mission": {
     "titel": "Our Mission",
@@ -147,81 +160,66 @@
       }
     }
   },
-  "hg_title": "ss",
-  "hg_subtitle": "dd",
-  "htlgirls": {
-    "projectPage": {
-      "hero": {
-        "title": "HTL Girls Community – Stronger Together",
-        "text": "The HTL Girls Community is a space by students for students. We connect through a shared WhatsApp group, exchange experiences, and invite members to exclusive community events."
-      },
+
+  "htlGirls": {
+    "hero": {
+      "title": "The HTL Community",
+      "body": "The HTL Community is a program by students for students. We connect, support, and empower girls at technical schools – while also showing younger children and boys how diverse technology can be.",
+      "button": "Join the Community",
+      "imageAlt": "HTL students in workshops and project settings"
+    },
+    "chapters": {
       "why": {
-        "sectionTitle": "Why HTL? Why Community?",
-        "lead": "At HTLs, girls are often in the minority. Visible role models are missing, expectations are stereotypical – and sometimes you just feel 'different'.",
-        "points": {
-          "notAlone": "We show: you are not alone.",
-          "exchange": "We provide space for exchange and mutual motivation.",
-          "visibility": "We create visibility for girls who love technology."
-        },
-        "goal": "The goal is that every student experiences: she is part of a bigger movement – and her ideas and talents matter."
+        "title": "Why a Community? – Why we need it",
+        "body": "Women are still underrepresented in technical schools and careers. Many feel alone or invisible. Our community breaks stereotypes, creates space for exchange, and makes female achievements visible."
       },
-      "whatsapp": {
-        "sectionTitle": "WhatsApp Community",
-        "text": "The heart of our community is the WhatsApp group. Here you are always connected with other HTL students.",
-        "bullets": {
-          "questions": "Ask questions about school, technology, and projects",
-          "tips": "Share tips for diploma projects, internships, and applications",
-          "peers": "Find peers who share your enthusiasm"
-        },
-        "cta": "Join WhatsApp Community",
-        "aria": {
-          "cta": "Switch to the HTL Girls WhatsApp community"
-        }
+      "offers": {
+        "title": "What we do – Our offers",
+        "intro": "The community is built on many elements:",
+        "list": [
+          "Community events: Networking & exchange between HTL students",
+          "WAFF event: A stage for role models, companies & diploma projects",
+          "Diploma project competition: Showcasing innovative projects",
+          "School workshops & parent evenings: Raising awareness & enthusiasm for HTLs",
+          "Mini-books: Bringing technology to life playfully for children aged 3–10"
+        ],
+        "button": "Discover our projects"
       },
-      "exchange": {
-        "sectionTitle": "Exchange & Support",
-        "text": "We believe in the power of mutual support. In the community, friendships, study groups, and creative ideas emerge. Every voice counts – from the first year to graduation.",
-        "values": {
-          "respect": "Respectful",
-          "helpful": "Helpful",
-          "inclusive": "Inclusive",
-          "practical": "Practical"
-        }
+      "impact": {
+        "title": "Review – What we have already achieved",
+        "body": "From the first 'Glow & Grow' event with 50 students to the survey with almost 1000 participants: we have shown that networking works. Our results were even presented nationwide at principals’ meetings."
       },
-      "events": {
-        "sectionTitle": "Events & Invitations",
-        "text": "As a member, you receive direct invitations to community meetups and events – with topics that really matter to you.",
-        "bullets": {
-          "roleModels": "Exchange with role models and mentors",
-          "networking": "Networking among students",
-          "workshops": "Workshops and sessions on current topics"
-        },
-        "cta": "See upcoming events",
-        "aria": {
-          "cta": "Go to the next community events"
-        }
+      "voices": {
+        "title": "Voices from the Community",
+        "quotes": [
+          "“Through the community I found real friends and role models.”",
+          "“Finally, there is a place where we can talk about our experiences at HTL.”"
+        ]
+      },
+      "vision": {
+        "title": "Our Vision – From HTL Girls for HTL Girls",
+        "intro": "In the long term, we want to build a strong, sustainable community:",
+        "list": [
+          "More girls in HTLs",
+          "Make female role models more visible",
+          "Appoint community representatives for girls in every HTL",
+          "Establish diversity as a strength in the technical field"
+        ],
+        "button": "About us"
       },
       "join": {
-        "sectionTitle": "Become part of it",
-        "text": "Join us and experience how powerful community can be. Whether for everyday exchange, inspiration, or the next event invitation – you are welcome in the HTL Girls Community.",
-        "primaryCta": "Become a member",
-        "secondaryCta": "Join WhatsApp Community",
-        "aria": {
-          "primaryCta": "Become a member – start onboarding",
-          "secondaryCta": "Join HTL Girls WhatsApp community"
-        }
+        "title": "Get involved – Your place in the Community",
+        "body": "Whether as a student, role model, company, or supporter – you can be part of the movement. Together we are changing how girls experience technology.",
+        "buttons": ["Join now", "Subscribe to newsletter"]
       },
-      "nav": {
-        "toHero": "Intro",
-        "toWhy": "Why Community?",
-        "toWhatsapp": "WhatsApp",
-        "toExchange": "Exchange",
-        "toEvents": "Events",
-        "toJoin": "Join"
+      "partners": {
+        "title": "Partners & Supporters",
+        "body": "To make the community possible, we work with partners such as the MINTality Foundation and committed companies."
       },
-      "seo": {
-        "title": "HTL Girls Community – Projects & Exchange",
-        "description": "The HTL Girls Community connects students via WhatsApp, fosters exchange, and invites to events. Join now and grow stronger together."
+      "contact": {
+        "title": "Contact & Information",
+        "body": "Do you have questions or want to learn more? We look forward to hearing from you.",
+        "button": "Get in touch"
       }
     }
   }

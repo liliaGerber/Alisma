@@ -1,26 +1,20 @@
 [
   {
-    "title": "Project1",
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
-    "link": "#",
-    "imgUrl": "/projects/cat.png"
+    "title": "projects.htlgirls.title",
+    "text": "projects.htlgirls.text",
+    "link": "/htlgirls",
+    "imgUrl": "/projects/htlgirls/thumbnail.png"
   },
   {
-    "title": "Project2",
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
-    "link": "#",
-    "imgUrl": "/projects/dog.png"
+    "title": "projects.modernmen.title",
+    "text": "projects.modernmen.text",
+    "link": "/modernmen",
+    "imgUrl": "/projects/modernmen/thumbnail.png"
   },
   {
-    "title": "Project3",
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
-    "link": "#",
-    "imgUrl": "/projects/flower.png"
-  },
-  {
-    "title": "Project4",
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
-    "link": "#",
-    "imgUrl": "/projects/city.png"
+    "title": "projects.empowering.title",
+    "text": "projects.empowering.text",
+    "link": "/empowering",
+    "imgUrl": "/projects/empowering/thumbnail.png"
   }
 ]

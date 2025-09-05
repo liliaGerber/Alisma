@@ -35,7 +35,8 @@
       "contact": "Kontakt",
       "faq": "FAQ",
       "htl-girls": "HTL Girls",
-      "htl-boys": "HTL Boys",
+      "htl-boys": "Modern Men",
+      "empowering": "EmpowerIng",
       "events": "Events"
     }
   },
@@ -58,7 +59,19 @@
   },
   "projects": {
     "title": "Unsere Projekte",
-    "text": "ALISMA bringt junge Frauen in MINT zusammen – bei Community-Events wie dem WAFF-Event, mit inspirierenden Workshops und einem eigenen Diplomarbeitswettbewerb. Unsere Mini-Bücher wecken schon bei den Kleinsten Neugier für Technik und brechen Klischees auf. Mit Kampagnen, Schulprojekten und Role Models schaffen wir Sichtbarkeit, Chancen und ein starkes Netzwerk."
+    "text": "ALISMA bringt junge Frauen in MINT zusammen – bei Community-Events wie dem WAFF-Event, mit inspirierenden Workshops und einem eigenen Diplomarbeitswettbewerb. Unsere Mini-Bücher wecken schon bei den Kleinsten Neugier für Technik und brechen Klischees auf. Mit Kampagnen, Schulprojekten und Role Models schaffen wir Sichtbarkeit, Chancen und ein starkes Netzwerk.",
+    "htlgirls": {
+      "title": "HTL Girls Community",
+      "text": "Die HTL Girls Community vernetzt Schülerinnen österreichischer HTLs, fördert ihre Sichtbarkeit und schafft Räume für Austausch, Empowerment und gemeinsame Projekte."
+    },
+    "modernmen": {
+      "title": "Modern Men",
+      "text": "Das Projekt Modern Men setzt auf die Förderung junger Männer durch Aufklärung, Workshops und Trainings rund um emotionale Kompetenz und Gleichstellung."
+    },
+    "empowering": {
+      "title": "EmpowerING – Get your title",
+      "text": "EmpowerING macht Absolventinnen technischer Studiengänge sichtbar und stärkt ihre Anerkennung. Mit dieser Initiative feiern und inspirieren wir Frauen in Ingenieurberufen."
+    }
   },
   "mission": {
     "titel": "Unsere Mission",
@@ -149,87 +162,177 @@
       }
     }
   },
-  "hg_title": "HTL Girls",
-  "hg_subtitle": "Von Girls für Girls",
   "htlgirls": {
-    "projectPage": {
-      "hero": {
-        "title": "HTL Girls Community – Gemeinsam stark",
-        "text": "Die HTL Girls Community ist ein Raum von Schülerinnen für Schülerinnen. Hier vernetzen wir uns über eine gemeinsame WhatsApp-Gruppe, tauschen Erfahrungen aus und laden zu exklusiven Community-Events ein."
-      },
+    "hero": {
+      "title": "Die HTL Community",
+      "body": "Die HTL Community ist ein Programm von Schülerinnen für Schülerinnen. Wir vernetzen, fördern und stärken Mädchen an technischen Schulen – und zeigen gleichzeitig jüngeren Kindern und Burschen, wie vielfältig Technik sein kann.",
+      "button": "Teil der Community werden",
+      "imageAlt": "HTL-Schülerinnen in Werkstätten und Projektszenen"
+    },
+    "chapters": {
       "why": {
-        "sectionTitle": "Warum HTL? Warum Community?",
-        "lead": "An HTLs sind Mädchen oft in der Minderheit. Es fehlen sichtbare Vorbilder, Erwartungen sind stereotyp – und manchmal fühlt man sich einfach „anders“.",
-        "points": {
-          "notAlone": "Wir zeigen: Du bist nicht allein.",
-          "exchange": "Wir geben Raum für Austausch und gegenseitige Motivation.",
-          "visibility": "Wir schaffen Sichtbarkeit für Mädchen, die Technik lieben."
-        },
-        "goal": "Ziel ist, dass jede Schülerin erlebt: Sie ist Teil einer größeren Bewegung – und ihre Ideen und Talente sind wichtig."
+        "title": "Warum eine Community?",
+        "body": "Frauen sind in technischen Schulen und Berufen noch immer in der Minderheit. Viele fühlen sich allein oder unsichtbar. Unsere Community bricht mit Klischees, gibt Raum für Austausch und macht weibliche Leistungen sichtbar."
       },
-      "whatsapp": {
-        "sectionTitle": "WhatsApp-Community",
-        "text": "Das Herzstück unserer Community ist die WhatsApp-Gruppe. Hier bist du jederzeit mit anderen HTL-Schülerinnen verbunden.",
-        "bullets": {
-          "questions": "Stelle Fragen zu Schule, Technik und Projekten",
-          "tips": "Teile Tipps für Diplomarbeiten, Praktika und Bewerbungen",
-          "peers": "Finde Gleichgesinnte, die deine Begeisterung teilen"
-        },
-        "cta": "WhatsApp-Community beitreten",
-        "aria": {
-          "cta": "Zur WhatsApp-Community der HTL Girls wechseln"
-        }
+      "offers": {
+        "title": "Unsere Angebote",
+        "body": "Die Community lebt von vielen Bausteinen: Community-Events, ein WAFF-Event als Bühne für Role Models und Diplomarbeiten, ein Diplomarbeitswettbewerb, Schulworkshops & Elternabende sowie Mini-Bücher, die Technik für Kinder spielerisch erlebbar machen.",
+        "button": "Unsere Projekte entdecken"
       },
-      "exchange": {
-        "sectionTitle": "Austausch & Unterstützung",
-        "text": "Wir glauben an die Kraft gegenseitiger Unterstützung. In der Community entstehen Freundschaften, Lerngruppen und kreative Ideen. Jede Stimme zählt – vom ersten Jahrgang bis zur Matura.",
-        "values": {
-          "respect": "Respektvoll",
-          "helpful": "Hilfsbereit",
-          "inclusive": "Inklusiv",
-          "practical": "Praxisnah"
-        }
+      "impact": {
+        "title": "Rückblick – Was wir schon erreicht haben",
+        "body": "Vom ersten „Glow & Grow“-Event mit 50 Schülerinnen bis zur Umfrage mit fast 1000 Teilnehmerinnen: Vernetzung wirkt. Unsere Ergebnisse wurden österreichweit in Direktorinnensitzungen vorgestellt."
       },
-      "events": {
-        "sectionTitle": "Events & Einladungen",
-        "text": "Als Mitglied erhältst du direkte Einladungen zu Community-Treffen und Events – mit Themen, die euch wirklich betreffen.",
-        "bullets": {
-          "roleModels": "Austausch mit Role Models und Mentorinnen",
-          "networking": "Networking unter Schülerinnen",
-          "workshops": "Workshops und Sessions zu aktuellen Themen"
-        },
-        "cta": "Nächste Events ansehen",
-        "aria": {
-          "cta": "Zu den nächsten Community-Events wechseln"
-        }
+      "vision": {
+        "title": "Unsere Vision",
+        "body": "Wir wollen eine starke, nachhaltige Community: mehr Mädchen an HTLs, sichtbare weibliche Role Models, Mädchenbeauftragte an allen HTLs und gelebte Diversität in der Technik.",
+        "button": "Über uns"
       },
       "join": {
-        "sectionTitle": "Werde Teil davon",
-        "text": "Mach mit und erlebe, wie stark Gemeinschaft sein kann. Ob für Austausch im Alltag, Inspiration oder die nächste Event-Einladung – in der HTL Girls Community bist du willkommen.",
-        "primaryCta": "Mitglied werden",
-        "secondaryCta": "WhatsApp-Community beitreten",
-        "aria": {
-          "primaryCta": "Mitglied werden – Onboarding starten",
-          "secondaryCta": "HTL Girls WhatsApp-Community beitreten"
-        }
+        "title": "Mitmachen – Dein Platz in der Community",
+        "body": "Ob als Schülerin, Role Model, Unternehmen oder Unterstützer*in – du kannst Teil der Bewegung werden. Gemeinsam verändern wir, wie Mädchen Technik erleben.",
+        "buttonPrimary": "Jetzt mitmachen",
+        "buttonSecondary": "Newsletter abonnieren"
       },
-      "nav": {
-        "toHero": "Intro",
-        "toWhy": "Warum Community?",
-        "toWhatsapp": "WhatsApp",
-        "toExchange": "Austausch",
-        "toEvents": "Events",
-        "toJoin": "Mitmachen"
-      },
-      "seo": {
-        "title": "HTL Girls Community – Projekte & Austausch",
-        "description": "Die HTL Girls Community vernetzt Schülerinnen via WhatsApp, fördert Austausch und lädt zu Events ein. Jetzt beitreten und gemeinsam stärker werden."
+      "contact": {
+        "title": "Kontakt & Infos",
+        "body": "Du hast Fragen oder willst mehr erfahren? Wir freuen uns, von dir zu hören.",
+        "button": "Kontakt aufnehmen"
       }
     }
   },
-  "events": {
-    "title": "Alle unsere Events",
-    "placeholder": "Wähle ein Event aus, um alle Details zu sehen."
+  "htlGirlsQuotes": {
+    "title": "Stimmen aus der Community",
+    "subtitle": "Echte Erfahrungen. Echte Wirkung.",
+    "items": [
+      {
+        "text": "Ich habe durch die Community echte Freundinnen und Vorbilder gefunden.",
+        "author": "Marlene K.",
+        "meta": "HTL-Schülerin, Wien"
+      },
+      {
+        "text": "Endlich ein Ort, an dem wir offen über unsere HTL-Erfahrungen sprechen können.",
+        "author": "Lea S.",
+        "meta": "5. Jahrgang, Informatik"
+      },
+      {
+        "text": "Die Events haben mir Mut gemacht, meine Diplomarbeit zu präsentieren.",
+        "author": "Sara D.",
+        "meta": "Absolventin 2025"
+      }
+    ]
+  },
+  "modernMan": {
+    "hero": {
+      "title": "Modern Man – Stark sein ohne Maske",
+      "body": "Modern Man ist das ALISMA-Programm für Burschen an HTLs. Es stärkt emotionale Kompetenz, mentale Gesundheit und respektvolle Führung – damit junge Männer in Technik selbstbewusst, empathisch und teamfähig handeln. Es ergänzt HTL Girls und baut Brücken statt Fronten.",
+      "button": "Programm entdecken",
+      "imageAlt": "HTL-Burschen in Workshop- und Projektsituationen"
+    },
+    "chapters": {
+      "why": {
+        "title": "Warum Modern Man?",
+        "body": "In der HTL treffen Leistungsdruck, Projektdynamik und starke Rollenerwartungen aufeinander. Viele Burschen reagieren mit Rückzug oder Härte, obwohl Teamarbeit, klare Kommunikation und Resilienz heute genauso wichtig sind wie Fachwissen. Modern Man definiert Stärke neu: als Fähigkeit zur Selbststeuerung, zum respektvollen Umgang und zur Verantwortung – für sich selbst, das Team und eine faire, professionelle HTL-Kultur."
+      },
+      "goals": {
+        "title": "Ziele",
+        "body": "Modern Man verfolgt sechs ineinandergreifende Schwerpunkte: Erstens, emotionale Kompetenz – Gefühle wahrnehmen, benennen und regulieren, um fokussiert handlungsfähig zu bleiben. Zweitens, mentale Gesundheit – Stress, Schlaf und Dopamin-Habits verstehen, damit Leistung nicht auf Kosten der Gesundheit geht. Drittens, Respekt und Grenzen – klare Kommunikation, Consent und faire Konfliktlösung. Viertens, positive Männlichkeit – Leistung mit Empathie verbinden und problematische Muster hinter sich lassen. Fünftens, Allieship – echte Zusammenarbeit mit Mädchen fördern und Sexismus wirksam reduzieren. Sechstens, Leadership – Verantwortung im Projekt, in der Klasse und später im Betrieb übernehmen.",
+        "list": [
+          "Emotionale Kompetenz: Gefühle wahrnehmen, benennen, regulieren",
+          "Mentale Gesundheit: Stress, Schlaf, Fokus und gesunde Routinen",
+          "Respekt & Grenzen: Klar kommunizieren, Consent leben, Konflikte fair lösen",
+          "Positive Männlichkeit: Leistung und Empathie verbinden",
+          "Allieship: Zusammenarbeit mit Mädchen stärken, Sexismus reduzieren",
+          "Leadership: Verantwortung im Projekt, in der Klasse und im Betrieb übernehmen"
+        ]
+      },
+      "modules": {
+        "title": "Module (Inhalte)",
+        "intro": "Die Module sind praxisnah und übersetzen Haltung in Handeln. Anhand realer HTL-Situationen trainieren wir Kommunikation, Selbststeuerung und Teamfähigkeit – mit Übungen, Rollenspielen und reflektierenden Aufgaben.",
+        "list": [
+          "Ich & Gefühle – Selbstbild, Werte, Emotionsregulation, Selbstvertrauen",
+          "Stress & Mental Health – Leistungsdruck, Schlaf, Fokus, Hilfe holen",
+          "Kommunikation, Respekt & Consent – Grenzen, Zuhören, Umgang mit Sprüchen",
+          "Community & Leadership – Teamrollen, Verantwortung, Bystander-Tools",
+          "Digitales Leben – Social Media, Vergleichsdruck, Cybermobbing, digitale Grenzen",
+          "Zukunft & Arbeitswelt – Feedback, Konfliktlösung, Diversity als Vorteil",
+          "Gemeinsam stark – Gemischte Sessions mit HTL Girls (Perspektivwechsel & Teamwork)"
+        ]
+      },
+      "formats": {
+        "title": "Formate",
+        "body": "Modern Man wird schulnah und alltagspraktisch umgesetzt: Ein gemeinsamer Einstieg schafft Orientierung und senkt Barrieren. Daran schließen interaktive Workshops an, die aufeinander aufbauen. Gemischte Phasen mit HTL Girls fördern kooperatives Arbeiten und Respekt im Projektalltag. Peer-Mentoring stärkt Eigenverantwortung und Nachhaltigkeit. Ergänzende Impulse für Lehrkräfte und Eltern erleichtern die Verankerung im Schulalltag. Offene Sprechstunden und kleine Challenges unterstützen den Transfer in den Alltag.",
+        "note": "Hinweis: Es gibt aktuell keinen fixen Zeitplan.",
+        "list": [
+          "Kick-off an der Schule",
+          "Workshop-Reihe (interaktiv, übungsorientiert)",
+          "Gemischte Projektphasen (Burschen + Mädchen)",
+          "Peer-Mentoring (Schüler moderieren Teile selbst)",
+          "Sessions für Lehrkräfte und Eltern (Tools für den Alltag)",
+          "Follow-up & Community (Sprechstunden, Challenges)"
+        ]
+      },
+      "didactics": {
+        "title": "Didaktik & Haltung",
+        "body": "Wir arbeiten stärkenorientiert und ohne Zeigefinger: kurz, konkret, übungsbasiert. Inhalte entstehen aus realen Situationen, nicht aus Theorie-Folien. Der Rahmen ist sicher – Freiwilligkeit, Respekt und keine Bloßstellung. Wir sind traumasensibel und kulturell sensibel, beurteilen nicht, sondern bauen Brücken. Modern Man ist kein Therapieangebot; bei Bedarf verweisen wir klar und geordnet an Fachstellen.",
+        "list": [
+          "Stärkenorientiert, ohne Zeigefinger",
+          "Interaktiv, realitätsnah, mit Rollenspielen und Teamaufgaben",
+          "Sicherer Rahmen: Freiwilligkeit, Respekt, keine Bloßstellung",
+          "Traumasensibel & kulturell sensibel",
+          "Kein Therapieangebot – klare Verweiswege zu Fachstellen"
+        ]
+      },
+      "safeguarding": {
+        "title": "Qualität & Schutz",
+        "body": "Transparente Regeln sichern Verlässlichkeit: Wir starten mit klaren Klassenvereinbarungen, sprechen Vertraulichkeit und respektvolle Sprache explizit an und nutzen Ich-Botschaften. Für Krisenfälle bestehen definierte Eskalationspfade zur Schulpsychologie und zu externen Hilfsangeboten. Datenschutz ist verpflichtend: Feedbacks werden anonym erhoben, Bildrechte nur mit Einwilligung.",
+        "list": [
+          "Klare Klassenregeln (Vertraulichkeit, Respekt, Ich-Botschaften)",
+          "Eskalationspfade: Schulpsychologie & externe Hilfsangebote",
+          "Datenschutz (anonyme Feedbacks, Bildrechte nur mit Einwilligung)"
+        ]
+      },
+      "impact": {
+        "title": "Wirkung & Evaluation",
+        "body": "Wir messen nicht nur Wissen, sondern vor allem Haltung und Verhalten. Vorher-/Nachher-Checks, Feedback von Schülern und Lehrkräften sowie konkrete Beobachtungen im Projektalltag zeigen, ob Modern Man wirkt – am Klassenklima, an gelingender Zusammenarbeit und am Rückgang problematischer Muster.",
+        "list": [
+          "Skalen zu Emotionswissen, Stresskompetenz, respektvollem Verhalten",
+          "Rückgang von sexistischer Sprache/Cybermobbing (anonymisiert)",
+          "Besseres Klassenklima & Teamarbeit",
+          "Anzahl geschulter Peers und eigenständig moderierter Einheiten"
+        ]
+      },
+      "targetGroups": {
+        "title": "Zielgruppen",
+        "body": "Modern Man richtet sich an HTL-Burschen (13–19) und unterstützt sie mit alltagsnahen Soft Skills für Schule, Projekte und Job. Lehrkräfte und Schulen profitieren von einem stabileren Klassenklima und weniger Konflikten; Eltern und die Öffentlichkeit von einem modernen, reflektierten Männerbild. Unternehmen gewinnen Nachwuchs, der fachlich stark ist und zugleich Teamfähigkeit sowie Leadership-Potenzial mitbringt.",
+        "list": [
+          "HTL-Burschen (13–19): alltagsnahe Soft Skills für Schule, Projekte, Job",
+          "Lehrkräfte & Schulen: besseres Klassenklima, weniger Konflikte",
+          "Eltern & Öffentlichkeit: modernes Männerbild als Gewinn für alle",
+          "Unternehmen: Nachwuchs mit Teamfähigkeit und Leadership-Potenzial"
+        ]
+      },
+      "collaboration": {
+        "title": "Zusammenarbeit",
+        "body": "Modern Man ist komplementär zu HTL Girls: Wir bauen Brücken, keine Parallelwelten. Gemeinsam mit Partnern wie Schulpsychologie, MINT-Netzwerken, WAFF und Unternehmen verankern wir respektvolle Zusammenarbeit, mentale Gesundheit und positive Männlichkeit im HTL-Alltag."
+      },
+      "cta": {
+        "title": "Mitmachen",
+        "body": "Gemeinsam verändern wir, wie Burschen Technik erleben – stark, empathisch, verantwortungsvoll.",
+        "buttons": [
+          "Kontakt aufnehmen",
+          "Schule anfragen",
+          "Partner werden"
+        ]
+      },
+      "faq": {
+        "title": "FAQ",
+        "list": [
+          "Ist das Therapie? – Nein, es ist ein Lern- und Trainingsprogramm mit Verweiswegen.",
+          "Muss ich Persönliches teilen? – Nein, Teilen ist freiwillig.",
+          "Passt das zur HTL? – Ja: Soft Skills + Resilienz = bessere Projekte und weniger Konflikte."
+        ]
+      }
+    }
   }
 }
-
