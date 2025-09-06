@@ -1,5 +1,10 @@
 // React 18 / Next 14+ example (client component)
+import {useEffect} from "react";
+
 export function Newsletter() {
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     return (
         <div className="min-h-screen flex items-center justify-center bg-secondary px-4">
             <div className="w-full max-w-3xl">            <iframe width="540" height="305"

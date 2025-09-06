@@ -23,6 +23,7 @@ import EventCalendar from "@/ui/pages/EventCalendar";
 import FooterSimple from "@/ui/components/nav/FooterSimple";
 import {Newsletter} from "@/ui/pages/Newsletter";
 import NewsletterSignUpConfirmation from "@/ui/pages/NewsletterSignUpConfirmation";
+import BlogPostPage from "@/ui/pages/BlogPostPage";
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
                         <Route path="/newsletter" element={<Newsletter/>}></Route>
                         <Route path="/confirmation" element={<NewsletterSignUpConfirmation/>}></Route>
                         <Route path="/onboarding" element={<ComingSoonPage/>}></Route>
+                        <Route path="/news/:id" element={<BlogPostPage />} />
                     </Routes>
                     <FooterSimple/>
                 </BrowserRouter>

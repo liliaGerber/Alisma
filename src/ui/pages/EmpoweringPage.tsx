@@ -1,5 +1,5 @@
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
-import React from "react";
+import React, {useEffect} from "react";
 import {useTranslation} from "react-i18next";
 import EmpoweringHeroBanner from "@/ui/sections/EmpoweringHeroBanner";
 import ListBlock from "@/ui/components/generics/ListBlock";
@@ -10,7 +10,9 @@ import mainInformation from "@/assets/data/mainInformation.json"
 export default function empoweringPage() {
     const {t} = useTranslation();
     const arr = (key: string) => t(key, {returnObjects: true}) as string[];
-
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     const primary = "bg-primary text-empowering-600";
     const secondary = "bg-empowering text-primary";
     return (

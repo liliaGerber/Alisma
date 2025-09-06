@@ -1,10 +1,13 @@
 // src/ui/pages/NewsletterSignupSent.tsx
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import {useEffect} from "react";
 
 export default function NewsletterSignUpConfirmation() {
     const { t } = useTranslation();
-
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     return (
         <section
             className="bg-primary text-secondary min-h-screen w-full flex items-center justify-center px-6"

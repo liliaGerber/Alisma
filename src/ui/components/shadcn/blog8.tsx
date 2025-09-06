@@ -74,7 +74,7 @@ const Blog8 = ({
                                             <span className="text-muted-foreground">•</span>
                                             <div className="flex items-center space-x-2">
                                                 <a
-                                                    href={post.url}
+                                                    href={`/news/${post.id}`}
                                                     target="_blank"
                                                     className="inline-flex text-muted-foreground items-center hover:scale-[1.03] text-sm"
                                                 >

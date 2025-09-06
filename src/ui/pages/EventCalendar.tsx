@@ -70,7 +70,7 @@ export default function EventCalendar() {
                     <div
                         className="calendar-shell w-full h-fit  bg-secondary p-3 sm:p-4 text-base md:text-lg leading-snug">
                         <div
-                            className="w-full ">
+                            className="w-full bg-primary">
                             <ScheduleXCalendar
                                 key={isMobile ? "grid-mobile" : "grid-desktop"}
                                 calendarApp={calendarApp}

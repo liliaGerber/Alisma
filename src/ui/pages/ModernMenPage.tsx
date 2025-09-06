@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useTranslation } from "react-i18next";
 import ModernMenHero from "@/ui/sections/ModernMenHero";
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
@@ -10,7 +10,9 @@ import mainInformation from "@/assets/data/mainInformation.json";
 export default function ModernMenPage() {
     const { t } = useTranslation();
     const arr = (key: string) => t(key, { returnObjects: true }) as string[];
-
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     const primary = "bg-primary text-modernmen-600";
     const secondary = "bg-modernmen text-primary";
 

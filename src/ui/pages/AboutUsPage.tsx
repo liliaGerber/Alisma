@@ -1,5 +1,5 @@
 'use client';
-import React from "react";
+import React, {useEffect} from "react";
 import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter.ts"
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
@@ -24,7 +24,9 @@ import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
 
 export default function AboutScrollStory() {
     const {t} = useTranslation();
-
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     const CHAPTERS: Chapter[] = [
         {
             id: "intro",

@@ -1,8 +1,12 @@
 import CommunityHeroBanner from "@/ui/sections/CommunityPage/CommunityHeroBanner";
 import AboutCommunity from "@/ui/sections/CommunityPage/AboutCommunity";
 import CommunityProfiles from "@/ui/sections/CommunityPage/CommunityProfiles";
+import {useEffect} from "react";
 
 export default function CommunityPage() {
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     return (
         <div className={"min-w-screen "}>
             <CommunityHeroBanner

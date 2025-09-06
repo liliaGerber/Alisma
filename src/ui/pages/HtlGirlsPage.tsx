@@ -1,6 +1,6 @@
 import HtlGirlsBanner from "@/ui/sections/HtlGirls/HtlGirlsBanner";
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
-import React from "react";
+import React, {useEffect} from "react";
 import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter";
 import ImpactNumbers from "@/ui/components/ImpactNumbers";
@@ -12,6 +12,9 @@ import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
 
 export default function HtlGirlsPage() {
     const {t} = useTranslation();
+    useEffect(() => {
+        window.scroll(0,0)
+    }, []);
     const quotes: QuoteRef[] = [
         {
             textKey: "htlGirlsQuotes.items.0.text",

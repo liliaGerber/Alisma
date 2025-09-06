@@ -75,7 +75,7 @@ export default function JoinSectionALISMA({
                                     asChild
                                     variant={"basic"}
                                     onClick={onJoinClick}
-                                    className={`w-full h-12 text-base rounded-2xl font-semibold border border-primary ${secondary} hover:scale-102 `}
+                                    className={`w-full h-12 text-base rounded-2xl font-semibold border  ${primary} hover:scale-102 `}
                                 >
                                     <a href={joinHref} aria-label={t("alismaJoin.aria.join")}>
                                         <UserPlus className="mr-2 h-5 w-5" /> {t("alismaJoin.cta.join")}
@@ -87,7 +87,7 @@ export default function JoinSectionALISMA({
                                     asChild
                                     onClick={onWhatsappClick}
                                     variant={"basic"}
-                                    className={`w-full h-12 text-base rounded-2xl border ${secondary} hover:scale-102`}
+                                    className={`w-full h-12 text-base rounded-2xl border ${primary} hover:scale-102`}
                                 >
                                     <a
                                         href={whatsappHref}
