@@ -50,22 +50,32 @@
     --color-secondary-200: #4f7355;
     --color-secondary-100: #6a8d70;
 
-    /* Primary HTirls  */
+    /* Primary HTLgirls  */
     --color-htlgirls: #693981;
-    --color-htlgirls-600: #825ffa;
+    --color-htlgirls-600: #55286c;
     --color-htlgirls-500: #9171ff;
-    --color-htlgirls-400: #1b4d1f;
-    --color-htlgirls-300: #205825;
+    --color-htlgirls-400: #9171ff;
+    --color-htlgirls-300: #a35cc6;
     --color-htlgirls-200: #27642b;
     --color-htlgirls-100: #2f7032;
 
+
+    /*--color-modernmen: #c65206;*/
     --color-modernmen: #fb8600;
     --color-modernmen-600: #e48313;
     --color-modernmen-500: #f6a242;
+    --color-modernmen-400: #f6a242;
+    --color-modernmen-300: #dcaf78;
+    --color-modernmen-200: #f6a242;
+    --color-modernmen-100: #f6a242;
 
     --color-empowering: #1d5380;
-    --color-empowering-600: #124971;
-    --color-empowering-500: #3ca4f8;
+    --color-empowering-600: #164e7c;
+    --color-empowering-500: #0b3151;
+    --color-empowering-400: #0b3151;
+    --color-empowering-300: #60a4dc;
+    --color-empowering-200: #0b3151;
+    --color-empowering-100: #0b3151;
 
 
     --radius-xs: 4px;

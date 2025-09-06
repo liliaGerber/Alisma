@@ -236,14 +236,14 @@
       },
       "goals": {
         "title": "Ziele",
-        "body": "Modern Man verfolgt sechs ineinandergreifende Schwerpunkte: Erstens, emotionale Kompetenz – Gefühle wahrnehmen, benennen und regulieren, um fokussiert handlungsfähig zu bleiben. Zweitens, mentale Gesundheit – Stress, Schlaf und Dopamin-Habits verstehen, damit Leistung nicht auf Kosten der Gesundheit geht. Drittens, Respekt und Grenzen – klare Kommunikation, Consent und faire Konfliktlösung. Viertens, positive Männlichkeit – Leistung mit Empathie verbinden und problematische Muster hinter sich lassen. Fünftens, Allieship – echte Zusammenarbeit mit Mädchen fördern und Sexismus wirksam reduzieren. Sechstens, Leadership – Verantwortung im Projekt, in der Klasse und später im Betrieb übernehmen.",
+        "body": "Modern Man bündelt sechs Schwerpunkte, die du im HTL-Alltag sofort anwenden kannst",
         "list": [
-          "Emotionale Kompetenz: Gefühle wahrnehmen, benennen, regulieren",
-          "Mentale Gesundheit: Stress, Schlaf, Fokus und gesunde Routinen",
-          "Respekt & Grenzen: Klar kommunizieren, Consent leben, Konflikte fair lösen",
-          "Positive Männlichkeit: Leistung und Empathie verbinden",
-          "Allieship: Zusammenarbeit mit Mädchen stärken, Sexismus reduzieren",
-          "Leadership: Verantwortung im Projekt, in der Klasse und im Betrieb übernehmen"
+          "Emotionale Kompetenz – Gefühle wahrnehmen, benennen, regulieren",
+          "Mentale Gesundheit – Stress managen, gut schlafen, Fokus aufbauen",
+          "Respekt & Grenzen – klar kommunizieren, Consent leben, fair lösen",
+          "Positive Männlichkeit – Leistung mit Empathie verbinden",
+          "Allieship – mit Mädchen zusammenarbeiten, Sexismus reduzieren",
+          "Leadership – Verantwortung im Projekt, in Klasse und Betrieb übernehmen"
         ]
       },
       "modules": {
@@ -335,7 +335,7 @@
       }
     }
   },
-  "empowerING": {
+  "empowering": {
     "hero": {
       "title": "EmpowerING – Get Your Title",
       "body": "EmpowerING macht Leistungen von Technikerinnen im HTL-Umfeld sichtbar, stärkt Anerkennung und verbindet Menschen und Möglichkeiten. Der Fokus: vernetzen, sichtbar machen, anerkennen.",
@@ -392,5 +392,9 @@
       "newsletter": "Newsletter abonnieren",
       "whatsapp": "WhatsApp-Community beitreten"
     }
+  },
+  "events": {
+    "title": "Komme zu einem unserer  Events!",
+    "placeholder": "Klicke auf eines der Events, um Details zu sehen."
   }
 }

@@ -3,8 +3,11 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import EmpoweringHeroBanner from "@/ui/sections/EmpoweringHeroBanner";
 import ListBlock from "@/ui/components/generics/ListBlock";
+import ContactCtaSection from "@/ui/sections/ContactRedirectSection";
+import mainInformation from "@/assets/data/mainInformation.json"
 
-export default function EmpoweringPage() {
+
+export default function empoweringPage() {
     const {t} = useTranslation();
     const arr = (key: string) => t(key, {returnObjects: true}) as string[];
 
@@ -18,8 +21,8 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "what",
-                        title: t("empowerING.chapters.what.title"),
-                        body: t("empowerING.chapters.what.body"),
+                        title: t("empowering.chapters.what.title"),
+                        body: t("empowering.chapters.what.body"),
                     }}
                     index={0}
                     primary={primary}
@@ -30,8 +33,8 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "why",
-                        title: t("empowerING.chapters.why.title"),
-                        body: t("empowerING.chapters.why.body"),
+                        title: t("empowering.chapters.why.title"),
+                        body: t("empowering.chapters.why.body"),
                     }}
                     index={1}
                     primary={primary}
@@ -41,9 +44,9 @@ export default function EmpoweringPage() {
                 {/* HOW (only list on this page) */}
                 <ListBlock
                     index={2}
-                    title={t("empowerING.chapters.how.title")}
-                    subtitle={t("empowerING.chapters.how.intro")}
-                    items={arr("empowerING.chapters.how.list")}
+                    title={t("empowering.chapters.how.title")}
+                    subtitle={t("empowering.chapters.how.intro")}
+                    items={arr("empowering.chapters.how.list")}
                     primary={primary}
                     secondary={secondary}
                 />
@@ -52,8 +55,8 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "who",
-                        title: t("empowerING.chapters.who.title"),
-                        body: t("empowerING.chapters.who.body"),
+                        title: t("empowering.chapters.who.title"),
+                        body: t("empowering.chapters.who.body"),
                     }}
                     index={3}
                     primary={primary}
@@ -64,8 +67,8 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "stories",
-                        title: t("empowerING.chapters.stories.title"),
-                        body: t("empowerING.chapters.stories.body"),
+                        title: t("empowering.chapters.stories.title"),
+                        body: t("empowering.chapters.stories.body"),
                     }}
                     index={4}
                     primary={primary}
@@ -76,21 +79,21 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "cta",
-                        title: t("empowerING.chapters.cta.title"),
-                        body: t("empowerING.chapters.cta.body"),
+                        title: t("empowering.chapters.cta.title"),
+                        body: t("empowering.chapters.cta.body"),
                         buttons: (
                             <div className="flex flex-wrap gap-3">
                                 <a
-                                    href="#contact"
+                                    href="mailto:absolventinnen@alisma.at"
                                     className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                                 >
-                                    {t("empowerING.chapters.cta.buttons.0")}
+                                    {t("empowering.chapters.cta.buttons.0")}
                                 </a>
                                 <a
-                                    href="#updates"
+                                    href="/newsletter"
                                     className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                                 >
-                                    {t("empowerING.chapters.cta.buttons.1")}
+                                    {t("empowering.chapters.cta.buttons.1")}
                                 </a>
                             </div>
                         ),
@@ -104,33 +107,18 @@ export default function EmpoweringPage() {
                 <ChapterBlock
                     chapter={{
                         id: "partners",
-                        title: t("empowerING.chapters.partners.title"),
-                        body: t("empowerING.chapters.partners.body"),
+                        title: t("empowering.chapters.partners.title"),
+                        body: t("empowering.chapters.partners.body"),
                     }}
                     index={6}
                     primary={primary}
                     secondary={secondary}
                 />
 
-                {/* CONTACT */}
-                <ChapterBlock
-                    chapter={{
-                        id: "contact",
-                        title: t("empowerING.chapters.contact.title"),
-                        body: t("empowerING.chapters.contact.body"),
-                        buttons: (
-                            <a
-                                href="#contact-form"
-                                className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
-                            >
-                                {t("empowerING.chapters.contact.button")}
-                            </a>
-                        ),
-                    }}
-                    index={7}
-                    primary={primary}
-                    secondary={secondary}
-                />
+                <ContactCtaSection newsletterHref={"/newsletter"}
+                                   whatsappHref={mainInformation.whatsapp_empowering_link}
+                                   containerTheme={"bg-empowering text-primary"}
+                                   primaryBtnClass={"bg-primary text-empowering"}/>
             </main>
         </>
     )

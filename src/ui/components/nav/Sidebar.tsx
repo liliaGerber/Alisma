@@ -1,11 +1,12 @@
 // Sidebar.tsx
 import Close from '@/assets/icons/CloseIcon.svg?react';
-import { Link, NavLink } from 'react-router-dom';
+import {Link, NavLink, useLocation} from 'react-router-dom';
 import LanguageSwitcher from '@/ui/components/generics/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 import  Logo  from '@/assets/icons/Logo.svg?react';
 
 import mainInformation from '@/assets/data/mainInformation.json'
+import {resolveThemeTextHover} from "@/config/ThemeProvider";
 interface SidebarProps {
     sidebarOpen: boolean;
     toggleSidebar: (open: boolean) => void;
@@ -14,6 +15,8 @@ interface SidebarProps {
 
 export default function Sidebar({ sidebarOpen, toggleSidebar, linkItems }: SidebarProps) {
     const { t } = useTranslation();
+    const {pathname} = useLocation();
+    const theme = resolveThemeTextHover(pathname);
 
     return (
         <nav
@@ -36,10 +39,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar, linkItems }: Sideb
                 </Link>
             </div>
 
-            <ul className="flex flex-col items-start pr-10 py-3 text-2xl font-semibold text-secondary">
+            <ul className={`flex flex-col items-start pr-10 py-3 text-2xl font-semibold ${theme}`}>
                 {linkItems.map((group) => (
                     <div key={group.section} className="w-full px-2">
-                        <h4 className="text-lg text-secondary-400 font-semibold uppercase mb-1">
+                        <h4 className="text-lg  font-semibold uppercase mb-1">
                             {t(`navbar.sections.${group.section}`)}
                         </h4>
                         {group.links.map(({ name, to }) => (

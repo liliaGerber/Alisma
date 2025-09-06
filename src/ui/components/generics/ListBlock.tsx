@@ -16,8 +16,9 @@ function pickThemeParts(theme: string) {
     const tokens = theme.trim().split(/\s+/);
     const bg = tokens.find((c) => c.startsWith("bg-")) ?? "";
     const text = tokens.find((c) => c.startsWith("text-")) ?? "";
+    const ring = tokens.find((c) => c.startsWith("ring-")) ?? "";
     const svgTextFromBg = bg ? bg.replace(/^bg-/, "text-") : "";
-    return { bg, text, svgTextFromBg };
+    return { bg, text, ring, svgTextFromBg };
 }
 
 function ListBlock({
@@ -36,7 +37,7 @@ function ListBlock({
     const currentTheme = isEven ? primary : secondary;
     const nextTheme = nextIsEven ? primary : secondary;
 
-    const { bg: bgClass, text: textClass } = pickThemeParts(currentTheme);
+    const { bg: bgClass, text: textClass, ring: ringClass } = pickThemeParts(currentTheme);
     const { svgTextFromBg: nextWaveTextClass } = pickThemeParts(nextTheme);
 
     return (
@@ -48,8 +49,8 @@ function ListBlock({
                 <div className="grid gap-10 md:gap-14 lg:grid-cols-12 items-start">
                     {/* Left column: Title + Subtitle */}
                     <InViewSection
-                        from="up"
-                        className="lg:col-span-5 w-full mx-auto my-auto justify-center items-center"
+                        preset="fadeUp"
+                        className="lg:col-span-6 w-full mx-auto my-auto justify-center items-center"
                     >
                         <h2
                             id={`listblock-${index}-title`}
@@ -66,8 +67,8 @@ function ListBlock({
 
                     {/* Right column: List */}
                     <InViewSection
-                        from={isEven ? "right" : "left"}
-                        className="lg:col-span-7 w-full mx-auto"
+                        preset={isEven ? "flyRight" : "flyLeft"}
+                        className="lg:col-span-6 w-full mx-auto items-center justify-center my-auto "
                     >
                         <ul className="space-y-4">
                             {items.map((it, i) => (
@@ -76,7 +77,7 @@ function ListBlock({
                                     className={`${textClass} flex items-center gap-3 text-base md:text-lg leading-relaxed `}
                                 >
                                     {/* Simple bullet */}
-                                    <span aria-hidden className={`${textClass} mt-2 inline-block h-2 w-2 rounded-full ring-2 ring-modernmen items-center`} />
+                                    <span aria-hidden className={`${textClass} mt-2 inline-block h-2 w-2 rounded-full ring-2 ${ringClass} items-center`} />
                                     <div className={`${textClass} flex-1`} >{it}</div>
                                 </li>
                             ))}
@@ -85,7 +86,6 @@ function ListBlock({
                 </div>
             </div>
 
-            {/* Wave to match the *next section* background */}
             <svg
                 aria-hidden="true"
                 viewBox="0 0 1440 160"

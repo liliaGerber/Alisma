@@ -20,8 +20,6 @@ function pickThemeParts(theme: string) {
     const tokens = theme.trim().split(/\s+/);
     const bg = tokens.find((c) => c.startsWith("bg-")) ?? "";
     const text = tokens.find((c) => c.startsWith("text-")) ?? "";
-    // For the SVG we need a text-* class, but we want the *background* color of the next section.
-    // Convert bg-* => text-* so the wave "color" matches the next section background.
     const svgTextFromBg = bg ? bg.replace(/^bg-/, "text-") : "";
     return {bg, text, svgTextFromBg};
 }

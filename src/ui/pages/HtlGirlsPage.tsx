@@ -68,9 +68,6 @@ export default function HtlGirlsPage() {
                     <a href="/join" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                         {t("htlgirls.chapters.join.buttonPrimary")}
                     </a>
-                    <a href="/newsletter" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
-                        {t("htlgirls.chapters.join.buttonSecondary")}
-                    </a>
                 </div>
             ),
         },

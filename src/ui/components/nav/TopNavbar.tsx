@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Backdrop from "./Backdrop";
 import Logo from "@/assets/icons/Logo.svg?react";
@@ -7,12 +7,15 @@ import BurgerIcon from "@/assets/icons/BurgerIcon.svg?react";
 import LanguageSwitcher from "../generics/LanguageSwitcher";
 import {ChevronDown} from "lucide-react";
 import {useTranslation} from "react-i18next";
-import mainInfo from '@/assets/data/mainInformation.json'
+import {resolveColor, resolveThemeTextHover} from "@/config/ThemeProvider";
 
 export default function TopNavbar() {
     const {t} = useTranslation();
     const [scrollY, setScrollY] = useState(0);
     const [sidebarOpen, toggleSidebar] = useState(false);
+    const {pathname} = useLocation();
+    const theme = resolveThemeTextHover(pathname);
+    const color = resolveColor(pathname)
 
     useEffect(() => {
         const handleScroll = () => setScrollY(window.scrollY);
@@ -73,7 +76,7 @@ export default function TopNavbar() {
                         className="lg:hidden p-2 text-4xl"
                         onClick={() => toggleSidebar(!sidebarOpen)}
                     >
-                        <BurgerIcon className={"text-secondary"}/>
+                        <BurgerIcon className={`${theme}`}/>
                     </button>
 
                     {/* Desktop Nav */}
@@ -82,7 +85,7 @@ export default function TopNavbar() {
                             <li key={to}>
                                 <Link
                                     to={to}
-                                    className="text-sm font-semibold px-4 py-2 transition-colors hover:text-secondary-200 text-secondary"
+                                    className={`text-sm font-semibold px-4 py-2 transition-colors  ${theme}`}
                                 >
                                     {t(`navbar.links.${name}`)}
                                 </Link>
@@ -90,7 +93,8 @@ export default function TopNavbar() {
                         ))}
                         <li className="relative group">
                             <div
-                                className="flex items-center text-sm font-semibold px-4 py-2 text-secondary cursor-pointer group-hover:text-secondary-200">
+                                className={`flex items-center text-sm font-semibold px-4 py-2  ${theme} cursor-pointer 
+                                `}>
                                 <span>{t("navbar.sections.projects")}</span>
                                 <ChevronDown
                                     size={16}
@@ -104,7 +108,7 @@ export default function TopNavbar() {
                                             <li key={to}>
                                                 <Link
                                                     to={to}
-                                                    className="block px-2 py-1 text-sm font-medium text-secondary hover:text-secondary-200 transition"
+                                                    className={`block px-2 py-1 text-sm font-medium  ${theme} transition`}
                                                 >
                                                     {t(`navbar.links.${name}`)}
                                                 </Link>
@@ -117,7 +121,7 @@ export default function TopNavbar() {
 
                         <li className="relative group">
                             <div
-                                className="flex items-center text-sm font-semibold px-4 py-2 text-secondary cursor-pointer group-hover:text-secondary-200">
+                                className={`flex items-center text-sm font-semibold px-4 py-2  ${theme} cursor-pointer group-hover:text-${color}-200`}>
                                 <span>{t("navbar.sections.about")}</span>
                                 <ChevronDown
                                     size={16}
@@ -131,7 +135,7 @@ export default function TopNavbar() {
                                             <li key={to}>
                                                 <Link
                                                     to={to}
-                                                    className="block px-2 py-1 text-sm font-medium text-secondary hover:text-secondary-200 transition"
+                                                    className={`block px-2 py-1 text-sm font-medium  ${theme} transition`}
                                                 >
                                                     {t(`navbar.links.${name}`)}
                                                 </Link>
@@ -145,7 +149,7 @@ export default function TopNavbar() {
 
                     {/* Right Section */}
                     <ul className="hidden lg:flex items-center gap-2">
-{/*                        <li>
+                        {/*                        <li>
                             <Link
                                 to="/login"
                                 className="text-sm font-semibold text-secondary px-2 py-2"

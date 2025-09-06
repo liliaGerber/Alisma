@@ -1,26 +1,14 @@
 import {Link, useLocation} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import mainInformation from '@/assets/data/mainInformation.json'
+import {resolveColorBG} from "@/config/ThemeProvider";
 
-type RouteThemeRule = { test: RegExp; className: string };
-
-const ROUTE_THEMES: RouteThemeRule[] = [
-    {test: /^\/htlgirls(\/|$)/, className: "bg-htlgirls text-primary"},
-    {test: /^\/modernmen(\/|$)/, className: "bg-modernmen text-secondary"},
-    {test: /^\/empowering(\/|$)/, className: "bg-empowering text-white"},
-    {test: /.*/, className: "bg-secondary text-primary"}, // default
-];
-
-function resolveTheme(pathname: string) {
-    const match = ROUTE_THEMES.find(r => r.test.test(pathname));
-    return match?.className ?? "bg-secondary text-primary";
-}
 
 
 export default function FooterSimple() {
     const {t} = useTranslation();
     const {pathname} = useLocation();
-    const theme = resolveTheme(pathname);
+    const theme = resolveColorBG(pathname);
 
     return (
         <footer role="contentinfo" className={`${theme}`}>
