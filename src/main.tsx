@@ -21,6 +21,7 @@ import ModernMenPage from "./ui/pages/ModernMenPage";
 import EmpoweringPage from "@/ui/pages/EmpoweringPage";
 import EventCalendar from "@/ui/pages/EventCalendar";
 import FooterSimple from "@/ui/components/nav/FooterSimple";
+import {Newsletter} from "@/ui/pages/Newsletter";
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
                         <Route path="/events" element={<EventCalendar/>}></Route>
                         <Route path="/modernmen" element={<ModernMenPage/>}></Route>
                         <Route path="/empowering" element={<EmpoweringPage/>}></Route>
+                        <Route path="/newsletter" element={<Newsletter/>}></Route>
                     </Routes>
                     <FooterSimple/>
                 </BrowserRouter>

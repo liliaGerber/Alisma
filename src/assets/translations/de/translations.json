@@ -232,169 +232,164 @@
     "chapters": {
       "why": {
         "title": "Warum Modern Man?",
-        "body": "In der HTL treffen Leistungsdruck, Projektdynamik und starke Rollenerwartungen aufeinander. Viele Burschen reagieren mit Rückzug oder Härte, obwohl Teamarbeit, klare Kommunikation und Resilienz heute genauso wichtig sind wie Fachwissen. Modern Man definiert Stärke neu: als Fähigkeit zur Selbststeuerung, zum respektvollen Umgang und zur Verantwortung – für sich selbst, das Team und eine faire, professionelle HTL-Kultur."
+        "body": "Weil Leistung ohne Selbststeuerung teuer wird. In HTLs treffen hoher Druck, Projektdynamik und harte Rollenbilder aufeinander. Wer Gefühle nicht lesen oder ausdrücken kann, verliert Fokus, Teamfähigkeit und Resilienz. Moderne Stärke heißt: Gefühle verstehen, Grenzen respektieren, Verantwortung übernehmen – im Projekt, in der Klasse und später im Betrieb."
+      },
+      "problem": {
+        "title": "Was ist das Problem?",
+        "body": "Viele Burschen lernen früh: stark sein, nicht weinen, keine Schwäche zeigen. Dauerhaftes Unterdrücken von Gefühlen führt zu Depressionen oder unkontrollierter Aggression. Die Folgen spiegeln sich gesellschaftlich wider: junge Männer werden häufiger straffällig oder begehen Suizid. Die Wurzel liegt oft in früher Erziehung und Rollenbildern: Mädchen dürfen weinen, sollen aber still sein; Burschen sollen durchsetzen, nehmen, was sie wollen, Dominanz zeigen. Später kommt der Druck, „Mann im Haus“ und Ernährer zu sein. Gleichstellung – etwa gleiche Bezahlung – gibt Frauen Wertschätzung und nimmt Männern Druck."
+      },
+      "action": {
+        "title": "Was tun wir konkret?",
+        "body": "Tabus ansprechen, sichere Räume schaffen, praktisch üben. Wir geben Jugendlichen Sprache und Tools für Gefühle, Stress und Grenzen; wir trainieren Respekt, Consent und faire Konfliktlösung – direkt aus Alltagssituationen. Authentische Mentoren wie Kushtrim Alili schaffen Vertrauen, weil sie die Realität der Jugendlichen kennen. Ergebnis: weniger Druck, mehr Handlungsfähigkeit."
       },
       "goals": {
         "title": "Ziele",
-        "body": "Modern Man bündelt sechs Schwerpunkte, die du im HTL-Alltag sofort anwenden kannst",
+        "body": "Sechs Schwerpunkte, die im HTL-Alltag sofort wirken:",
         "list": [
           "Emotionale Kompetenz – Gefühle wahrnehmen, benennen, regulieren",
-          "Mentale Gesundheit – Stress managen, gut schlafen, Fokus aufbauen",
+          "Mentale Gesundheit – Stress managen, Schlaf & Fokus verbessern",
           "Respekt & Grenzen – klar kommunizieren, Consent leben, fair lösen",
           "Positive Männlichkeit – Leistung mit Empathie verbinden",
-          "Allieship – mit Mädchen zusammenarbeiten, Sexismus reduzieren",
+          "Allieship – mit Mädchen konstruktiv kooperieren, Sexismus reduzieren",
           "Leadership – Verantwortung im Projekt, in Klasse und Betrieb übernehmen"
-        ]
-      },
-      "modules": {
-        "title": "Module (Inhalte)",
-        "intro": "Die Module sind praxisnah und übersetzen Haltung in Handeln. Anhand realer HTL-Situationen trainieren wir Kommunikation, Selbststeuerung und Teamfähigkeit – mit Übungen, Rollenspielen und reflektierenden Aufgaben.",
-        "list": [
-          "Ich & Gefühle – Selbstbild, Werte, Emotionsregulation, Selbstvertrauen",
-          "Stress & Mental Health – Leistungsdruck, Schlaf, Fokus, Hilfe holen",
-          "Kommunikation, Respekt & Consent – Grenzen, Zuhören, Umgang mit Sprüchen",
-          "Community & Leadership – Teamrollen, Verantwortung, Bystander-Tools",
-          "Digitales Leben – Social Media, Vergleichsdruck, Cybermobbing, digitale Grenzen",
-          "Zukunft & Arbeitswelt – Feedback, Konfliktlösung, Diversity als Vorteil",
-          "Gemeinsam stark – Gemischte Sessions mit HTL Girls (Perspektivwechsel & Teamwork)"
         ]
       },
       "formats": {
         "title": "Formate",
-        "body": "Modern Man wird schulnah und alltagspraktisch umgesetzt: Ein gemeinsamer Einstieg schafft Orientierung und senkt Barrieren. Daran schließen interaktive Workshops an, die aufeinander aufbauen. Gemischte Phasen mit HTL Girls fördern kooperatives Arbeiten und Respekt im Projektalltag. Peer-Mentoring stärkt Eigenverantwortung und Nachhaltigkeit. Ergänzende Impulse für Lehrkräfte und Eltern erleichtern die Verankerung im Schulalltag. Offene Sprechstunden und kleine Challenges unterstützen den Transfer in den Alltag.",
+        "body": "Schulnah, kurzweilig, übungsorientiert: Ein gemeinsamer Kick-off senkt Barrieren. Danach folgen interaktive Workshops, Peer-Mentoring und gemischte Phasen mit HTL Girls. Kushtrim Alili bringt als junger Mentor kulturell sensible Perspektiven ein, bricht Tabus sicher und wertschätzend – und zeigt praktische Wege für den Alltag.",
         "note": "Hinweis: Es gibt aktuell keinen fixen Zeitplan.",
         "list": [
-          "Kick-off an der Schule",
-          "Workshop-Reihe (interaktiv, übungsorientiert)",
+          "Kick-off an der Schule (gemeinsamer Start, klare Spielregeln)",
+          "Workshop-Reihe mit Übungen & Rollenspielen",
           "Gemischte Projektphasen (Burschen + Mädchen)",
           "Peer-Mentoring (Schüler moderieren Teile selbst)",
-          "Sessions für Lehrkräfte und Eltern (Tools für den Alltag)",
-          "Follow-up & Community (Sprechstunden, Challenges)"
+          "Impulse für Lehrkräfte & Eltern (Alltags-Tools)",
+          "Follow-up & Community (Sprechstunden, Mini-Challenges)"
+        ]
+      },
+      "modules": {
+        "title": "Module & Inhalte",
+        "body": "Kompakte Bausteine, die ineinandergreifen und direkt anwendbar sind:",
+        "list": [
+          "Emotion & Sprache – Gefühle lesen, benennen, deeskalieren",
+          "Stress & Schlaf – Tools für Fokus, Erholung, Prüfungsphasen",
+          "Respekt & Consent – Grenzen erkennen, klar kommunizieren",
+          "Männlichkeitsbilder & Medien – Rollen reflektieren statt kopieren",
+          "Team & Konfliktlösung – fair streiten, sauber entscheiden",
+          "Leadership & Verantwortung – Vorbild sein im Projektalltag"
         ]
       },
       "didactics": {
         "title": "Didaktik & Haltung",
-        "body": "Wir arbeiten stärkenorientiert und ohne Zeigefinger: kurz, konkret, übungsbasiert. Inhalte entstehen aus realen Situationen, nicht aus Theorie-Folien. Der Rahmen ist sicher – Freiwilligkeit, Respekt und keine Bloßstellung. Wir sind traumasensibel und kulturell sensibel, beurteilen nicht, sondern bauen Brücken. Modern Man ist kein Therapieangebot; bei Bedarf verweisen wir klar und geordnet an Fachstellen.",
+        "body": "Stärkenorientiert, ohne Zeigefinger – kurz, konkret, aus echten Situationen. Sichere Räume: Freiwilligkeit, Respekt, keine Bloßstellung. Traumasensibel und kulturell sensibel. Modern Man ist kein Therapieangebot; bei Bedarf verweisen wir an Fachstellen.",
         "list": [
-          "Stärkenorientiert, ohne Zeigefinger",
-          "Interaktiv, realitätsnah, mit Rollenspielen und Teamaufgaben",
-          "Sicherer Rahmen: Freiwilligkeit, Respekt, keine Bloßstellung",
-          "Traumasensibel & kulturell sensibel",
-          "Kein Therapieangebot – klare Verweiswege zu Fachstellen"
-        ]
-      },
-      "safeguarding": {
-        "title": "Qualität & Schutz",
-        "body": "Transparente Regeln sichern Verlässlichkeit: Wir starten mit klaren Klassenvereinbarungen, sprechen Vertraulichkeit und respektvolle Sprache explizit an und nutzen Ich-Botschaften. Für Krisenfälle bestehen definierte Eskalationspfade zur Schulpsychologie und zu externen Hilfsangeboten. Datenschutz ist verpflichtend: Feedbacks werden anonym erhoben, Bildrechte nur mit Einwilligung.",
-        "list": [
-          "Klare Klassenregeln (Vertraulichkeit, Respekt, Ich-Botschaften)",
-          "Eskalationspfade: Schulpsychologie & externe Hilfsangebote",
-          "Datenschutz (anonyme Feedbacks, Bildrechte nur mit Einwilligung)"
+          "Interaktiv & übungsbasiert statt Frontalvortrag",
+          "Realitätsnah: Fälle aus Schul-, Projekt- und Lehrpraxis",
+          "Sicherer Rahmen: klare Regeln, Feedbackkultur",
+          "Kulturelle Sensibilität & Tabus achtsam ansprechen",
+          "Klare Verweiswege zu Beratungsstellen bei Bedarf"
         ]
       },
       "impact": {
         "title": "Wirkung & Evaluation",
-        "body": "Wir messen nicht nur Wissen, sondern vor allem Haltung und Verhalten. Vorher-/Nachher-Checks, Feedback von Schülern und Lehrkräften sowie konkrete Beobachtungen im Projektalltag zeigen, ob Modern Man wirkt – am Klassenklima, an gelingender Zusammenarbeit und am Rückgang problematischer Muster.",
+        "body": "Wir messen Wissen, Haltung und Verhalten – nicht nur Stimmung. Checks vor/nach Modulen, Feedback von Schüler:innen & Lehrkräften sowie Beobachtungen im Projektalltag zeigen Wirkung.",
         "list": [
           "Skalen zu Emotionswissen, Stresskompetenz, respektvollem Verhalten",
-          "Rückgang von sexistischer Sprache/Cybermobbing (anonymisiert)",
-          "Besseres Klassenklima & Teamarbeit",
-          "Anzahl geschulter Peers und eigenständig moderierter Einheiten"
+          "Rückgang sexistischer Sprache/Cybermobbing (anonymisiert)",
+          "Besseres Klassenklima & Zusammenarbeit in Projekten",
+          "Zahl der Peers, die selbst Einheiten moderieren"
         ]
       },
       "targetGroups": {
         "title": "Zielgruppen",
-        "body": "Modern Man richtet sich an HTL-Burschen (13–19) und unterstützt sie mit alltagsnahen Soft Skills für Schule, Projekte und Job. Lehrkräfte und Schulen profitieren von einem stabileren Klassenklima und weniger Konflikten; Eltern und die Öffentlichkeit von einem modernen, reflektierten Männerbild. Unternehmen gewinnen Nachwuchs, der fachlich stark ist und zugleich Teamfähigkeit sowie Leadership-Potenzial mitbringt.",
+        "body": "Modern Man richtet sich an HTL-Burschen (13–19) und stärkt Soft Skills für Schule, Projekte und Beruf. Schulen gewinnen stabileres Klassenklima, Eltern ein reflektiertes Männlichkeitsbild. Unternehmen profitieren von Nachwuchs mit Teamfähigkeit und Leadership-Potenzial.",
         "list": [
-          "HTL-Burschen (13–19): alltagsnahe Soft Skills für Schule, Projekte, Job",
-          "Lehrkräfte & Schulen: besseres Klassenklima, weniger Konflikte",
-          "Eltern & Öffentlichkeit: modernes Männerbild als Gewinn für alle",
-          "Unternehmen: Nachwuchs mit Teamfähigkeit und Leadership-Potenzial"
-        ]
-      },
-      "collaboration": {
-        "title": "Zusammenarbeit",
-        "body": "Modern Man ist komplementär zu HTL Girls: Wir bauen Brücken, keine Parallelwelten. Gemeinsam mit Partnern wie Schulpsychologie, MINT-Netzwerken, WAFF und Unternehmen verankern wir respektvolle Zusammenarbeit, mentale Gesundheit und positive Männlichkeit im HTL-Alltag."
-      },
-      "cta": {
-        "title": "Mitmachen",
-        "body": "Gemeinsam verändern wir, wie Burschen Technik erleben – stark, empathisch, verantwortungsvoll.",
-        "buttons": [
-          "Kontakt aufnehmen",
-          "Schule anfragen",
-          "Partner werden"
-        ]
-      },
-      "faq": {
-        "title": "FAQ",
-        "list": [
-          "Ist das Therapie? – Nein, es ist ein Lern- und Trainingsprogramm mit Verweiswegen.",
-          "Muss ich Persönliches teilen? – Nein, Teilen ist freiwillig.",
-          "Passt das zur HTL? – Ja: Soft Skills + Resilienz = bessere Projekte und weniger Konflikte."
+          "HTL-Burschen (13–19) – alltagsnahe Soft Skills",
+          "Lehrkräfte & Schulen – besseres Klima, weniger Konflikte",
+          "Eltern & Öffentlichkeit – modernes Männerbild",
+          "Unternehmen – Teamfähigkeit & Führungsreife"
         ]
       }
-    }
-  },
-  "empowering": {
-    "hero": {
-      "title": "EmpowerING – Get Your Title",
-      "body": "EmpowerING macht Leistungen von Technikerinnen im HTL-Umfeld sichtbar, stärkt Anerkennung und verbindet Menschen und Möglichkeiten. Der Fokus: vernetzen, sichtbar machen, anerkennen.",
-      "button": "Mehr erfahren",
-      "imageAlt": "HTL-Technikerinnen in Projekt- und Präsentationssituationen"
     },
-    "chapters": {
-      "what": {
-        "title": "Worum es geht",
-        "body": "EmpowerING ist ein Konzept, das Leistungen von Technikerinnen sichtbarer macht und Anerkennung stärkt. Es setzt auf Verbindung und Austausch, damit Erfolge gesehen, geteilt und weitergetragen werden."
+    "kushtrim": {
+      "sectionTitle": "Kushtrim Alili – Stimme für moderne Männlichkeit",
+      "subtitle": "Vertrauensvoll, nahbar, kulturell sensibel: Er spricht mit Jugendlichen auf Augenhöhe.",
+      "image": "/images/modernmen/kushtrim.jpg",
+      "imageAlt": "Porträt von Kushtrim Alili",
+      "bio": {
+        "name": "Kushtrim Alili",
+        "ageCity": "22 Jahre, aus Graz",
+        "origin": "Geboren in Nordmazedonien, albanische Herkunft",
+        "context": "Aufgewachsen mit kollektivistischen Prägungen – das Kollektiv zählt, doch individuelle Bedürfnisse brauchen Raum."
       },
-      "why": {
-        "title": "Warum Sichtbarkeit zählt",
-        "body": "Sichtbarkeit schafft Chancen. Wer gesehen wird, wird eingeladen, gefördert und erinnert. Empfohlen werden die, die man kennt – deshalb ist gezielte Sichtbarkeit der Schlüssel zu Anerkennung."
+      "quotes": [
+        "Es ist wichtig, Tabuthemen aufzubrechen und eine Gesellschaft zu schaffen, in der jeder Mensch mit gleichen Rechten und Chancen geboren wird."
+      ],
+      "about": "Kushtrim begleitet Modern-Man-Workshops zu emotionaler Kompetenz, Respekt und mentaler Gesundheit. Seine Herkunft und sein junges Alter schaffen Vertrauen – er kennt die Themen aus erster Hand und zeigt, wie man Druck abbaut: Gefühle sicher ausdrücken, Grenzen respektieren, Verantwortung im Team übernehmen."
+    }},
+    "empowering": {
+      "hero": {
+        "title": "EmpowerING – Get Your Title",
+        "body": "EmpowerING macht Leistungen von Technikerinnen im HTL-Umfeld sichtbar, stärkt Anerkennung und verbindet Menschen und Möglichkeiten. Der Fokus: vernetzen, sichtbar machen, anerkennen.",
+        "button": "Mehr erfahren",
+        "imageAlt": "HTL-Technikerinnen in Projekt- und Präsentationssituationen"
       },
-      "how": {
-        "title": "Wie die Story erzählt wird",
-        "intro": "Die Seite führt Schritt für Schritt durch die Geschichte – vom Warum zur Wirkung.",
-        "list": [
-          "Vernetzen: Menschen, Wege und Möglichkeiten verbinden.",
-          "Sichtbar machen: Leistungen erzählen, zeigen und würdigen.",
-          "Anerkennung stärken: Erfolge festhalten und fortschreiben."
-        ]
-      },
-      "who": {
-        "title": "Für wen",
-        "body": "Für HTL-Schülerinnen und Absolventinnen sowie alle, die Sichtbarkeit und Anerkennung von technischer Leistung unterstützen möchten – in Schulen, Familien, Unternehmen und der Öffentlichkeit."
-      },
-      "stories": {
-        "title": "Geschichten, die bleiben",
-        "body": "Kurzporträts und Stimmen zeigen, was möglich ist, wenn Leistung gesehen wird. Jede Geschichte macht Mut, die nächste zu schreiben."
-      },
-      "cta": {
-        "title": "Jetzt Teil der Story werden",
-        "body": "Wer mitgestalten möchte, ist eingeladen. Sichtbarkeit wächst, wenn viele mittragen.",
-        "buttons": ["Interesse melden", "Updates erhalten"]
-      },
-      "partners": {
-        "title": "Gemeinsam stärker",
-        "body": "Unterstützerinnen und Unterstützer tragen Sichtbarkeit mit. So wird aus einzelnen Erfolgen eine Bewegung."
-      },
-      "contact": {
-        "title": "Kontakt",
-        "body": "Fragen oder Ideen? Wir freuen uns über jede Nachricht.",
-        "button": "Kontakt aufnehmen"
+      "chapters": {
+        "what": {
+          "title": "Worum es geht",
+          "body": "EmpowerING ist ein Konzept, das Leistungen von Technikerinnen sichtbarer macht und Anerkennung stärkt. Es setzt auf Verbindung und Austausch, damit Erfolge gesehen, geteilt und weitergetragen werden."
+        },
+        "why": {
+          "title": "Warum Sichtbarkeit zählt",
+          "body": "Sichtbarkeit schafft Chancen. Wer gesehen wird, wird eingeladen, gefördert und erinnert. Empfohlen werden die, die man kennt – deshalb ist gezielte Sichtbarkeit der Schlüssel zu Anerkennung."
+        },
+        "how": {
+          "title": "Wie die Story erzählt wird",
+          "intro": "Die Seite führt Schritt für Schritt durch die Geschichte – vom Warum zur Wirkung.",
+          "list": [
+            "Vernetzen: Menschen, Wege und Möglichkeiten verbinden.",
+            "Sichtbar machen: Leistungen erzählen, zeigen und würdigen.",
+            "Anerkennung stärken: Erfolge festhalten und fortschreiben."
+          ]
+        },
+        "who": {
+          "title": "Für wen",
+          "body": "Für HTL-Schülerinnen und Absolventinnen sowie alle, die Sichtbarkeit und Anerkennung von technischer Leistung unterstützen möchten – in Schulen, Familien, Unternehmen und der Öffentlichkeit."
+        },
+        "stories": {
+          "title": "Geschichten, die bleiben",
+          "body": "Kurzporträts und Stimmen zeigen, was möglich ist, wenn Leistung gesehen wird. Jede Geschichte macht Mut, die nächste zu schreiben."
+        },
+        "cta": {
+          "title": "Jetzt Teil der Story werden",
+          "body": "Wer mitgestalten möchte, ist eingeladen. Sichtbarkeit wächst, wenn viele mittragen.",
+          "buttons": [
+            "Interesse melden",
+            "Updates erhalten"
+          ]
+        },
+        "partners": {
+          "title": "Gemeinsam stärker",
+          "body": "Unterstützerinnen und Unterstützer tragen Sichtbarkeit mit. So wird aus einzelnen Erfolgen eine Bewegung."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "body": "Fragen oder Ideen? Wir freuen uns über jede Nachricht.",
+          "button": "Kontakt aufnehmen"
+        }
       }
+    },
+    "contactCta": {
+      "title": "Noch Fragen?",
+      "text": "Kontaktiere uns bei Fragen, abonniere unseren Newsletter und tritt unserer WhatsApp-Community bei.",
+      "buttons": {
+        "contact": "Kontakt aufnehmen",
+        "newsletter": "Newsletter abonnieren",
+        "whatsapp": "WhatsApp-Community beitreten"
+      }
+    },
+    "events": {
+      "title": "Komme zu einem unserer  Events!",
+      "placeholder": "Klicke auf eines der Events, um Details zu sehen."
     }
-  },
-  "contactCta": {
-    "title": "Noch Fragen?",
-    "text": "Kontaktiere uns bei Fragen, abonniere unseren Newsletter und tritt unserer WhatsApp-Community bei.",
-    "buttons": {
-      "contact": "Kontakt aufnehmen",
-      "newsletter": "Newsletter abonnieren",
-      "whatsapp": "WhatsApp-Community beitreten"
-    }
-  },
-  "events": {
-    "title": "Komme zu einem unserer  Events!",
-    "placeholder": "Klicke auf eines der Events, um Details zu sehen."
   }
-}

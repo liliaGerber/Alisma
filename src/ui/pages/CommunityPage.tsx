@@ -8,7 +8,7 @@ export default function CommunityPage() {
             <CommunityHeroBanner
                                  slides={[
                                      {
-                                         src: "/community/stock-community1.png",
+                                         src: "/community/community-1.png",
                                          alt: "Mentorinnen und Schülerinnen im Workshop",
                                          title: "Community, die dich nach vorne bringt",
                                          subtitle: "Tritt unserer WhatsApp-Community bei und vernetze dich.",
@@ -16,13 +16,13 @@ export default function CommunityPage() {
                                          ctaHref: "#whatsapp",
                                      },
                                      {
-                                         src: "/community/stock-community2.png",
+                                         src: "/community/community-2.png",
                                          alt: "Coding-Session in der Schule",
                                          title: "Lerne, teile, wachse",
                                          subtitle: "Wissen austauschen und gemeinsam Chancen eröffnen.",
                                      },
                                      {
-                                         src: "/community/stock-community3.png",
+                                         src: "/community/community-3.png",
                                          alt: "Event mit Speakerin",
                                          title: "Events & Role Models",
                                          subtitle: "Lass dich inspirieren – oder werde selbst Role Model.",
