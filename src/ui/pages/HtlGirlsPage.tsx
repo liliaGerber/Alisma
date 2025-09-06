@@ -8,6 +8,7 @@ import QuotesSection, {QuoteRef} from "@/ui/sections/QuoteSection";
 import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
 import ContactRedirectSection from "@/ui/sections/ContactRedirectSection";
 import ContactCtaSection from "@/ui/sections/ContactRedirectSection";
+import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
 
 export default function HtlGirlsPage() {
     const {t} = useTranslation();
@@ -59,18 +60,7 @@ export default function HtlGirlsPage() {
                 </a>
             ),
         },
-        {
-            id: "join",
-            title: t("htlgirls.chapters.join.title"),
-            body: t("htlgirls.chapters.join.body"),
-            buttons: (
-                <div className="flex flex-wrap gap-3">
-                    <a href="/onboarding" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
-                        {t("htlgirls.chapters.join.buttonPrimary")}
-                    </a>
-                </div>
-            ),
-        },
+
     ];    return (
         <>
         <HtlGirlsBanner/>
@@ -124,13 +114,15 @@ export default function HtlGirlsPage() {
 
                 </React.Fragment>
             ))}
-
+            <JoinSectionALISMA invert={true}/>
+            <SectionSeparatorWave className={"text-htlgirls"}/>
             <ContactCtaSection
                 newsletterHref="/newsletter"
                 whatsappHref="https://chat.whatsapp.com/yourInvite"
                 containerTheme="bg-htlgirls text-primary"
                 primaryBtnClass="bg-primary text-htlgirls"
                 secondaryBtnClass="border-2 text-primary"
+                className={"mt-[-3px]"}
             />
         </>
     )

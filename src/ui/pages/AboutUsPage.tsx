@@ -4,6 +4,7 @@ import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter.ts"
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
 import AboutUsHeroBanner from "@/ui/sections/AboutUsHeroBanner";
+import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
 
 
 /**
@@ -50,11 +51,6 @@ export default function AboutScrollStory() {
             title: t("aboutScroll.chapters.together.title"),
             body: t("aboutScroll.chapters.together.body"),
         },
-        {
-            id: "cta",
-            title: t("aboutScroll.chapters.cta.title"),
-            body: t("aboutScroll.chapters.cta.body"),
-        },
     ];
     return (
         <div className="bg-primary text-secondary">
@@ -64,6 +60,8 @@ export default function AboutScrollStory() {
             {CHAPTERS.map((c, i) => (
                 <ChapterBlock key={c.id} chapter={c} index={i}/>
             ))}
+            <JoinSectionALISMA/>
+
         </div>
     );
 }

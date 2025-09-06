@@ -1,21 +1,21 @@
 {
   "footer": {
     "terms": "Conditions générales",
-    "privacy": "Politique de confidentialité",
+    "privacy": "Confidentialité",
     "contact": "Contact",
     "rights": "Tous droits réservés."
   },
   "faq": {
-    "heading": "Vous avez des questions ?",
-    "description": "Nous sommes là pour vous si vous voulez en savoir plus !",
-    "supportHeading": "Vous voulez en savoir plus ?",
-    "supportButton": "Contactez-nous"
+    "heading": "Tu as des questions ?",
+    "description": "Nous sommes là pour toi si tu veux en savoir plus !",
+    "supportHeading": "Tu veux en savoir plus ?",
+    "supportButton": "Contacte-nous"
   },
   "courses": {
-    "ronny_introduction": "Ronny Hollenstein travaille depuis plus de 30 ans comme formateur et coach, spécialisé dans l’autogestion, le leadership et la communication. Formé par des personnalités renommées telles que Vera F. Birkenbihl, Shirzad Chamine, Maja Storch et d’autres, il a consacré sa carrière à aider les gens à trouver leur voie et à la suivre de manière authentique. Ses clients incluent des personnalités de la haute politique, de l’économie et du secteur public.\nOriginaire du Vorarlberg et aujourd’hui basé à Vienne, il a exercé plusieurs fonctions politiques et comprend le défi de rendre des sujets complexes simples et clairs.\nComme la plupart des résultats dans les organisations passent par la communication, Ronny tient particulièrement à l’améliorer. Une meilleure communication réduit les coûts de transaction causés par les malentendus, les répétitions interminables, les débats improductifs sur l’inchangeable et les conflits mal résolus.",
-    "ronny_quote": "Une bonne communication exige une clarté intérieure, le courage d’être direct, de l’assertivité et des méthodes pour diriger des groupes.",
-    "hero_title": "Votre esprit vous a mené jusqu’ici.\nIl est maintenant temps d’aller plus loin.",
-    "hero_subtitle": "La communauté et la plateforme pour les esprits doués.",
+    "ronny_introduction": "Depuis plus de 30 ans, Ronny Hollenstein travaille comme formateur et coach, spécialisé en autoconduite, leadership et communication. Formé par des personnalités de renom telles que Vera F. Birkenbihl, Shirzad Chamine, Maja Storch et d’autres, il a consacré sa carrière à aider les personnes à trouver leur voie et à la suivre avec authenticité. Parmi ses clients figurent des personnalités de premier plan de la politique, de l’économie et du secteur public.\nOriginaire du Vorarlberg et aujourd’hui basé à Vienne, il a exercé plusieurs fonctions politiques et comprend le défi que représente la transmission simple et claire de sujets complexes.\nComme la plupart des résultats dans les organisations sont obtenus par la communication, l’améliorer lui tient particulièrement à cœur. Une meilleure communication réduit les coûts de transaction dus aux malentendus, aux répétitions sans fin, aux débats improductifs sur l’immutabilité et aux conflits mal résolus.",
+    "ronny_quote": "Une bonne communication exige une clarté intérieure, le courage de la franchise, de l’assertivité et des méthodes pour conduire des groupes.",
+    "hero_title": "Ton esprit t’a amené jusqu’ici.\n Maintenant, il est temps d’aller plus loin.",
+    "hero_subtitle": "La communauté et la plateforme pour les esprits à haut potentiel.",
     "hero_btn_courses": "Voir tous les cours",
     "hero_btn_learnmore": "En savoir plus"
   },
@@ -23,7 +23,7 @@
     "sections": {
       "main": "Accueil",
       "about": "Plus",
-      "learning": "Apprentissage",
+      "learning": "Apprendre",
       "projects": "Projets"
     },
     "links": {
@@ -41,8 +41,8 @@
     }
   },
   "contact": {
-    "title": "Vous avez des questions ?",
-    "description": "Nous sommes disponibles pour vos questions, vos retours ou vos propositions de collaboration. Dites-nous comment nous pouvons vous aider !",
+    "title": "Tu as des questions ?",
+    "description": "Nous sommes disponibles pour les questions, les retours ou des opportunités de collaboration. Dis-nous comment nous pouvons aider !",
     "form": {
       "firstname": "Prénom",
       "lastname": "Nom",
@@ -54,175 +54,353 @@
       "lastnamePlaceholder": "Nom",
       "emailPlaceholder": "E-mail",
       "subjectPlaceholder": "Objet",
-      "messagePlaceholder": "Écrivez votre message ici."
+      "messagePlaceholder": "Écris ton message ici."
     }
   },
   "projects": {
     "title": "Nos projets",
-    "text": "ALISMA réunit de jeunes femmes dans les STEM – lors d’événements communautaires comme le WAFF, à travers des ateliers inspirants et grâce à notre propre concours de projets de diplôme. Nos mini-livres éveillent la curiosité pour la technologie dès le plus jeune âge et brisent les stéréotypes. Avec des campagnes, des projets scolaires et des modèles inspirants, nous créons visibilité, opportunités et un réseau solide.",
+    "text": "ALISMA rassemble les jeunes femmes en STEM — lors d’événements communautaires comme l’événement WAFF, via des ateliers inspirants et avec notre propre concours de mémoires de diplôme. Nos mini-livres éveillent la curiosité pour la technologie chez les plus jeunes et brisent les stéréotypes. Avec des campagnes, des projets scolaires et des rôles modèles, nous créons visibilité, opportunités et un réseau solide.",
     "htlgirls": {
       "title": "Communauté HTL Girls",
-      "text": "La communauté HTL Girls relie les étudiantes des écoles techniques autrichiennes, favorise leur visibilité et crée des espaces d’échange, d’autonomisation et de projets communs."
+      "text": "La communauté HTL Girls connecte les élèves des HTL autrichiennes, renforce leur visibilité et crée des espaces d’échange, d’empowerment et de projets communs."
     },
     "modernmen": {
       "title": "Modern Men",
-      "text": "Le projet Modern Men accompagne les jeunes hommes grâce à la sensibilisation, des ateliers et des formations axés sur la compétence émotionnelle et l’égalité."
+      "text": "Le projet Modern Men soutient les jeunes hommes par la sensibilisation, des ateliers et des formations autour de la compétence émotionnelle et de l’égalité."
     },
     "empowering": {
       "title": "EmpowerING – Obtiens ton titre",
-      "text": "EmpowerING met en lumière les diplômées des filières techniques et renforce leur reconnaissance. Avec cette initiative, nous célébrons et inspirons les femmes dans le domaine de l’ingénierie."
+      "text": "EmpowerING rend visibles les diplômées des filières techniques et renforce leur reconnaissance. Avec cette initiative, nous célébrons et inspirons les femmes en ingénierie."
     }
   },
   "mission": {
     "titel": "Notre mission",
-    "text": "Notre mission est de renforcer et de connecter les filles et les femmes dans les STEM et de leur ouvrir les portes vers des carrières techniques.\nNous voulons non seulement informer, mais aussi inspirer – avec des modèles, des projets et des rencontres qui donnent du courage et brisent les stéréotypes.\nALISMA représente une communauté où la diversité est vécue, où les succès sont célébrés et où chaque jeune femme reçoit le soutien dont elle a besoin pour tracer sa propre voie dans la technologie et la science."
+    "text": " Notre mission est de renforcer et de connecter les filles et les femmes dans les disciplines STEM et de leur ouvrir les portes des carrières techniques.\n Nous ne voulons pas seulement informer, mais inspirer — avec des rôles modèles, des projets et des rencontres qui encouragent et brisent les clichés.\n ALISMA représente une communauté où la diversité se vit, où les succès sont célébrés et où chaque jeune femme reçoit le soutien dont elle a besoin pour son parcours en technologie et en science.\n "
   },
   "alismaJoin": {
-    "title": "Rejoignez-nous !",
-    "leadStrong": "Chez ALISMA, chaque voix et chaque idée compte.",
-    "lead": "Que vous soyez étudiante en HTL à la recherche de personnes partageant vos idées, un modèle souhaitant inspirer de jeunes femmes ou une école prête à collaborer avec nous pour plus d’égalité – nous sommes heureux de vous accueillir.",
-    "body": "Faites partie d’une communauté engagée qui se soutient mutuellement, partage ses connaissances et ouvre de nouvelles opportunités. Inscrivez-vous à notre newsletter, rejoignez notre communauté WhatsApp ou impliquez-vous comme bénévole – votre contribution fait la différence.",
-    "cardTitle": "Rejoindre maintenant",
+    "title": "Rejoins-nous !",
+    "leadStrong": "Chez ALISMA, chaque voix et chaque idée comptent.",
+    "lead": "Que tu sois élève en HTL à la recherche de personnes partageant les mêmes idées, un rôle modèle souhaitant inspirer les jeunes femmes, ou une école qui veut œuvrer avec nous pour plus d’égalité des chances — nous sommes ravis de te rencontrer.",
+    "body": "Deviens partie prenante d’une communauté engagée qui se soutient, partage le savoir et ouvre de nouvelles opportunités. Inscris-toi à notre newsletter, rejoins notre communauté WhatsApp ou fais du bénévolat — ta contribution fait la différence.",
+    "cardTitle": "Commencer maintenant",
     "cta": {
       "join": "Devenir membre",
       "whatsapp": "Rejoindre la communauté WhatsApp"
     },
     "more": {
-      "label": "Autres façons :",
+      "label": "Autres moyens :",
       "newsletter": "S’inscrire à la newsletter",
-      "volunteer": "Faire du bénévolat"
+      "volunteer": "S’engager bénévolement"
     },
     "aria": {
-      "join": "Devenir membre – démarrer l’inscription",
-      "whatsapp": "Rejoindre la communauté WhatsApp ALISMA"
+      "join": "Devenir membre — démarrer l’onboarding",
+      "whatsapp": "Rejoindre la communauté WhatsApp d’ALISMA"
     }
   },
   "lp_title": "Pour la communauté, l’échange et le soutien.",
-  "lp_subtitle": "ALISMA connecte les filles et jeunes femmes dans les STEM, créant des espaces de rencontre, de soutien mutuel et d’inspiration pour de nouvelles voies dans la technologie et la science.",
+  "lp_subtitle": "ALISMA connecte les filles et les jeunes femmes dans les STEM, crée des espaces de rencontre et d’entraide, et inspire de nouvelles voies en technologie et en science.",
   "wer_wir_sind_title": "Qui nous sommes",
-  "wer_wir_sind_text": "ALISMA est une association fondée par six étudiantes de HTL, qui soutient les femmes et les filles dans les STEM. Nous favorisons le réseautage, brisons les préjugés et créons des opportunités – des ateliers scolaires et modèles inspirants jusqu’aux grands événements communautaires. Notre objectif est de créer une communauté solidaire où chacune peut apporter ses idées, évoluer et façonner son avenir.",
+  "wer_wir_sind_text": "ALISMA est une association fondée par six élèves de HTL qui renforce les femmes et les filles dans les STEM. Nous promouvons le réseautage, déconstruisons les préjugés et créons des opportunités — des ateliers scolaires et rôles modèles jusqu’aux grands événements communautaires. Notre objectif est de bâtir une communauté de soutien où chacune peut apporter ses idées, grandir et façonner son avenir.",
   "community_about": {
-    "title": "Ce qui définit notre communauté",
-    "intro": "Notre communauté relie les filles et les femmes dans les disciplines STEM, offrant un espace de réseautage, de soutien mutuel et de croissance partagée. C’est là que l’apprentissage, l’autonomisation et les amitiés durables prennent vie.",
+    "title": "Ce qui caractérise notre communauté",
+    "intro": "Notre communauté relie les filles et les femmes dans les STEM et offre un espace pour le réseautage, l’entraide et la croissance partagée. Ici naissent l’apprentissage, l’empowerment et des amitiés durables.",
     "benefits": {
-      "networking": "Connectez-vous avec des personnes partageant vos idées et élargissez votre réseau",
-      "support": "Recevez encouragement et accompagnement d'une communauté solidaire",
-      "empowerment": "Acquérez la confiance nécessaire pour relever de nouveaux défis et assumer des rôles de leadership",
-      "learning": "Accédez à des opportunités d'apprendre, de partager vos connaissances et de progresser ensemble"
+      "networking": "Te connecter avec des personnes qui te ressemblent et élargir ton réseau",
+      "support": "Recevoir encouragement et soutien d’une communauté forte",
+      "empowerment": "Gagner en confiance pour relever de nouveaux défis et assumer des rôles de leadership",
+      "learning": "Profiter d’opportunités d’apprentissage, d’échange de connaissances et de croissance commune"
     }
   },
   "community": {
     "members": {
       "sectionTitle": "Visages de la communauté",
-      "sectionIntro": "Découvrez celles et ceux qui font ALISMA — étudiantes, diplômées, modèles inspirants et partenaires, unis par le partage, l’apprentissage et l’entraide.",
+      "sectionIntro": "Fais connaissance avec celles et ceux qui façonnent ALISMA — élèves, diplômées, rôles modèles et partenaires qui incarnent le réseautage, l’apprentissage et l’empowerment.",
       "aria_list": "Membres",
       "aria_list_mobile": "Membres (mobile)",
-      "aria_thumbnail": "{{name}}, {{role}} — sélectionner pour afficher le profil complet",
+      "aria_thumbnail": "{{name}}, {{role}} — sélectionner pour voir le profil",
       "alt": "{{name}} – {{role}}",
       "portraitAlt": "Portrait de {{name}}",
-      "aria_quote": "Citation du membre",
-      "aria_link": "Lien {{label}} pour {{name}}"
+      "aria_quote": "Citation d’un membre",
+      "aria_link": "Lien {{label}} de {{name}}"
     }
   },
   "aboutScroll": {
     "banner": {
-      "title": "Unsere Geschichte in Kapiteln",
-      "subtitle": "Eine Scroll-Story darüber, wie ALISMA Mädchen und junge Frauen in MINT an Österreichs HTLs stärkt."
+      "title": "Notre histoire en chapitres",
+      "subtitle": "Une histoire à faire défiler sur la manière dont ALISMA renforce les filles et les jeunes femmes en STEM dans les HTL d’Autriche."
     },
     "chapters": {
       "intro": {
-        "title": "Von HTL-Girls. Für HTL-Girls.",
-        "body": "ALISMA begann als HTL-Girls – eine kleine Gruppe mit einer großen Mission: vernetzen, stärken und Mädchen in der technischen Bildung sichtbar machen. Heute sind wir eine wachsende Community, die Türen öffnet, Chancen teilt und Neugier in Selbstvertrauen verwandelt."
+        "title": "Par des HTL girls. Pour des HTL girls.",
+        "body": "ALISMA a commencé comme HTL Girls — un petit groupe avec une grande mission : connecter, renforcer et rendre visibles les filles dans l’enseignement technique. Aujourd’hui, nous sommes une communauté grandissante qui ouvre des portes, partage des opportunités et transforme la curiosité en confiance."
       },
       "mission": {
-        "title": "Unsere Mission",
-        "body": "Wir stärken und vernetzen Mädchen und junge Frauen in MINT. Wir informieren und inspirieren – mit Role Models, Projekten und Begegnungen, die ermutigen, Klischees aufbrechen und Erfolge feiern."
+        "title": "Notre mission",
+        "body": "Nous renforçons et connectons les filles et les jeunes femmes dans les STEM. Nous informons et inspirons — avec des rôles modèles, des projets et des rencontres qui encouragent, brisent les clichés et célèbrent les réussites."
       },
       "programs": {
-        "title": "Was wir tun",
-        "body": "Von Community-Events und dem WAFF-Schauplatz über Schulworkshops, einen Diplomarbeits-Wettbewerb bis hin zu unserer Mini-Buchreihe mit echten Frauen aus MINT – ALISMA schafft Orte, an denen Lernen auf Zugehörigkeit trifft."
+        "title": "Ce que nous faisons",
+        "body": "Des événements communautaires et de la vitrine WAFF aux ateliers scolaires, en passant par un concours de mémoires de diplôme et notre série de mini-livres présentant des femmes réelles en STEM — ALISMA crée des lieux où l’apprentissage rencontre l’appartenance."
       },
       "impact": {
-        "title": "Wirkung, die man spürt",
-        "body": "Hunderte erreichte Schüler:innen, 974 Stimmen aus 11 HTLs und viele nachhaltige Verbindungen. Wir machen Wege in die HTL – und darüber hinaus – sichtbarer und zugänglicher."
+        "title": "Un impact tangible",
+        "body": "Des centaines d’élèves touché·e·s, 974 voix de 11 HTL et de nombreux liens durables. Nous rendons les chemins vers les HTL — et au-delà — plus visibles et accessibles."
       },
       "together": {
-        "title": "Gemeinschaft – unsere Stärke",
-        "body": "ALISMA ist ein sicherer, lebendiger Verbund über Österreichs HTLs hinweg. Wir fördern Vielfalt, stärken emotionale Kompetenz und beziehen auch Burschen, Lehrkräfte und Partner in den konstruktiven Dialog ein."
+        "title": "La communauté — notre force",
+        "body": "ALISMA est un réseau sûr et vivant à travers les HTL d’Autriche. Nous favorisons la diversité, renforçons la compétence émotionnelle et incluons aussi les garçons, les enseignant·e·s et les partenaires dans un dialogue constructif."
       },
       "cta": {
-        "title": "Mach mit",
-        "body": "Werde Teil der ALISMA-Community: Erhalte Updates, tritt unserer WhatsApp-Gruppe bei, werde Mentor:in oder unterstütze ein Event. Deine Stimme kann Wege verändern.",
+        "title": "Participe",
+        "body": "Deviens membre de la communauté ALISMA : reçois des nouvelles, rejoins notre groupe WhatsApp, deviens mentor ou soutiens un événement. Ta voix peut changer des trajectoires.",
         "buttons": {
-          "join": "Mitmachen",
-          "contact": "Kontakt"
+          "join": "Rejoindre",
+          "contact": "Contact"
         }
       }
     }
   },
-  "htlGirls": {
+  "htlgirls": {
     "hero": {
-      "title": "La Communauté HTL",
-      "body": "La Communauté HTL est un programme créé par des élèves pour des élèves. Nous connectons, soutenons et renforçons les filles dans les écoles techniques – tout en montrant aux plus jeunes enfants et aux garçons à quel point la technologie peut être diversifiée.",
+      "title": "La communauté HTL",
+      "body": "La communauté HTL est un programme par des élèves pour des élèves. Nous connectons, promouvons et renforçons les filles dans les écoles techniques — et montrons aussi aux plus jeunes enfants et aux garçons la diversité des technologies.",
       "button": "Rejoindre la communauté",
-      "imageAlt": "Élèves HTL dans des ateliers et des projets"
+      "imageAlt": "Élèves de HTL en ateliers et scènes de projet"
     },
     "chapters": {
       "why": {
-        "title": "Pourquoi une communauté ? – Pourquoi nous en avons besoin",
-        "body": "Les femmes sont encore sous-représentées dans les écoles et carrières techniques. Beaucoup se sentent seules ou invisibles. Notre communauté brise les stéréotypes, crée un espace d’échange et rend visibles les réussites féminines."
+        "title": "Pourquoi une communauté ?",
+        "body": "Les femmes sont encore sous-représentées dans les écoles et métiers techniques. Beaucoup se sentent seules ou invisibles. Notre communauté brise les stéréotypes, offre un espace d’échange et rend visibles les réussites des femmes."
       },
       "offers": {
-        "title": "Ce que nous faisons – Nos offres",
-        "intro": "La communauté repose sur de nombreux piliers :",
-        "list": [
-          "Événements communautaires : réseautage et échanges entre élèves HTL",
-          "Événement WAFF : une scène pour les modèles, les entreprises et les projets de diplôme",
-          "Concours de projets de diplôme : mettre en valeur des projets innovants",
-          "Ateliers scolaires et soirées pour parents : sensibilisation et enthousiasme pour les HTL",
-          "Mini-livres : faire découvrir la technologie de manière ludique aux enfants de 3 à 10 ans"
-        ],
+        "title": "Nos offres",
+        "body": "La communauté vit de nombreux piliers : des événements, un événement WAFF comme scène pour des rôles modèles et des mémoires de diplôme, un concours de mémoires, des ateliers scolaires et soirées parents, ainsi que des mini-livres qui rendent la technologie ludiquement accessible aux enfants.",
         "button": "Découvrir nos projets"
       },
       "impact": {
-        "title": "Bilan – Ce que nous avons déjà accompli",
-        "body": "Du premier événement « Glow & Grow » avec 50 élèves à l’enquête avec près de 1000 participants : nous avons montré que le réseautage fonctionne. Nos résultats ont même été présentés au niveau national lors de réunions de directeurs."
-      },
-      "voices": {
-        "title": "Voix de la communauté",
-        "quotes": [
-          "« Grâce à la communauté, j’ai trouvé de vraies amies et des modèles. »",
-          "« Enfin, un lieu où nous pouvons parler de nos expériences à la HTL. »"
-        ]
+        "title": "Rétrospective — ce que nous avons déjà accompli",
+        "body": "Du premier événement « Glow & Grow » avec 50 élèves à l’enquête avec près de 1 000 participantes : le réseautage fonctionne. Nos résultats ont été présentés dans des réunions de directrices à l’échelle de l’Autriche."
       },
       "vision": {
-        "title": "Notre vision – Par les HTL Girls pour les HTL Girls",
-        "intro": "À long terme, nous voulons construire une communauté forte et durable :",
-        "list": [
-          "Plus de filles dans les HTL",
-          "Rendre les modèles féminins plus visibles",
-          "Des représentantes pour les filles dans chaque HTL",
-          "Établir la diversité comme une force dans le domaine technique"
-        ],
+        "title": "Notre vision",
+        "body": "Nous voulons une communauté forte et durable : plus de filles en HTL, des rôles modèles féminins visibles, des référentes « filles » dans toutes les HTL et une diversité vécue dans la technologie.",
         "button": "À propos de nous"
       },
       "join": {
-        "title": "Participer – Ta place dans la communauté",
-        "body": "Que ce soit comme élève, modèle, entreprise ou soutien – tu peux faire partie du mouvement. Ensemble, nous changeons la manière dont les filles vivent la technologie.",
-        "buttons": ["Participer maintenant", "S’abonner à la newsletter"]
-      },
-      "partners": {
-        "title": "Partenaires & soutiens",
-        "body": "Pour rendre la communauté possible, nous travaillons avec des partenaires comme la Fondation MINTality et des entreprises engagées."
+        "title": "S’impliquer — ta place dans la communauté",
+        "body": "Que tu sois élève, rôle modèle, entreprise ou soutien — tu peux faire partie du mouvement. Ensemble, nous changeons la façon dont les filles vivent la technologie.",
+        "buttonPrimary": "Devenir membre",
+        "buttonSecondary": "S’abonner à la newsletter"
       },
       "contact": {
-        "title": "Contact & Infos",
-        "body": "Tu as des questions ou veux en savoir plus ? Nous serons ravies d’avoir de tes nouvelles.",
+        "title": "Contact & infos",
+        "body": "Tu as des questions ou tu veux en savoir plus ? Nous nous réjouissons de te lire.",
         "button": "Nous contacter"
       }
     }
+  },
+  "htlGirlsQuotes": {
+    "title": "Voix de la communauté",
+    "subtitle": "Des expériences réelles. Un impact réel.",
+    "items": [
+      {
+        "text": "Grâce à la communauté, j’ai trouvé de vraies amies et des rôles modèles.",
+        "author": "Marlene K.",
+        "meta": "Élève de HTL, Vienne"
+      },
+      {
+        "text": "Enfin un lieu où l’on peut parler ouvertement de nos expériences en HTL.",
+        "author": "Lea S.",
+        "meta": "5e année, informatique"
+      },
+      {
+        "text": "Les événements m’ont donné le courage de présenter mon mémoire de diplôme.",
+        "author": "Sara D.",
+        "meta": "Diplômée 2025"
+      }
+    ]
+  },
+  "modernMan": {
+    "hero": {
+      "title": "Modern Man – Être fort sans masque",
+      "body": "Modern Man est le programme d’ALISMA pour les garçons en HTL. Il renforce la compétence émotionnelle, la santé mentale et un leadership respectueux — pour que les jeunes hommes en tech agissent avec assurance, empathie et esprit d’équipe. Il complète HTL Girls et construit des ponts plutôt que des clivages.",
+      "button": "Découvrir le programme",
+      "imageAlt": "Garçons de HTL en situations d’atelier et de projet"
+    },
+    "chapters": {
+      "why": {
+        "title": "Pourquoi Modern Man ?",
+        "body": "Parce que la performance sans autorégulation coûte cher. En HTL, forte pression, dynamique de projet et rôles rigides se rencontrent. Si l’on ne peut pas lire ni exprimer les émotions, on perd en concentration, en travail d’équipe et en résilience. La force moderne signifie : comprendre les émotions, respecter les limites, assumer ses responsabilités — dans le projet, en classe et plus tard en entreprise."
+      },
+      "problem": {
+        "title": "Quel est le problème ?",
+        "body": "Beaucoup de garçons apprennent tôt : être fort, ne pas pleurer, ne montrer aucune faiblesse. La suppression durable des émotions mène à la dépression ou à l’agressivité incontrôlée. Les conséquences se reflètent dans la société : les jeunes hommes sont plus souvent poursuivis ou se suicident. La racine se trouve souvent dans l’éducation précoce et les rôles : les filles peuvent pleurer mais doivent rester calmes ; les garçons doivent s’imposer, prendre ce qu’ils veulent, montrer de la dominance. Plus tard, s’ajoute la pression d’être « l’homme de la maison » et le soutien de famille. L’égalité — p. ex. salaire égal — donne de la reconnaissance aux femmes et enlève de la pression aux hommes."
+      },
+      "action": {
+        "title": "Que faisons-nous concrètement ?",
+        "body": "Briser les tabous, créer des espaces sûrs, pratiquer concrètement. Nous donnons aux jeunes un langage et des outils pour les émotions, le stress et les limites ; nous entraînons le respect, le consentement et une résolution équitable des conflits — directement à partir de situations quotidiennes. Des mentors authentiques comme Kushtrim Alili créent la confiance car ils connaissent la réalité des jeunes. Résultat : moins de pression, plus de capacité d’agir."
+      },
+      "goals": {
+        "title": "Objectifs",
+        "body": "Six axes qui agissent immédiatement dans le quotidien HTL :",
+        "list": [
+          "Compétence émotionnelle — percevoir, nommer et réguler les émotions",
+          "Santé mentale — gérer le stress, améliorer le sommeil et la concentration",
+          "Respect & limites — communiquer clairement, vivre le consentement, résoudre équitablement",
+          "Masculinité positive — allier performance et empathie",
+          "Allié·e·s — coopérer de manière constructive avec les filles, réduire le sexisme",
+          "Leadership — assumer des responsabilités dans le projet, la classe et l’entreprise"
+        ]
+      },
+      "formats": {
+        "title": "Formats",
+        "body": "Proche de l’école, engageant, orienté pratique : un kick-off commun fait tomber les barrières. Ensuite, des ateliers interactifs, du mentorat entre pairs et des phases mixtes avec HTL Girls. En tant que jeune mentor, Kushtrim Alili apporte des perspectives culturellement sensibles, brise les tabous avec sûreté et respect — et montre des voies pratiques pour le quotidien.",
+        "note": "Remarque : il n’y a actuellement pas de calendrier fixe.",
+        "list": [
+          "Kick-off à l’école (démarrage commun, règles claires)",
+          "Série d’ateliers avec exercices et jeux de rôle",
+          "Phases de projets mixtes (garçons + filles)",
+          "Mentorat entre pairs (les élèves animent des parties)",
+          "Impulsions pour enseignant·e·s et parents (outils du quotidien)",
+          "Suivi & communauté (permanences, mini-défis)"
+        ]
+      },
+      "modules": {
+        "title": "Modules & contenus",
+        "body": "Des briques compactes qui s’emboîtent et s’appliquent directement :",
+        "list": [
+          "Émotion & langage — lire, nommer et désamorcer les émotions",
+          "Stress & sommeil — outils pour la concentration, la récupération, les périodes d’examens",
+          "Respect & consentement — reconnaître les limites, communiquer clairement",
+          "Représentations de la masculinité & médias — réfléchir les rôles plutôt que les copier",
+          "Équipe & résolution de conflits — débattre équitablement, décider proprement",
+          "Leadership & responsabilité — être exemplaire dans la routine projet"
+        ]
+      },
+      "didactics": {
+        "title": "Didactique & posture",
+        "body": "Centrée sur les forces, sans leçon de morale — bref, concret, issu de situations réelles. Espaces sûrs : volontariat, respect, pas d’humiliation. Sensible aux traumatismes et aux cultures. Modern Man n’est pas une thérapie ; si besoin, nous orientons vers des services professionnels.",
+        "list": [
+          "Interactif & basé sur la pratique plutôt que magistral",
+          "Ancré dans le réel : cas d’école, de projet et d’apprentissage",
+          "Cadre sûr : règles claires, culture du feedback",
+          "Sensibilité culturelle & traitement soigneux des tabous",
+          "Voies de référence claires vers des services de conseil si nécessaire"
+        ]
+      },
+      "impact": {
+        "title": "Impact & évaluation",
+        "body": "Nous mesurons connaissances, attitudes et comportements — pas seulement le ressenti. Vérifications avant/après modules, retours des élèves et des enseignant·e·s, et observations en routine projet montrent l’impact.",
+        "list": [
+          "Échelles sur la connaissance des émotions, la compétence de gestion du stress, le comportement respectueux",
+          "Baisse du langage sexiste/cyberharcèlement (anonymisé)",
+          "Meilleur climat de classe & collaboration en projets",
+          "Nombre de pairs qui animent eux-mêmes des unités"
+        ]
+      },
+      "targetGroups": {
+        "title": "Publics cibles",
+        "body": "Modern Man s’adresse aux garçons de HTL (13–19 ans) et renforce les soft skills pour l’école, les projets et le travail. Les écoles gagnent un climat de classe plus stable ; les parents voient une image plus réfléchie de la masculinité. Les entreprises bénéficient de jeunes talents avec esprit d’équipe et potentiel de leadership.",
+        "list": [
+          "Garçons de HTL (13–19) — soft skills du quotidien",
+          "Enseignant·e·s & écoles — meilleur climat, moins de conflits",
+          "Parents & public — image moderne de la masculinité",
+          "Entreprises — travail d’équipe & maturité en leadership"
+        ]
+      }
+    },
+    "kushtrim": {
+      "sectionTitle": "Kushtrim Alili — Une voix pour une masculinité moderne",
+      "subtitle": "Digne de confiance, accessible, sensible aux cultures : il parle aux jeunes d’égal à égal.",
+      "image": "/images/modernmen/kushtrim.jpg",
+      "imageAlt": "Portrait de Kushtrim Alili",
+      "bio": {
+        "name": "Kushtrim Alili",
+        "ageCity": "22 ans, de Graz",
+        "origin": "Né en Macédoine du Nord, d’origine albanaise",
+        "context": "Élevé avec des influences collectivistes — le collectif compte, mais les besoins individuels ont besoin d’espace."
+      },
+      "quotes": [
+        "Il est important de briser les tabous et de créer une société où chaque personne naît avec des droits et des chances égales."
+      ],
+      "about": "Kushtrim accompagne les ateliers Modern Man sur la compétence émotionnelle, le respect et la santé mentale. Son origine et sa jeunesse créent la confiance — il connaît ces sujets de première main et montre comment réduire la pression : exprimer ses émotions en sécurité, respecter les limites, assumer des responsabilités en équipe."
+    }
+  },
+  "empowering": {
+    "hero": {
+      "title": "EmpowerING – Obtiens ton titre",
+      "body": "EmpowerING rend visibles les réussites des femmes ingénieures dans le contexte des HTL, renforce la reconnaissance et relie personnes et opportunités. L’accent : connecter, rendre visible, reconnaître.",
+      "button": "En savoir plus",
+      "imageAlt": "Femmes ingénieures en situations de projet et de présentation à la HTL"
+    },
+    "chapters": {
+      "what": {
+        "title": "De quoi s’agit-il",
+        "body": "EmpowerING est un concept qui rend plus visibles les réussites des femmes ingénieures et renforce la reconnaissance. Il mise sur la connexion et l’échange pour que les succès soient vus, partagés et transmis."
+      },
+      "why": {
+        "title": "Pourquoi la visibilité compte",
+        "body": "La visibilité crée des opportunités. Celles et ceux qui sont vus sont invité·e·s, soutenu·e·s et mémorisé·e·s. On recommande les personnes que l’on connaît — la visibilité ciblée est la clé de la reconnaissance."
+      },
+      "how": {
+        "title": "Comment l’histoire est racontée",
+        "intro": "La page guide pas à pas — du pourquoi à l’impact.",
+        "list": [
+          "Connecter : relier personnes, parcours et opportunités.",
+          "Rendre visible : raconter, montrer et honorer les réussites.",
+          "Renforcer la reconnaissance : consigner les succès et les faire vivre."
+        ]
+      },
+      "who": {
+        "title": "Pour qui",
+        "body": "Pour les élèves et diplômées des HTL ainsi que toutes celles et ceux qui souhaitent soutenir la visibilité et la reconnaissance des réalisations techniques — dans les écoles, les familles, les entreprises et le public."
+      },
+      "stories": {
+        "title": "Des histoires qui restent",
+        "body": "Des portraits courts et des témoignages montrent ce qui est possible lorsque la réussite est vue. Chaque histoire donne le courage d’écrire la suivante."
+      },
+      "cta": {
+        "title": "Deviens maintenant partie prenante de l’histoire",
+        "body": "Celles et ceux qui souhaitent contribuer sont les bienvenu·e·s. La visibilité grandit quand beaucoup s’y engagent.",
+        "buttons": [
+          "Manifester son intérêt",
+          "Recevoir les mises à jour"
+        ]
+      },
+      "partners": {
+        "title": "Plus forts ensemble",
+        "body": "Les soutiens portent la visibilité. Ainsi, d’un ensemble de réussites individuelles naît un mouvement."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Des questions ou des idées ? Chaque message est bienvenu.",
+        "button": "Nous contacter"
+      }
+    }
+  },
+  "contactCta": {
+    "title": "Encore des questions ?",
+    "text": "Contacte-nous pour toute question, abonne-toi à notre newsletter et rejoins notre communauté WhatsApp.",
+    "buttons": {
+      "contact": "Nous contacter",
+      "newsletter": "S’abonner à la newsletter",
+      "whatsapp": "Rejoindre la communauté WhatsApp"
+    }
+  },
+  "events": {
+    "title": "Viens à l’un de nos événements !",
+    "placeholder": "Clique sur un événement pour voir les détails."
+  },
+  "newsletter": {
+    "confirmation": {
+      "title": "Presque terminé !",
+      "subtitle": "Merci de confirmer ton inscription.",
+      "body": "Nous venons de t’envoyer un e-mail. Clique sur le lien de confirmation pour finaliser ton inscription.",
+      "tip_spam": "Vérifie le dossier spam ou promotions.",
+      "tip_wait": "Parfois, cela prend 1 à 2 minutes.",
+      "tip_contact": "Ajoute notre adresse d’expéditeur à tes contacts pour que nos e-mails arrivent sans souci.",
+      "cta_home": "Retour à l’accueil",
+      "cta_retry": "Réessayer"
+    }
   }
-
-
 }
-

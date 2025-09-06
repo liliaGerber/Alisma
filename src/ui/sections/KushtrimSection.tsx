@@ -38,10 +38,10 @@ export default function KushtrimCompactSection() {
                         <div className="flex-1 min-w-0">
                             {/* Title + subtitle */}
                             <header className="mb-3">
-                                <h2 id="kushtrim-title" className="text-2xl sm:text-3xl text-primary font-extrabold tracking-tight">
+                                <h2 id="kushtrim-title" className="text-2xl text-primary font-extrabold tracking-tight">
                                     {t("modernMan.kushtrim.sectionTitle")}
                                 </h2>
-                                <p className="mt-1 text-sm sm:text-base text-primary/90">
+                                <p className="mt-1 text-sm  text-primary/90">
                                     {t("modernMan.kushtrim.subtitle")}
                                 </p>
                             </header>
@@ -64,7 +64,7 @@ export default function KushtrimCompactSection() {
 
                             {/* One quote only */}
                             {quote && (
-                                <blockquote className="mt-4 text-sm sm:text-[0.95rem] leading-relaxed pl-3">
+                                <blockquote className="mt-4 text-sm leading-relaxed pl-3">
                                     “{quote}”
                                 </blockquote>
                             )}

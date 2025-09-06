@@ -385,7 +385,8 @@
       "buttons": {
         "contact": "Kontakt aufnehmen",
         "newsletter": "Newsletter abonnieren",
-        "whatsapp": "WhatsApp-Community beitreten"
+        "whatsapp": "WhatsApp-Community beitreten",
+        "onboarding": "Jetzt Mitglied werden"
       }
     },
     "events": {
