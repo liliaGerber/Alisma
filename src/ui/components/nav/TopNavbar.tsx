@@ -34,7 +34,6 @@ export default function TopNavbar() {
                 {name: "aboutUs", to: "/about"},
                 {name: "contact", to: "/contact"},
                 {name: "faq", to: "/faq"},
-                {name: "partners", to: "/partners"},
             ],
         },
         {
@@ -43,7 +42,6 @@ export default function TopNavbar() {
                 {name: "htl-girls", to: "/htlgirls"},
                 {name: "htl-boys", to: "/modernmen"},
                 {name: "empowering", to: "/empowering"},
-                {name: "events", to: "/event"},
                 {name: "events", to: "/events"},
             ],
         },

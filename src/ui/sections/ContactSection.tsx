@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 
@@ -35,6 +35,10 @@ export const ContactSection: React.FC = () => {
     const [errors, setErrors] = useState<FormErrors>({});
     const [isLoading, setIsLoading] = useState(false);
     const [statusMessage, setStatusMessage] = useState<string | null>(null);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const validate = (): boolean => {
         const next: FormErrors = {};

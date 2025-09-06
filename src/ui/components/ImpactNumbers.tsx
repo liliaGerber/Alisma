@@ -80,7 +80,6 @@ export default function ImpactNumbers({
                 </div>
             </div>
         </section>
-    <SectionSeparatorWave className={`text-htlgirls rotate-180`}/>
 </>
 );
 }

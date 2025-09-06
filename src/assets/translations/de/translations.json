@@ -334,5 +334,63 @@
         ]
       }
     }
+  },
+  "empowerING": {
+    "hero": {
+      "title": "EmpowerING – Get Your Title",
+      "body": "EmpowerING macht Leistungen von Technikerinnen im HTL-Umfeld sichtbar, stärkt Anerkennung und verbindet Menschen und Möglichkeiten. Der Fokus: vernetzen, sichtbar machen, anerkennen.",
+      "button": "Mehr erfahren",
+      "imageAlt": "HTL-Technikerinnen in Projekt- und Präsentationssituationen"
+    },
+    "chapters": {
+      "what": {
+        "title": "Worum es geht",
+        "body": "EmpowerING ist ein Konzept, das Leistungen von Technikerinnen sichtbarer macht und Anerkennung stärkt. Es setzt auf Verbindung und Austausch, damit Erfolge gesehen, geteilt und weitergetragen werden."
+      },
+      "why": {
+        "title": "Warum Sichtbarkeit zählt",
+        "body": "Sichtbarkeit schafft Chancen. Wer gesehen wird, wird eingeladen, gefördert und erinnert. Empfohlen werden die, die man kennt – deshalb ist gezielte Sichtbarkeit der Schlüssel zu Anerkennung."
+      },
+      "how": {
+        "title": "Wie die Story erzählt wird",
+        "intro": "Die Seite führt Schritt für Schritt durch die Geschichte – vom Warum zur Wirkung.",
+        "list": [
+          "Vernetzen: Menschen, Wege und Möglichkeiten verbinden.",
+          "Sichtbar machen: Leistungen erzählen, zeigen und würdigen.",
+          "Anerkennung stärken: Erfolge festhalten und fortschreiben."
+        ]
+      },
+      "who": {
+        "title": "Für wen",
+        "body": "Für HTL-Schülerinnen und Absolventinnen sowie alle, die Sichtbarkeit und Anerkennung von technischer Leistung unterstützen möchten – in Schulen, Familien, Unternehmen und der Öffentlichkeit."
+      },
+      "stories": {
+        "title": "Geschichten, die bleiben",
+        "body": "Kurzporträts und Stimmen zeigen, was möglich ist, wenn Leistung gesehen wird. Jede Geschichte macht Mut, die nächste zu schreiben."
+      },
+      "cta": {
+        "title": "Jetzt Teil der Story werden",
+        "body": "Wer mitgestalten möchte, ist eingeladen. Sichtbarkeit wächst, wenn viele mittragen.",
+        "buttons": ["Interesse melden", "Updates erhalten"]
+      },
+      "partners": {
+        "title": "Gemeinsam stärker",
+        "body": "Unterstützerinnen und Unterstützer tragen Sichtbarkeit mit. So wird aus einzelnen Erfolgen eine Bewegung."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Fragen oder Ideen? Wir freuen uns über jede Nachricht.",
+        "button": "Kontakt aufnehmen"
+      }
+    }
+  },
+  "contactCta": {
+    "title": "Noch Fragen?",
+    "text": "Kontaktiere uns bei Fragen, abonniere unseren Newsletter und tritt unserer WhatsApp-Community bei.",
+    "buttons": {
+      "contact": "Kontakt aufnehmen",
+      "newsletter": "Newsletter abonnieren",
+      "whatsapp": "WhatsApp-Community beitreten"
+    }
   }
 }

@@ -1,9 +1,7 @@
-import {motion, useReducedMotion, Variants} from "framer-motion";
 import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter.ts"
 import {memo} from "react";
 import InViewSection from "@/ui/components/generics/InViewSection";
-
 
 
 type ChapterBlockProps = {
@@ -15,6 +13,7 @@ type ChapterBlockProps = {
     secondary?: string;
     fromWhenImage?: "left" | "right";
     className?: string;
+    wavehidden?: boolean;
 };
 
 function pickThemeParts(theme: string) {
@@ -24,7 +23,7 @@ function pickThemeParts(theme: string) {
     // For the SVG we need a text-* class, but we want the *background* color of the next section.
     // Convert bg-* => text-* so the wave "color" matches the next section background.
     const svgTextFromBg = bg ? bg.replace(/^bg-/, "text-") : "";
-    return { bg, text, svgTextFromBg };
+    return {bg, text, svgTextFromBg};
 }
 
 function ChapterBlock({
@@ -34,18 +33,19 @@ function ChapterBlock({
                           secondary = "bg-secondary text-primary",
                           fromWhenImage,
                           className = "",
+                          wavehidden = false,
                       }: ChapterBlockProps) {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
     const isEven = index % 2 === 0;
     const nextIsEven = (index + 1) % 2 === 0;
 
     const currentTheme = isEven ? primary : secondary;
     const nextTheme = nextIsEven ? primary : secondary;
 
-    const { bg: bgClass, text: textClass } = pickThemeParts(currentTheme);
-    const { svgTextFromBg: nextWaveTextClass } = pickThemeParts(nextTheme);
+    const {bg: bgClass, text: textClass} = pickThemeParts(currentTheme);
+    const {svgTextFromBg: nextWaveTextClass} = pickThemeParts(nextTheme);
 
-    const from: "left" | "right" = fromWhenImage ?? (isEven ? "left" : "right");
+    const from = fromWhenImage ?? (isEven ? "flyLeft" : "flyRight");
 
     return (
         <section
@@ -53,9 +53,11 @@ function ChapterBlock({
             aria-labelledby={`${chapter.id}-title`}
         >
             <div className="mx-auto max-w-6xl pt-20 pb-10 justify-center px-5 md:px-8">
-                <div className={`grid items-center gap-10 md:gap-14 ${chapter.image ? "md:grid-cols-12" : "md:grid-cols-1"}`}>
+                <div
+                    className={`grid items-center gap-10 md:gap-14 ${chapter.image ? "md:grid-cols-12" : "md:grid-cols-1"}`}>
                     {chapter.image && (
-                        <InViewSection from={from} className={`md:col-span-5 ${isEven ? "md:order-1" : "md:order-2"}`}>
+                        // @ts-ignore
+                        <InViewSection preset={from} className={`md:col-span-5 ${isEven ? "md:order-1" : "md:order-2"}`}>
                             <div className="mx-auto w-56 md:w-72 lg:w-80">
                                 <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-black/5">
                                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -72,7 +74,7 @@ function ChapterBlock({
                     )}
 
                     <InViewSection
-                        from="up"
+                        preset="flyUpTitle"
                         className={`${chapter.image ? "md:col-span-7" : "md:col-span-10"} ${
                             isEven ? "md:order-2" : "md:order-1"
                         } w-fit mx-auto`}
@@ -88,7 +90,8 @@ function ChapterBlock({
                         <p className={`${textClass} mt-4 text-lg leading-relaxed md:text-xl`}>{chapter.body}</p>
 
                         {/* Provided buttons */}
-                        {chapter.buttons && <div className={`mt-6 flex flex-wrap gap-3 ${textClass} w-fit`}>{chapter.buttons}</div>}
+                        {chapter.buttons &&
+                            <div className={`mt-6 flex flex-wrap gap-3 ${textClass} w-fit`}>{chapter.buttons}</div>}
 
                         {/* Back-compat default CTA */}
                         {!chapter.buttons && chapter.id === "cta" && (
@@ -114,7 +117,7 @@ function ChapterBlock({
             <svg
                 aria-hidden="true"
                 viewBox="0 0 1440 160"
-                className={`pointer-events-none mt-15 block h-20 w-full md:h-24 ${nextWaveTextClass}`}
+                className={`pointer-events-none mt-15 h-20 w-full md:h-24 ${wavehidden ? 'hidden' : 'block'} ${nextWaveTextClass}`}
                 preserveAspectRatio="none"
             >
                 <path

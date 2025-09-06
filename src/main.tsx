@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import '@schedule-x/theme-shadcn/dist/index.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './index.css'
 import AboutUsPage from "./ui/pages/AboutUsPage";
@@ -18,9 +19,8 @@ import CommunityPage from "@/ui/pages/CommunityPage";
 import HtlGirlsPage from "@/ui/pages/HtlGirlsPage";
 import ModernMenPage from "./ui/pages/ModernMenPage";
 import EmpoweringPage from "@/ui/pages/EmpoweringPage";
-import HeroBoysPage from "@/ui/pages/HeroBoys";
-import EventsPage from "@/ui/pages/EventCalendar";
 import EventCalendar from "@/ui/pages/EventCalendar";
+import FooterSimple from "@/ui/components/nav/FooterSimple";
 
 
 function App() {
@@ -53,6 +53,7 @@ function App() {
                         <Route path="/modernmen" element={<ModernMenPage/>}></Route>
                         <Route path="/empowering" element={<EmpoweringPage/>}></Route>
                     </Routes>
+                    <FooterSimple/>
                 </BrowserRouter>
             </I18nextProvider>
         </>

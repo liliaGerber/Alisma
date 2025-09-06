@@ -6,6 +6,8 @@ import type {Chapter} from "@/types/Chapter";
 import ImpactNumbers from "@/ui/components/ImpactNumbers";
 import QuotesSection, {QuoteRef} from "@/ui/sections/QuoteSection";
 import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
+import ContactRedirectSection from "@/ui/sections/ContactRedirectSection";
+import ContactCtaSection from "@/ui/sections/ContactRedirectSection";
 
 export default function HtlGirlsPage() {
     const {t} = useTranslation();
@@ -37,7 +39,7 @@ export default function HtlGirlsPage() {
             title: t("htlgirls.chapters.offers.title"),
             body: t("htlgirls.chapters.offers.body"),
             buttons: (
-                <a href="#projects" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                <a href="/our-projects" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                     {t("htlgirls.chapters.offers.button")}
                 </a>
             ),
@@ -52,7 +54,7 @@ export default function HtlGirlsPage() {
             title: t("htlgirls.chapters.vision.title"),
             body: t("htlgirls.chapters.vision.body"),
             buttons: (
-                <a href="#about" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                <a href="/about" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                     {t("htlgirls.chapters.vision.button")}
                 </a>
             ),
@@ -63,23 +65,13 @@ export default function HtlGirlsPage() {
             body: t("htlgirls.chapters.join.body"),
             buttons: (
                 <div className="flex flex-wrap gap-3">
-                    <a href="#join" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                    <a href="/join" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                         {t("htlgirls.chapters.join.buttonPrimary")}
                     </a>
-                    <a href="#newsletter" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                    <a href="/newsletter" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                         {t("htlgirls.chapters.join.buttonSecondary")}
                     </a>
                 </div>
-            ),
-        },
-        {
-            id: "contact",
-            title: t("htlgirls.chapters.contact.title"),
-            body: t("htlgirls.chapters.contact.body"),
-            buttons: (
-                <a href="#contact" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
-                    {t("htlgirls.chapters.contact.button")}
-                </a>
             ),
         },
     ];    return (
@@ -108,6 +100,8 @@ export default function HtlGirlsPage() {
                                 ]}
                                 className="bg-htlgirls text-primary"
                             />
+                            <SectionSeparatorWave className={`mt-[-2px] text-htlgirls rotate-180`}/>
+
                         </>
 
 
@@ -130,8 +124,17 @@ export default function HtlGirlsPage() {
                         </>
 
                     )}
+
                 </React.Fragment>
             ))}
+
+            <ContactCtaSection
+                newsletterHref="/newsletter"
+                whatsappHref="https://chat.whatsapp.com/yourInvite"
+                containerTheme="bg-htlgirls text-primary"
+                primaryBtnClass="bg-primary text-htlgirls"
+                secondaryBtnClass="border-2 text-primary"
+            />
         </>
     )
 }
