@@ -191,7 +191,7 @@
       "join": {
         "title": "Mitmachen – Dein Platz in der Community",
         "body": "Ob als Schülerin, Role Model, Unternehmen oder Unterstützer*in – du kannst Teil der Bewegung werden. Gemeinsam verändern wir, wie Mädchen Technik erleben.",
-        "buttonPrimary": "Jetzt mitmachen",
+        "buttonPrimary": "Werde Mitglied",
         "buttonSecondary": "Newsletter abonnieren"
       },
       "contact": {
@@ -391,5 +391,17 @@
     "events": {
       "title": "Komme zu einem unserer  Events!",
       "placeholder": "Klicke auf eines der Events, um Details zu sehen."
+    },
+  "newsletter": {
+    "confirmation": {
+      "title": "Fast geschafft!",
+      "subtitle": "Bitte bestätige deine Anmeldung.",
+      "body": "Wir haben dir soeben eine E-Mail geschickt. Klicke auf den Bestätigungslink, um die Anmeldung abzuschließen.",
+      "tip_spam": "Spam- oder Werbeordner prüfen.",
+      "tip_wait": "Manchmal dauert es 1–2 Minuten.",
+      "tip_contact": "Unsere Absenderadresse zu deinen Kontakten hinzufügen, damit künftige E-Mails sicher ankommen.",
+      "cta_home": "Zur Startseite",
+      "cta_retry": "Erneut versuchen"
     }
+  }
   }

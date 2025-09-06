@@ -73,11 +73,11 @@ export default function JoinSectionALISMA({
                                     <ul className="list-disc ml-5">
                                         <li>
                                             <a className="underline underline-offset-4 text-primary"
-                                               href="#newsletter">{t("alismaJoin.more.newsletter")}</a>
+                                               href="/newsletter">{t("alismaJoin.more.newsletter")}</a>
                                         </li>
                                         <li>
                                             <a className="underline underline-offset-4 text-primary"
-                                               href="#ehrenamt">{t("alismaJoin.more.volunteer")}</a>
+                                               href="/onboarding">{t("alismaJoin.more.volunteer")}</a>
                                         </li>
                                     </ul>
                                 </div>
