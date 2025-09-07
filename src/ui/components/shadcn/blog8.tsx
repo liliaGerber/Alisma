@@ -2,6 +2,7 @@ import {ArrowRight} from "lucide-react";
 
 import {Card} from "@/ui/components/shadcn/card";
 import posts from "@/assets/data/posts.json"
+import {Link} from "react-router-dom";
 
 interface Post {
     id: string;
@@ -49,17 +50,18 @@ const Blog8 = ({
                                     <div className="mb-4">
                                         <div
                                             className="flex flex-wrap gap-2 text-xs tracking-wider text-muted-foreground uppercase md:gap-5 lg:gap-6">
-                                            {post.tags?.map((tag) => <span key={tag} className={"bg-primary-100 py-1 px-2 rounded-2xl"}>{tag}</span>)}
+                                            {post.tags?.map((tag) => <span key={tag}
+                                                                           className={"bg-primary-100 py-1 px-2 rounded-2xl"}>{tag}</span>)}
                                         </div>
                                     </div>
                                     <h3 className="text-xl font-semibold md:text-2xl lg:text-3xl ">
-                                        <a
-                                            href={post.url}
+                                        <Link
+                                            to={post.url}
                                             target="_blank"
                                             className="hover:underline"
                                         >
                                             {post.title}
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-4 text-muted-foreground md:mt-5">
                                         {post.summary}
@@ -73,14 +75,14 @@ const Blog8 = ({
                     </span>
                                             <span className="text-muted-foreground">•</span>
                                             <div className="flex items-center space-x-2">
-                                                <a
-                                                    href={`/news/${post.id}`}
+                                                <Link
+                                                    to={`/news/${post.id}`}
                                                     target="_blank"
                                                     className="inline-flex text-muted-foreground items-center hover:scale-[1.03] text-sm"
                                                 >
                                                     <span>Read more</span>
                                                     <ArrowRight className="ml-2 size-3 transition-transform"/>
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
 
@@ -88,7 +90,7 @@ const Blog8 = ({
 
                                 </div>
                                 <div className="order-first sm:order-last sm:col-span-5">
-                                    <a href={post.url} target="_blank" className="block">
+                                    <Link to={`/news/${post.id}`} target="_blank" className="block">
                                         <div className="aspect-16/9 overflow-clip rounded-lg shadow-sm">
                                             <img
                                                 src={post.image}
@@ -96,7 +98,7 @@ const Blog8 = ({
                                                 className="h-full w-full object-cover transition-opacity duration-200 fade-in hover:opacity-70"
                                             />
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </Card>

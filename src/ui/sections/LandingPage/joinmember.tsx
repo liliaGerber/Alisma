@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import { Button } from "@/ui/components/shadcn/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/ui/components/shadcn/card";
 import { MessageCircle, UserPlus } from "lucide-react";
@@ -77,9 +77,9 @@ export default function JoinSectionALISMA({
                                     onClick={onJoinClick}
                                     className={`w-full h-12 text-base rounded-2xl font-semibold border  ${primary} hover:scale-102 `}
                                 >
-                                    <a href={joinHref} aria-label={t("alismaJoin.aria.join")}>
+                                    <Link to={joinHref} aria-label={t("alismaJoin.aria.join")}>
                                         <UserPlus className="mr-2 h-5 w-5" /> {t("alismaJoin.cta.join")}
-                                    </a>
+                                    </Link>
                                 </Button>
 
                                 {/* Secondary: WhatsApp */}
@@ -89,34 +89,34 @@ export default function JoinSectionALISMA({
                                     variant={"basic"}
                                     className={`w-full h-12 text-base rounded-2xl border ${primary} hover:scale-102`}
                                 >
-                                    <a
-                                        href={whatsappHref}
+                                    <Link
+                                        to={whatsappHref}
                                         aria-label={t("alismaJoin.aria.whatsapp")}
                                         target="_blank"
                                         rel="noreferrer noopener"
                                     >
                                         <MessageCircle className="mr-2 h-5 w-5" /> {t("alismaJoin.cta.whatsapp")}
-                                    </a>
+                                    </Link>
                                 </Button>
 
                                 <div className="pt-2 text-sm">
                                     <span className="block">{t("alismaJoin.more.label")}</span>
                                     <ul className="list-disc ml-5">
                                         <li>
-                                            <a
+                                            <Link
                                                 className="underline underline-offset-4"
-                                                href="/newsletter"
+                                                to="/newsletter"
                                             >
                                                 {t("alismaJoin.more.newsletter")}
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
+                                            <Link
                                                 className="underline underline-offset-4"
-                                                href="/onboarding"
+                                                to="/onboarding"
                                             >
                                                 {t("alismaJoin.more.volunteer")}
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

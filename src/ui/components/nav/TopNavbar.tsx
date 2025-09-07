@@ -68,7 +68,7 @@ export default function TopNavbar() {
                 <div className="container flex items-center justify-between h-full px-5">
                     <Link to="/" className="flex flex-row items-center space-x-3">
                         <Logo
-                            className={`bg-fit w-25 h-25 max-h-[100px]`}
+                            className={`bg-fit w-25 h-25 max-h-[100px] ${theme}`}
                         />
                     </Link>
 

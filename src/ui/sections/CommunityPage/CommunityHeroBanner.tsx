@@ -5,6 +5,7 @@ import * as React from "react"
 import { Button } from "@/ui/components/shadcn/button"
 import { CarouselWrapper } from "@/ui/components/generics/CarouselWrapper"
 import { BottomWave } from "@/ui/components/generics/Waves"
+import {Link} from "react-router-dom";
 
 type Slide = {
     src: string
@@ -50,7 +51,7 @@ export default function CommunityHeroBanner({
                             {s.ctaHref && s.ctaLabel && (
                                 <div className="mt-4">
                                     <Button asChild size="lg" className="shadow-lg text-secondary">
-                                        <a href={s.ctaHref}>{s.ctaLabel}</a>
+                                        <Link to={s.ctaHref}>{s.ctaLabel}</Link>
                                     </Button>
                                 </div>
                             )}

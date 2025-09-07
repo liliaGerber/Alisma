@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 type Member = {
     id: string;
@@ -166,16 +167,16 @@ export default function CommunityProfiles({ members }: { members: Member[] }) {
                                 {selected.links?.length ? (
                                     <div className="mt-6 flex text-primary flex-wrap gap-3">
                                         {selected.links.map((l) => (
-                                            <a
+                                            <Link
                                                 key={l.href}
-                                                href={l.href}
+                                                to={l.href}
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 className="inline-flex items-center text-primary rounded-full border px-3 py-1.5 text-sm hover:bg-accent"
                                                 aria-label={t("community.members.aria_link", { label: l.label, name: selected.name })}
                                             >
                                                 {l.label}
-                                            </a>
+                                            </Link>
                                         ))}
                                     </div>
                                 ) : null}

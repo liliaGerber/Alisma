@@ -7,6 +7,7 @@ import {
 import { Button } from "./shadcn/button";
 import faqItems from "../../assets/data/faq.json";
 import { useTranslation } from "react-i18next";
+import {Link} from "react-router-dom";
 type Lang = "en" | "de" | "fr";
 
 const FAQComponent = () => {
@@ -50,9 +51,9 @@ const FAQComponent = () => {
             </h3>
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row">
               <Button className="w-full sm:w-auto btn-primary" asChild>
-                <a href="/contact" target="/contact">
+                <Link to="/contact" target="/contact">
                   {t("faq.supportButton")}
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

@@ -1,5 +1,6 @@
+import {Link} from "react-router-dom";
 
- type CourseCardProps = {
+type CourseCardProps = {
     id: string,
     title: string,
     description: string,
@@ -30,8 +31,8 @@ const CourseCard = ({title, id, avaiable, description, url, imageUrl} : CourseCa
                     <p className="line-clamp-4 text-2xl mt-4 lg:mt-0 lg:text-sm text-gray-400">
                         {description}
                     </p>
-                    <a
-                        href={url}
+                    <Link
+                        to={url}
                         className="mt-5 items-center inline-flex  text-2xl lg:text-sm font-medium text-primary"
                     >
                         {avaiable ? "Read More" : "Coming soon"}
@@ -49,7 +50,7 @@ const CourseCard = ({title, id, avaiable, description, url, imageUrl} : CourseCa
                                 d="M1 5h12m0 0L9 1m4 4L9 9"
                             />
                         </svg>
-                    </a>
+                    </Link>
                 </div>
 
             </div>

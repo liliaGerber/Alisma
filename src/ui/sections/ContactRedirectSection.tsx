@@ -41,24 +41,24 @@ export default function ContactCtaSection({
                     </Link>
 
                     {/* Newsletter (external or internal URL) */}
-                    <a
-                        href={newsletterHref}
+                    <Link
+                        to={newsletterHref}
                         className={`inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-1 ring-black/10 hover:shadow-md ${secondaryBtnClass}`}
                         aria-label={t(`contactCta.buttons.newsletter`)}
                     >
                         {t(`contactCta.buttons.newsletter`)}
-                    </a>
+                    </Link>
 
                     {/* WhatsApp community */}
-                    <a
-                        href={whatsappHref}
+                    <Link
+                        to={whatsappHref}
                         className={`inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-1 ring-black/10 hover:shadow-md ${secondaryBtnClass}`}
                         aria-label={t(`contactCta.buttons.whatsapp`)}
                         target="_blank"
                         rel="noreferrer"
                     >
                         {t(`contactCta.buttons.whatsapp`)}
-                    </a>
+                    </Link>
 
 
                 </div>

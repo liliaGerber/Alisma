@@ -1,6 +1,7 @@
 import {useTranslation} from "react-i18next";
 import InViewSection from "@/ui/components/generics/InViewSection";
 import React from "react";
+import {Link} from "react-router-dom";
 
 export interface Chapter {
     id: string;
@@ -56,20 +57,20 @@ export default function WaveSections({chapter, index}: { chapter: Chapter; index
 
                     {chapter.id === "cta" && (
                         <div className="mt-6 flex flex-wrap gap-3">
-                            <a
-                                href="/onboarding"
+                            <Link
+                                to="/onboarding"
                                 className="inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold shadow-sm ring-1 ring-secondary/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                                 style={{background: "var(--secondary)", color: "var(--primary)"}}
                             >
                                 {t("aboutScroll.chapters.cta.buttons.join")}
-                            </a>
-                            <a
-                                href="/contact"
+                            </Link>
+                            <Link
+                                to="/contact"
                                 className="inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-secondary/20 transition hover:ring-secondary/40"
                                 style={{color: "var(--secondary)"}}
                             >
                                 {t("aboutScroll.chapters.cta.buttons.contact")}
-                            </a>
+                            </Link>
                         </div>
                     )}
                 </InViewSection>

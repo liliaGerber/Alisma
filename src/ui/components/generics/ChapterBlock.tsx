@@ -2,6 +2,7 @@ import {useTranslation} from "react-i18next";
 import type {Chapter} from "@/types/Chapter.ts"
 import {memo} from "react";
 import InViewSection from "@/ui/components/generics/InViewSection";
+import {Link} from "react-router-dom";
 
 
 type ChapterBlockProps = {
@@ -94,18 +95,18 @@ function ChapterBlock({
                         {/* Back-compat default CTA */}
                         {!chapter.buttons && chapter.id === "cta" && (
                             <div className="mt-6 flex flex-wrap gap-3">
-                                <a
-                                    href="#join"
+                                <Link
+                                    to="/onboarding"
                                     className={`${textClass} inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold shadow-sm ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2`}
                                 >
                                     {t("aboutScroll.chapters.cta.buttons.join")}
-                                </a>
-                                <a
-                                    href="#contact"
+                                </Link>
+                                <Link
+                                    to="/contact"
                                     className={`${textClass} inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/20 transition hover:ring-black/40`}
                                 >
                                     {t("aboutScroll.chapters.cta.buttons.contact")}
-                                </a>
+                                </Link>
                             </div>
                         )}
                     </InViewSection>

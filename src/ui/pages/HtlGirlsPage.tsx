@@ -9,6 +9,7 @@ import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
 import ContactRedirectSection from "@/ui/sections/ContactRedirectSection";
 import ContactCtaSection from "@/ui/sections/ContactRedirectSection";
 import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
+import {Link} from "react-router-dom";
 
 export default function HtlGirlsPage() {
     const {t} = useTranslation();
@@ -43,9 +44,9 @@ export default function HtlGirlsPage() {
             title: t("htlgirls.chapters.offers.title"),
             body: t("htlgirls.chapters.offers.body"),
             buttons: (
-                <a href="/our-projects" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                <Link to="/our-projects" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                     {t("htlgirls.chapters.offers.button")}
-                </a>
+                </Link>
             ),
         },
         {
@@ -58,9 +59,9 @@ export default function HtlGirlsPage() {
             title: t("htlgirls.chapters.vision.title"),
             body: t("htlgirls.chapters.vision.body"),
             buttons: (
-                <a href="/about" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+                <Link to="/about" className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                     {t("htlgirls.chapters.vision.button")}
-                </a>
+                </Link>
             ),
         },
 

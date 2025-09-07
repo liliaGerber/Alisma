@@ -4,6 +4,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import  Logo  from '@/assets/icons/Logo.svg?react';
 import mainInfo from '@/assets/data/mainInformation.json'
+import { Link } from "react-router-dom";
 
 interface Login1Props {
   heading?: string;
@@ -35,11 +36,11 @@ const Login1 = ({
           <div className="flex flex-col items-center gap-y-2">
             {/* Logo */}
             <div className="flex flex-row items-center gap-3 lg:justify-start  ml-[-350px]">
-              <a href={logo.url}>
+              <Link to={logo.url}>
                 <Logo
                     className="h-10"
                 />
-              </a>
+              </Link>
               <h1 className="text-xl font-extrabold text-secondary">{mainInfo.company_name}</h1>
             </div>
             {heading && <h1 className="text-3xl font-semibold">{heading}</h1>}
@@ -75,12 +76,12 @@ const Login1 = ({
           </div>
           <div className="flex justify-start gap-1 text-sm text-muted-foreground">
             <p>{signupText}</p>
-            <a
-              href={signupUrl}
+            <Link
+              to={signupUrl}
               className="font-medium text-secondary hover:underline"
             >
               Sign up here
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import EmpoweringHeroBanner from "@/ui/sections/EmpoweringHeroBanner";
 import ListBlock from "@/ui/components/generics/ListBlock";
 import ContactCtaSection from "@/ui/sections/ContactRedirectSection";
 import mainInformation from "@/assets/data/mainInformation.json"
+import { Link } from "react-router-dom";
 
 
 export default function empoweringPage() {
@@ -85,18 +86,18 @@ export default function empoweringPage() {
                         body: t("empowering.chapters.cta.body"),
                         buttons: (
                             <div className="flex flex-wrap gap-3">
-                                <a
-                                    href="mailto:absolventinnen@alisma.at"
+                                <Link
+                                    to="mailto:absolventinnen@alisma.at"
                                     className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                                 >
                                     {t("empowering.chapters.cta.buttons.0")}
-                                </a>
-                                <a
-                                    href="/newsletter"
+                                </Link>
+                                <Link
+                                    to="/newsletter"
                                     className="border-2 rounded-xl inline-flex items-center rounded-2xl px-5 py-3 text-base font-semibold ring-1 ring-black/10 transition hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
                                 >
                                     {t("empowering.chapters.cta.buttons.1")}
-                                </a>
+                                </Link>
                             </div>
                         ),
                     }}

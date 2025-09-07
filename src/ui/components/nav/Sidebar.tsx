@@ -35,7 +35,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar, linkItems }: Sideb
                 </div>
 
                 <Link to="/" className="flex flex-row  items-start justify-start overflow-hidden">
-                    <Logo className="h-full max-h-[70px] min-w-[200px] w-[35%] left-0" />
+                    <Logo className={`h-full max-h-[70px] min-w-[200px] w-[35%] left-0  ${theme}`} />
                 </Link>
             </div>
 

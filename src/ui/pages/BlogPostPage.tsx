@@ -1,5 +1,5 @@
 import React, {useEffect, useMemo} from "react";
-import {useLocation, useNavigate, useParams} from "react-router-dom";
+import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import {resolveColorBG, resolveColorText, resolveThemeTextHover} from "@/config/ThemeProvider";
 // ⬇️ Replace with your actual data import path
 import posts from "@/assets/data/posts.json";
@@ -71,7 +71,6 @@ export default function BlogPostPage() {
 
     return (
         <main className="w-full ">
-            {/* Hero */}
             <section className="relative w-full top-20 mb-20">
                 <div className={`absolute inset-x-0 `}/>
                 <div className="mx-auto max-w-6xl px-6 pt-30 sm:pt-12 ">
@@ -103,9 +102,9 @@ export default function BlogPostPage() {
                                 {url && (
                                     <>
                                         <span>•</span>
-                                        <a href={url} className={`underline ${accentTextHover}`}>
+                                        <Link to={url} className={`underline ${accentTextHover}`}>
                                             alisma.at
-                                        </a>
+                                        </Link>
                                     </>
                                 )}
                             </div>
@@ -144,7 +143,6 @@ export default function BlogPostPage() {
                 </div>
             </section>
 
-            {/* Body */}
             <section className="relative mx-auto max-w-6xl px-6 py-30 sm:py-12 ">
                 <article className="">
                     {paragraphs.length > 0 ? (
@@ -164,13 +162,11 @@ export default function BlogPostPage() {
                     )}
                 </article>
 
-                {/* Back & More */}
                 <div className="mt-8 flex items-center justify-between">
 
-                    {/* Optional: link to /news */}
-                    <a href="/news" className={`underline ${accentTextHover}`}>
+                    <Link to="/news" className={`underline ${accentTextHover}`}>
                         Alle Beiträge
-                    </a>
+                    </Link>
                 </div>
             </section>
         </main>

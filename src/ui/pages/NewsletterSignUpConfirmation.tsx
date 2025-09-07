@@ -2,6 +2,7 @@
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import {useEffect} from "react";
+import {Link} from "react-router-dom";
 
 export default function NewsletterSignUpConfirmation() {
     const { t } = useTranslation();
@@ -36,18 +37,18 @@ export default function NewsletterSignUpConfirmation() {
                 </ul>
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-                    <a
-                        href="/"
+                    <Link
+                        to="/"
                         className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold bg-secondary text-primary ring-1 ring-black/10 hover:opacity-90 transition"
                     >
                         {t("newsletter.confirmation.cta_home")}
-                    </a>
-                    <a
-                        href="/newsletter"
+                    </Link>
+                    <Link
+                        to="/newsletter"
                         className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold ring-1 ring-secondary/40 hover:ring-secondary transition"
                     >
                         {t("newsletter.confirmation.cta_retry")}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
