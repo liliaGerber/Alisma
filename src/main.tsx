@@ -24,6 +24,8 @@ import FooterSimple from "@/ui/components/nav/FooterSimple";
 import {Newsletter} from "@/ui/pages/Newsletter";
 import NewsletterSignUpConfirmation from "@/ui/pages/NewsletterSignUpConfirmation";
 import BlogPostPage from "@/ui/pages/BlogPostPage";
+import Impressum from "@/ui/pages/ImpressumsPage";
+import Dsgvo from "@/ui/pages/DsgvoPage";
 
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
                         <Route path="/confirmation" element={<NewsletterSignUpConfirmation/>}></Route>
                         <Route path="/onboarding" element={<ComingSoonPage/>}></Route>
                         <Route path="/news/:id" element={<BlogPostPage />} />
+                        <Route path="/impressum" element={<Impressum />} />
+                        <Route path="/dsgvo" element={<Dsgvo />} />
                     </Routes>
                     <FooterSimple/>
                 </BrowserRouter>
