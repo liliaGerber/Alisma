@@ -5,6 +5,8 @@ import type {Chapter} from "@/types/Chapter.ts"
 import ChapterBlock from "@/ui/components/generics/ChapterBlock";
 import AboutUsHeroBanner from "@/ui/sections/AboutUsHeroBanner";
 import JoinSectionALISMA from "@/ui/sections/LandingPage/joinmember";
+import WhoWeAre from "@/ui/sections/LandingPage/WhoWeAre";
+import {SectionSeparatorWave} from "@/ui/components/generics/Waves";
 
 
 /**
@@ -62,8 +64,11 @@ export default function AboutScrollStory() {
             {CHAPTERS.map((c, i) => (
                 <ChapterBlock key={c.id} chapter={c} index={i}/>
             ))}
-            <JoinSectionALISMA/>
-
+            <WhoWeAre/>
+            <JoinSectionALISMA invert={true}/>
+            <SectionSeparatorWave
+                className="relative text-secondary inset-x-0 bottom-[-1px] z-0"
+            />
         </div>
     );
 }

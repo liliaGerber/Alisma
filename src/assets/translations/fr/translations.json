@@ -402,5 +402,73 @@
       "cta_home": "Retour à l’accueil",
       "cta_retry": "Réessayer"
     }
+  },
+  "membership": {
+    "confirmation": {
+      "title": "Merci pour votre inscription comme membre !",
+      "subtitle": "Nous avons bien reçu votre demande.",
+      "body_1": "Vous recevrez bientôt un e-mail avec plus d’informations. Merci de vérifier votre adresse via le lien de confirmation.",
+      "body_2": "Après la confirmation, notre équipe examinera votre candidature et vous contactera rapidement pour la suite.",
+      "tip_check_inbox": "Vérifiez votre boîte de réception (et les spams) pour notre message.",
+      "tip_confirm": "Cliquez sur le lien de confirmation pour activer la procédure.",
+      "tip_contact": "Des questions ? Contactez-nous via le formulaire.",
+      "cta_onboarding": "Aller à l’onboarding",
+      "cta_home": "Retour à l’accueil"
+    }
+  },
+  "membershipform": {
+    "title": "Inscription à l’adhésion Alisma",
+    "subtitle": "Devenez membre d’Alisma ! Inscrivez-vous ici, nous avons seulement besoin de quelques informations.",
+    "email": {
+      "label": "Saisir votre adresse e-mail",
+      "placeholder": "E-mail",
+      "helper": "Indiquez votre adresse e-mail (par ex. nom@domaine.com)."
+    },
+    "sms": {
+      "label": "Saisir votre numéro de téléphone",
+      "placeholder": "Numéro de mobile",
+      "helper": "Ajoutez l’indicatif du pays si nécessaire.",
+      "country_code_aria": "Indicatif du pays"
+    },
+    "firstname": {
+      "label": "Saisir votre prénom",
+      "placeholder": "Prénom"
+    },
+    "lastname": {
+      "label": "Saisir votre nom",
+      "placeholder": "Nom"
+    },
+    "age": {
+      "section_label": "Confirmer l’âge",
+      "over14": "J’ai plus de 14 ans",
+      "under14": "J’ai moins de 14 ans",
+      "guardian_email": {
+        "label": "E-mail du représentant légal",
+        "placeholder": "E-mail du représentant légal",
+        "helper": "Si vous avez moins de 14 ans, ce champ est requis."
+      },
+      "list": {
+        "over14_rule": "Si vous avez plus de 14 ans, la case doit être cochée, sauf si un e-mail du représentant légal est fourni.",
+        "under14_rule": "Si vous avez moins de 14 ans, cochez la case et indiquez l’e-mail du représentant légal. « Plus de 14 ans » n’est alors pas requis."
+      }
+    },
+    "terms": {
+      "label": "J’accepte les conditions générales et le traitement de mes données conformément à la déclaration de confidentialité."
+    },
+    "contact_permission": {
+      "label": "J’accepte que l’équipe Alisma me contacte à des fins organisationnelles via l’adresse e-mail que j’ai fournie.",
+      "helper": "Uniquement pour des besoins nécessaires liés à l’adhésion et à l’association. Pas de newsletter."
+    },
+    "newsletter": {
+      "label": "Je souhaite recevoir la newsletter d’Alisma"
+    },
+    "declaration": {
+      "text": "Nous utilisons Brevo comme notre plateforme marketing. En soumettant ce formulaire, vous acceptez que les données personnelles que vous avez fournies soient transférées à Brevo pour traitement conformément à la politique de confidentialité de Brevo."
+    },
+    "submit": "S’inscrire"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "text": "ALISMA rêve d’un monde où les jeunes femmes et les jeunes hommes dans les écoles techniques (HTL) ont les mêmes chances de développer leurs talents en sciences et technologies. Nous voulons construire une communauté qui renforce, relie et inspire les filles, tout en encourageant les garçons à développer leurs compétences émotionnelles et leur ouverture. Ensemble, nous formons une génération diversifiée, solidaire et courageuse, capable de transformer la technologie et la société."
   }
 }

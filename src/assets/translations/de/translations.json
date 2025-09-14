@@ -404,5 +404,73 @@
       "cta_home": "Zur Startseite",
       "cta_retry": "Erneut versuchen"
     }
+  },
+  "membership": {
+    "confirmation": {
+      "title": "Danke für deine Mitgliedsanmeldung!",
+      "subtitle": "Wir haben deine Anmeldung erhalten.",
+      "body_1": "In Kürze senden wir dir eine E-Mail mit weiteren Informationen. Bitte bestätige deine Adresse über den Bestätigungslink.",
+      "body_2": "Nach der Bestätigung prüfen wir deine Bewerbung und melden uns zeitnah mit den nächsten Schritten.",
+      "tip_check_inbox": "Prüfe deinen Posteingang (und Spam/Unbekannt) auf unsere Nachricht.",
+      "tip_confirm": "Klicke auf den Bestätigungslink, um den Prozess zu aktivieren.",
+      "tip_contact": "Fragen? Kontaktiere uns über das Formular.",
+      "cta_onboarding": "Zum Onboarding",
+      "cta_home": "Zur Startseite"
+    }
+  },
+  "membershipform": {
+    "title": "Alisma Mitgliedschaftsanmeldung",
+    "subtitle": "Werde Alisma-Mitglied! Melde dich hier an, wir benötigen nur wenige Angaben.",
+    "email": {
+      "label": "E-Mail-Adresse Eingeben",
+      "placeholder": "E-Mail",
+      "helper": "Gib deine E-Mail-Adresse an (z. B. name@domain.com)."
+    },
+    "sms": {
+      "label": "Telefonnummer Eingeben",
+      "placeholder": "Mobilnummer",
+      "helper": "Füge bei Bedarf deine Ländervorwahl hinzu.",
+      "country_code_aria": "Ländervorwahl"
+    },
+    "firstname": {
+      "label": "Vornamen Eingeben",
+      "placeholder": "Vorname"
+    },
+    "lastname": {
+      "label": "Nachnamen Eingeben",
+      "placeholder": "Nachname"
+    },
+    "age": {
+      "section_label": "Alter Bestätigen",
+      "over14": "Ich Bin Über 14 Jahre Alt",
+      "under14": "Ich Bin Unter 14 Jahre Alt",
+      "guardian_email": {
+        "label": "E-Mail Der Erziehungsberechtigten",
+        "placeholder": "E-Mail Der Erziehungsberechtigten",
+        "helper": "Wenn du unter 14 bist, ist dieses Feld erforderlich."
+      },
+      "list": {
+        "over14_rule": "Wenn du über 14 bist, muss das Kontrollkästchen aktiviert sein, außer es wird eine E-Mail der Erziehungsberechtigten angegeben.",
+        "under14_rule": "Wenn du unter 14 bist, aktiviere das Kontrollkästchen und gib die E-Mail der Erziehungsberechtigten an. „Über 14“ ist dann nicht erforderlich."
+      }
+    },
+    "terms": {
+      "label": "Ich stimme den AGB zu und der Verarbeitung meiner Daten gemäß Datenschutzerklärung."
+    },
+    "contact_permission": {
+      "label": "Ich stimme zu, dass das Alisma-Team mich zu organisatorischen Zwecken unter der von mir angegebenen E-Mail-Adresse kontaktieren darf.",
+      "helper": "Nur für notwendige Vereins- und Mitgliedschaftszwecke. Kein Newsletter."
+    },
+    "newsletter": {
+      "label": "Ich möchte den Alisma-Newsletter erhalten"
+    },
+    "declaration": {
+      "text": "Wir verwenden Brevo als unsere Marketingplattform. Mit dem Absenden dieses Formulars stimmst du zu, dass die von dir angegebenen personenbezogenen Daten zur Verarbeitung gemäß der Datenschutzrichtlinie von Brevo an Brevo übermittelt werden."
+    },
+    "submit": "Anmelden"
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "text": "ALISMA träumt von einer Welt, in der junge Frauen und Männer an HTLs gleiche Chancen haben, ihre Talente im MINT-Bereich zu entfalten. Wir wollen eine Community schaffen, die Mädchen stärkt, vernetzt und inspiriert, während wir gleichzeitig Burschen ermutigen, emotionale Kompetenz und Offenheit zu entwickeln. Gemeinsam bauen wir eine vielfältige, solidarische und mutige Generation, die Technik und Gesellschaft verändert."
   }
-  }
+}

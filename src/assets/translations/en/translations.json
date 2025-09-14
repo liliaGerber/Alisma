@@ -403,5 +403,74 @@
       "cta_home": "Back to homepage",
       "cta_retry": "Try again"
     }
+  },
+  "membership": {
+    "confirmation": {
+      "title": "Thank you for becoming a member!",
+      "subtitle": "We’ve received your signup.",
+      "body_1": "We’ll send you an email with more details in a moment. Please look for a confirmation link to verify your address.",
+      "body_2": "After you confirm, our team will review your application and reach out shortly with next steps.",
+      "tip_check_inbox": "Check your inbox (and spam/junk) for our message.",
+      "tip_confirm": "Click the confirmation link to activate your membership process.",
+      "tip_contact": "Questions? Contact us via the form.",
+      "cta_onboarding": "Go to Onboarding",
+      "cta_home": "Back to Home"
+    }
+  },
+  "membershipform": {
+    "title": "Alisma Membership Signup",
+    "subtitle": "Become an Alisma member! Sign up here, we just need a few details.",
+    "email": {
+      "label": "Enter Your Email",
+      "placeholder": "Email",
+      "helper": "Provide your email address (e.g., name@domain.com)."
+    },
+    "sms": {
+      "label": "Enter Your Number",
+      "placeholder": "Mobile Number",
+      "helper": "Include your country code if needed.",
+      "country_code_aria": "Country code"
+    },
+    "firstname": {
+      "label": "Enter Your First Name",
+      "placeholder": "First Name"
+    },
+    "lastname": {
+      "label": "Enter Your Last Name",
+      "placeholder": "Last Name"
+    },
+    "age": {
+      "section_label": "Confirm Age",
+      "over14": "I Am Over 14 Years Old",
+      "under14": "I Am Under 14 Years Old",
+      "guardian_email": {
+        "label": "Legal Guardian Email",
+        "placeholder": "Guardian Email",
+        "helper": "If you are under 14, this field is required."
+      },
+      "list": {
+        "over14_rule": "If you are over 14, the checkbox is mandatory unless a guardian email is provided.",
+        "under14_rule": "If you are under 14, tick the checkbox and provide the guardian’s email. “Over 14” is then not required."
+      }
+    },
+    "terms": {
+      "label": "I agree to the terms and conditions and the processing of my data as stated in the privacy statement."
+    },
+    "contact_permission": {
+      "label": "I agree that the Alisma team may contact me for organizational purposes using the email address I provided.",
+      "helper": "Only for necessary purposes regarding the membership and the association. No newsletter."
+    },
+    "newsletter": {
+      "label": "I want to receive the Alisma newsletter"
+    },
+    "declaration": {
+      "text": "We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with Brevo’s Privacy Policy."
+    },
+    "submit": "Sign Up"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "ALISMA envisions a world where young women and men at technical schools (HTLs) have equal opportunities to unfold their talents in STEM. We aim to build a community that empowers, connects, and inspires girls, while also encouraging boys to grow in emotional competence and openness. Together, we create a diverse, supportive, and courageous generation that transforms technology and society."
   }
+
 }

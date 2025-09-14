@@ -26,6 +26,8 @@ import NewsletterSignUpConfirmation from "@/ui/pages/NewsletterSignUpConfirmatio
 import BlogPostPage from "@/ui/pages/BlogPostPage";
 import Impressum from "@/ui/pages/ImpressumsPage";
 import Dsgvo from "@/ui/pages/DsgvoPage";
+import MembershipSignUpConfirmationPage from "@/ui/pages/MembershipSignUpConfirmationPage";
+import AlismaMembershipForm from "@/ui/pages/AlismaMembershipForm";
 
 
 function App() {
@@ -58,8 +60,9 @@ function App() {
                         <Route path="/modernmen" element={<ModernMenPage/>}></Route>
                         <Route path="/empowering" element={<EmpoweringPage/>}></Route>
                         <Route path="/newsletter" element={<Newsletter/>}></Route>
-                        <Route path="/confirmation" element={<NewsletterSignUpConfirmation/>}></Route>
-                        <Route path="/onboarding" element={<ComingSoonPage/>}></Route>
+                        <Route path="/confirmation/newsletter" element={<NewsletterSignUpConfirmation/>}></Route>
+                        <Route path="/confirmation/membership" element={<MembershipSignUpConfirmationPage/>}></Route>
+                        <Route path="/onboarding" element={<AlismaMembershipForm/>}></Route>
                         <Route path="/news/:id" element={<BlogPostPage />} />
                         <Route path="/impressum" element={<Impressum />} />
                         <Route path="/dsgvo" element={<Dsgvo />} />

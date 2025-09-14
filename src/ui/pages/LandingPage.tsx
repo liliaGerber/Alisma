@@ -13,7 +13,6 @@ export default function LandingPage () {
         <>
             <WaveHero/>
             <OurMission/>
-            <WhoWeAre/>
             <Projects/>
             <JoinSectionALISMA/>
         </>
