@@ -1,53 +1,65 @@
 [
   {
     "name": "Michelle Kerzendorfer",
-    "title": "Media & Marketing",
-    "bio": "Absolventin der Graphischen. Media & Marketing",
+    "title": "Social Media & Layout",
+    "bio": "Absolventin der Graphischen Wien. Verantwortlich für Social Media, Layout und die visuelle Aufbereitung von Kampagnen im Verein ALISMA.",
     "imageUrl": "/team/Portrait_MichelleKerzendorfer.png",
-    "linkedin": "https://www.linkedin.com/blahblah",
-    "instagram": "https://blah blah blah",
-    "email": "mustermaria@gmail.com"
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "in-bearbeitung"
   },
   {
     "name": "Lisa Reichel",
-    "title": "Design",
-    "bio": "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
+    "title": "Design & Robotics",
+    "bio": "Schülerin an der TGM Wien im Zweig Robotik. Aktiv in der TGM Taskforce und zuständig für Design- und Technikprojekte bei ALISMA.",
     "imageUrl": "/team/Portrait_LisaReichel.jpeg",
-    "linkedin": "https://www.linkedin.com/blahblah",
-    "instagram": "https://blah blah blah",
-    "email": "mustermaria@gmail.com"
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "in-bearbeitung"
   },
   {
     "name": "Alena Petric",
-    "title": "Vereinvorsitzende",
-    "bio": "Former PM for Linear, Lambda School, and On Deck.",
+    "title": "Vereinsleitung",
+    "bio": "Ehemalige Schulsprecherin der Camillo-Sitte-HTL. Studiert Raumplanung an der TU Wien. Engagiert sich ehrenamtlich in diversen Initiativen und arbeitet bei MINTality. Co-Leitung von ALISMA.",
     "imageUrl": "/team/Portrait_AlenaPetric.jpeg",
-    "linkedin": "https://www.linkedin.com/blahblah",
-    "instagram": "https://blah blah blah",
-    "email": "mustermaria@gmail.com"
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "alenapetric@outlook.com"
   },
   {
     "name": "Asel Atak",
-    "title": "Events",
-    "bio": "Former frontend dev for Linear, Coinbase, and Postscript.",
-    "imageUrl": "/team/Portrait_Fabian.png",
-    "linkedin": "https://www.linkedin.com/blahblah",
-    "instagram": "https://blah blah blah",
-    "email": "mustermaria@gmail.com"
+    "title": "Events & Infrastruktur",
+    "bio": "Schülerin der HTL Rennweg im Zweig Netzwerktechnik. Verantwortlich für Eventorganisation und Infrastruktur im Verein ALISMA.",
+    "imageUrl": "/team/Portrait_AselAtak.png",
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "in-bearbeitung"
   },
   {
     "name": "Sao Mai Nguyen",
-    "title": "Head of Coaching & Development",
-    "bio": "Lead backend dev at Clearbit. Former Clearbit and Loom.",
-    "imageUrl": "/team/Portrait_Ronny_crop.png"
+    "title": "Research & Development",
+    "bio": "Ehemalige Schulsprecherin der HTL Rosensteingasse. Verantwortlich für Forschung, Entwicklung und Bildungsprojekte bei ALISMA.",
+    "imageUrl": "/team/Portrait_SaoMaiNguyen.png",
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "in-bearbeitung"
   },
   {
     "name": "Lilia Gerber",
-    "title": "CTO",
-    "bio": "Lead user research for Slack. Contractor for Netflix.",
+    "title": "Vereinsleitung & Technik",
+    "bio": "Ehemalige Schulsprecherin der HTL Spengergasse, Fachrichtung Informatik. Co-Gründerin und Vereinsleitung von ALISMA gemeinsam mit Alena Petric. Zuständig für technische Projekte, Website und Infrastruktur.",
     "imageUrl": "/team/Portrait_Lilia.jpg",
-    "linkedin": "https://www.linkedin.com/blahblah",
-    "instagram": "https://blah blah blah",
-    "email": "mustermaria@gmail.com"
+    "linkedin": "https://www.linkedin.com/in/lilia-gerber",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "liliagerber0@gmail.com"
+  },
+  {
+    "name": "Layan Layan Al-Basha",
+    "title": "Marketing & Network",
+    "bio": "Schülerin der HTL Rennweg im Zweig Netzwerktechnik. Zuständig für Marketing, Öffentlichkeitsarbeit und Netzwerkaufbau bei ALISMA.",
+    "imageUrl": "/team/Portrait_Layan.png",
+    "linkedin": "https://www.linkedin.com/in-bearbeitung",
+    "instagram": "https://instagram.com/in-bearbeitung",
+    "email": "in-bearbeitung"
   }
 ]
